@@ -13,7 +13,7 @@ const Hero = () => {
     <>
       <section className="relative h-[500px] bg-blue-900">
         <img
-          className="absolute h-[500px] object-cover z-10 object-center w-screen"
+          className="absolute h-[500px] object-cover object-center w-screen"
           alt="hero"
           src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
         />
