@@ -6,7 +6,7 @@ const Hero = () => {
   slides.current = []
 
   useEffect(() => {
-    gsap.from(slides.current, { opacity: 0, ease: Power1.easeInOut, duration: 5, stagger: 5, repeat: -1 })
+    gsap.from(slides.current, { opacity: 0, ease: Power1.easeInOut, duration: 5, stagger: 7, repeat: -1 })
   }, [])
 
   return (
