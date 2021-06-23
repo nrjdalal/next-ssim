@@ -3,7 +3,7 @@ const Overlaps = () => {
     <>
       <section className="relative text-gray-400 body-font">
         <div className="h-[300px] sm:h-[150px] lg:h-[75px]"></div>
-        <div className="absolute -top-10 left-0 px-5 z-10 w-screen">
+        <div className="absolute -top-9 left-0 px-5 z-10 w-screen">
           <div className="flex flex-wrap sm:mx-auto  ">
             <div className="p-2 sm:w-1/2 lg:w-1/4 w-full">
               <div className="bg-yellow-500 rounded flex p-4 h-full items-center justify-center">
