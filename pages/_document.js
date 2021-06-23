@@ -13,7 +13,11 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
-        <Head></Head>
+        <Head>
+          {/* 
+            Head content goes here.
+          */}
+        </Head>
 
         <body>
           <Header />
