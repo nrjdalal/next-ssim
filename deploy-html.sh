@@ -1,3 +1,8 @@
+# auto push latest next repository
+git add .
+git commit -m "$(Date)"
+git push
+
 # create a nextstatic(ns) build
 yarn build
 

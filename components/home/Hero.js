@@ -55,7 +55,7 @@ const Hero = () => {
         <div className="absolute h-[500px] w-screen flex items-center justify-center z-20 p-5 mt-[200px]">
           <div className="bg-blue-900 p-6 rounded-3xl">
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-semibold">
-              World-className
+              World-class
               <span className="text-yellow-300">Management</span>
               Education
             </h1>
