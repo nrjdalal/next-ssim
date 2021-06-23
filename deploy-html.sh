@@ -30,4 +30,5 @@ git commit -m "$(date +'%y%m%d-%H%M%S')"
 git push
 
 # remove to be cloned repository
+cd ..
 rm -rf ./ns-ssim
