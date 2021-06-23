@@ -3,9 +3,9 @@ import React from 'react'
 const Recruiters = () => {
   return (
     <>
-      <section className="relative h-[300px] overflow-hidden mt-12">
-        <div className="absolute z-10 h-[300px] w-screen flex">
-          <div className="h-[300px] w-full md:w-1/2">
+      <section className="relative h-[320px] overflow-hidden mt-12">
+        <div className="absolute z-10 h-[320px] w-screen flex">
+          <div className="h-[320px] w-full md:w-1/2">
             <section className="text-gray-600 body-font">
               <div className="container px-5 py-5 mx-auto">
                 <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -14,13 +14,13 @@ const Recruiters = () => {
                   </svg>
                   <p className="leading-relaxed text-lg font-bold">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90&apos;s cronut +1 kinfolk.</p>
                   <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-4 mb-4"></span>
-                  <h2 className="text-gray-900 font-semibold title-font tracking-wider text-sm">NEERAJ DALAL</h2>
+                  <h2 className="text-gray-900 font-semibold title-font tracking-wider text-base">NEERAJ DALAL</h2>
                   <p className="text-gray-500">Recruiter</p>
                 </div>
               </div>
             </section>
           </div>
-          <div className="hidden md:block h-[300px] w-1/2">
+          <div className="hidden md:block h-[320px] w-1/2">
             <section className="text-gray-600 body-font">
               <div className="container px-5 py-5 mx-auto">
                 <div className="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
@@ -29,7 +29,7 @@ const Recruiters = () => {
                   </svg>
                   <p className="leading-relaxed text-lg font-bold">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90&apos;s cronut +1 kinfolk.</p>
                   <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-4 mb-4"></span>
-                  <h2 className="text-gray-900 font-semibold title-font tracking-wider text-sm">ABHISHEK GARG</h2>
+                  <h2 className="text-gray-900 font-semibold title-font tracking-wider text-base">ABHISHEK GARG</h2>
                   <p className="text-gray-500">Alumni</p>
                 </div>
               </div>
