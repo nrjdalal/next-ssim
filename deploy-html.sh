@@ -1,6 +1,6 @@
 # auto push latest next repository
 git add .
-git commit -m "$(Date)"
+git commit -m "$(date -u +'%y%m%d-%H%M%S')"
 git push
 
 # create a nextstatic(ns) build
@@ -20,7 +20,7 @@ cd ./ns-ssim
 
 # push latest build
 git add .
-git commit -m "$(Date)"
+git commit -m "$(date -u +'%y%m%d-%H%M%S')"
 git push
 
 # go back to previous directory
