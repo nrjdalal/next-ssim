@@ -4,6 +4,8 @@ import Hero from '../components/home/Hero'
 import Overlaps from '../components/home/Overlaps'
 import Statistics from '../components/home/Statistics'
 import Cards from '../components/home/Cards'
+import Features from '../components/home/Features'
+import Logos from '../components/home/Logos'
 
 const index = () => {
   return (
@@ -16,6 +18,8 @@ const index = () => {
       <Overlaps />
       <Statistics />
       <Cards />
+      <Features />
+      <Logos />
     </>
   )
 }
