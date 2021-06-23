@@ -7,7 +7,7 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "vercel": "yarn build && touch ./ns-ssim/log && rm -rf ./ns-ssim/* && cp -r ./out/* ./ns-ssim && git add . && git commit -m \"`Date`\" && git push"
+    "deploy-html": "sh deploy-html.sh"
   },
   "dependencies": {
     "next": "11.0.1",
