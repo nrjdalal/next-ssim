@@ -56,7 +56,7 @@ const Hero = () => {
           <div className="bg-blue-900 p-6 rounded-3xl">
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-semibold">
               World-class
-              <span className="text-yellow-300">Management</span>
+              <span className="text-yellow-300"> Management </span>
               Education
             </h1>
             <p className="text-white pt-3 text-base md:text-lg lg:text-xl">We groom future managers and entrepreneurs, who possess the acumen to be the leaders of tomorrow’s businesses</p>
