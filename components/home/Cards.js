@@ -62,7 +62,7 @@ const Cards = () => {
                   alt="content"
                 />
                 <div className="bg-white px-2 rounded text-center">
-                  <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">NEWSLETTER AND FEED</h3>
+                  <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">NEWSLETTER</h3>
                 </div>
                 <p className="pt-3 text-white text-sm">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate praesentium iure eveniet, nulla quae numquam repellat esse porro incidunt eos? Placeat praesentium perferendis, impedit deserunt consectetur consequatur. Culpa, beatae!
