@@ -52,7 +52,7 @@ const Hero = () => {
           alt="hero"
           src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
         />
-        <div className="absolute h-[500px] w-screen flex items-center justify-center z-20 p-5 mt-[200px]">
+        {/* <div className="absolute h-[500px] w-screen flex items-center justify-center z-20 p-5 mt-[200px]">
           <div className="bg-blue-900 p-6 rounded-3xl">
             <h1 className="text-2xl md:text-3xl lg:text-4xl text-white font-semibold">
               World-class
@@ -62,7 +62,7 @@ const Hero = () => {
             <p className="text-white pt-3 text-base md:text-lg lg:text-xl">We groom future managers and entrepreneurs, who possess the acumen to be the leaders of tomorrow’s businesses</p>
             <button className="bg-yellow-500 border-0 py-1 px-3 mt-3 focus:outline-none hover:bg-yellow-600 rounded text-lg text-white">OUR PROGRAMS</button>
           </div>
-        </div>
+        </div> */}
       </section>
     </>
   )

@@ -1,7 +1,7 @@
 const Statistics = () => {
   return (
     <>
-      <section className="text-gray-600 body-font mt-28">
+      <section className="text-gray-600 body-font">
         <div className="container px-5 pb-12 mx-auto">
           <div className="flex flex-col md:flex-row text-center items-center justify-center">
             <div className="px-12">
