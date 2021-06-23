@@ -2,19 +2,24 @@ import { useEffect, useRef } from 'react'
 import { gsap, Power1 } from 'gsap'
 
 const Hero = () => {
-  let slides = useRef([])
+  const slides = useRef([])
+  slides.current = []
 
-  useEffect(() => {
-    console.log(slides)
-    gsap.from(slides, { opacity: 0, ease: Power1.easeInOut, duration: 5, stagger: 5 })
-  }, [])
+  // useEffect(() => {
+  //   gsap.from(slides.current, { opacity: 0, ease: Power1.easeInOut, duration: 5, stagger: 5, repeat: -1 })
+  // }, [])
 
   return (
     <>
       <section className="relative h-[500px]">
         <img
+          className="absolute h-[500px] object-cover z-10 object-center w-screen"
+          alt="hero"
+          src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+        />
+        {/* <img
           ref={(el) => {
-            slides = el
+            slides.current[0] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -22,7 +27,7 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[1] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -30,7 +35,7 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[2] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -38,7 +43,7 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[3] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -46,7 +51,7 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[4] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -54,7 +59,7 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[5] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -62,7 +67,7 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[6] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -70,7 +75,7 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[7] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -78,7 +83,7 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[8] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
@@ -86,12 +91,12 @@ const Hero = () => {
         />
         <img
           ref={(el) => {
-            slides = el
+            slides.current[9] = el
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
           src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-        />
+        /> */}
       </section>
     </>
   )
