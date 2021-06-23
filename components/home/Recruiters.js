@@ -3,9 +3,26 @@ import React from 'react'
 const Recruiters = () => {
   return (
     <>
-      <section>
-        <img className="object-cover" src="public/brands.webp" alt="" />
+      <section className="relative h-[300px] overflow-hidden mt-12">
+        <div className="flex animate-x">
+          <img className="h-full object-cover " src="https://raw.githubusercontent.com/nrjdalal/ns-ssim/master/brands.webp" alt="" />
+          <img className="h-full object-cover" src="https://raw.githubusercontent.com/nrjdalal/ns-ssim/master/brands.webp" alt="" />
+        </div>
       </section>
+      <style jsx>{`
+        .animate-x {
+          animation: marquee 20s linear infinite alternate;
+        }
+        @keyframes marquee {
+          0% {
+            transform: translate3d(0%, 0, 0);
+          }
+
+          100% {
+            transform: translate3d(-100%, 0, 0);
+          }
+        }
+      `}</style>
     </>
   )
 }
