@@ -9,6 +9,9 @@ git push
 # create a nextstatic(ns) build
 yarn build
 
+# remove to be cloned repository if exists
+rm -rf ./ns-ssim
+
 # clone the latest remote nextstatic(ns) repository
 git clone https://github.com/nrjdalal/ns-ssim
 
@@ -28,6 +31,3 @@ git push
 
 # go back to previous directory
 cd ..
-
-# remove cloned repository
-rm -rf ./ns-ssim
