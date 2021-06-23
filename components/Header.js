@@ -41,34 +41,34 @@ const Header = () => {
       <header className="text-gray-600 body-font bg-white border-b-2 border-gray-200">
         <div className="container mx-auto flex p-5 items-center justify-between">
           <a className="title-font font-medium text-gray-900 md:mb-0">
-            <img className="h-12 lg:h-14" src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png" alt="" />
+            <img className="h-12 md:h-14 lg:h-16" src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png" alt="" />
           </a>
-          <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center text-sm lg:text-base justify-center">
-            <a className="mr-5 hover:text-gray-900 flex items-center">
+          <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center text-sm lg:text-base xl:text-lg justify-center">
+            <a className="mr-5 xl:mr-10 hover:text-gray-900 flex items-center">
               About
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </a>
-            <a className="mr-5 hover:text-gray-900 flex items-center">
+            <a className="mr-5 xl:mr-10 hover:text-gray-900 flex items-center">
               PGDM
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </a>
-            <a className="mr-5 hover:text-gray-900 flex items-center">
+            <a className="mr-5 xl:mr-10 hover:text-gray-900 flex items-center">
               Admission
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </a>
-            <a className="mr-5 hover:text-gray-900 flex items-center">
+            <a className="mr-5 xl:mr-10 hover:text-gray-900 flex items-center">
               Placement
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
               </svg>
             </a>
-            <a className="ml-5 hover:text-gray-900">Contact Us</a>
+            <a className="hover:text-gray-900">Contact Us</a>
           </nav>
           <div className="flex">
             <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">APPLY NOW</button>
