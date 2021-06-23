@@ -22,10 +22,3 @@ cd ./ns-ssim
 git add .
 git commit -m "$(date +'%y%m%d-%H%M%S')"
 git push
-
-# go back to previous directory
-cd ..
-
-# clean all data
-rm -rf ./ns-ssim
-rm -rf ./out
