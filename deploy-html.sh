@@ -1,12 +1,13 @@
+# create a nextstatic(ns) build
 yarn build
 
-# clone the latest nextstatic(ns) repo
+# clone the latest remote nextstatic(ns) repository
 gh repo clone https://github.com/nrjdalal/ns-ssim
 
 # delete all repo files/folders except .git
 rm -rf ./ns-ssim/*
 
-# copy newer build to cloned repo
+# copy newer build to cloned repository
 cp -r ./out/* ./ns-ssim
 
 # change directory to newer repository
