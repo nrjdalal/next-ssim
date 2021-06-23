@@ -4,6 +4,7 @@ import Hero from '../components/home/Hero'
 import Overlaps from '../components/home/Overlaps'
 import Statistics from '../components/home/Statistics'
 import Cards from '../components/home/Cards'
+import Recruiters from '../components/home/Recruiters'
 import Features from '../components/home/Features'
 import Logos from '../components/home/Logos'
 
@@ -18,6 +19,7 @@ const index = () => {
       <Overlaps />
       <Statistics />
       <Cards />
+      <Recruiters />
       <Features />
       <Logos />
     </>
