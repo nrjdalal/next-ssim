@@ -125,23 +125,23 @@ const Header = () => {
               </a>
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/admission/">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  <Link href="/admission/admission-process">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Admission Process</a>
                   </Link>
-                  <Link href="/admission/">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  <Link href="/admission/fee-structure">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Fee Structure</a>
                   </Link>
-                  <Link href="/admission/">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  <Link href="/admission/education-loan">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Education Loan</a>
                   </Link>
-                  <Link href="/admission/">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  <Link href="/admission/online-form">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Online Form</a>
                   </Link>
-                  <Link href="/admission/">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  <Link href="/admission/download-brochure">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Download Brochure</a>
                   </Link>
-                  <Link href="/admission/">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  <Link href="/admission/faqs">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">FAQs</a>
                   </Link>
                 </div>
               </div>
@@ -157,7 +157,7 @@ const Header = () => {
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
                   <Link href="/faculty/profiles">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">profiles</a>
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Profiles</a>
                   </Link>
                 </div>
               </div>
