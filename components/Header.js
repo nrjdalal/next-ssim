@@ -200,7 +200,7 @@ const Header = () => {
                   <Link href="/testimonials/alumni-testimonials">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">Alumni Testimonials</a>
                   </Link>
-                  <Link href="/testimonials/corprate-testimonials">
+                  <Link href="/testimonials/corporate-testimonials">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">Corporate Testimonials</a>
                   </Link>
                 </div>
