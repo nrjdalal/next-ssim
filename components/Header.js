@@ -207,7 +207,7 @@ const Header = () => {
               </div>
             </div>
             {/* Nav Item 05 */}
-            <a className="hover:text-gray-900 mr-5 xl:mr-10 cursor-pointer">Contact Us</a>
+            <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">Contact Us</a>
             <div className="flex">
               <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">APPLY NOW</button>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 bg-blue-800 rounded text-white p-1 ml-3 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
