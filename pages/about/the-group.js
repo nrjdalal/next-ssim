@@ -11,7 +11,7 @@ const one = () => {
             </Link>
             &nbsp;&nbsp;&gt;&nbsp;&nbsp;
             <Link href="/one">
-              <a>One</a>
+              <a>The Group</a>
             </Link>
           </div>
         </div>
