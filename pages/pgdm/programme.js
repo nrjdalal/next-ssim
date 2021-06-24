@@ -322,7 +322,7 @@ const chairmans_message = () => {
         </table>
         {/* Internships */}
         <blockquote>
-          <h2>Internships</h2>
+          <h2>INTERNSHIPS</h2>
         </blockquote>
         <table>
           <thead className="text-center">
@@ -362,7 +362,7 @@ const chairmans_message = () => {
         </table>
         {/* Trimester 6 */}
         <blockquote>
-          <h2>Trimester VI</h2>
+          <h2>TRIMESTER VI</h2>
         </blockquote>
         <table>
           <thead className="text-center">
