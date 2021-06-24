@@ -1,4 +1,4 @@
-const chairmans_message = () => {
+const programme = () => {
   return (
     <>
       <div className="container mx-auto prose my-12 px-5">
@@ -429,4 +429,4 @@ const chairmans_message = () => {
   )
 }
 
-export default chairmans_message
+export default programme
