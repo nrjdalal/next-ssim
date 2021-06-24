@@ -137,7 +137,7 @@ const Header = () => {
                   <Link href="/admission/online-form">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">Online Form</a>
                   </Link>
-                  <Link href="/admission/download-brochure">
+                  <Link href="/documents/brochure.pdf" download>
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">Download Brochure</a>
                   </Link>
                   <Link href="/admission/faqs">
