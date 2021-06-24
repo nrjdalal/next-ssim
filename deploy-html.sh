@@ -2,11 +2,10 @@
 set -e
 
 read -p "Commit Name - " CNAME
-echo $CNAME
 
 # auto push latest next repository
 git add .
-git commit -m "$(date +'%y%m%d-%H%M%S')"
+git commit -m "$CNAME"
 git push
 
 # create a nextstatic(ns) build
@@ -29,7 +28,7 @@ cd ./ns-ssim
 
 # push latest build
 git add .
-git commit -m "$(date +'%y%m%d-%H%M%S')"
+git commit -m "$CNAME"
 git push
 
 # remove to be cloned repository
