@@ -58,7 +58,7 @@ const online_form = () => {
         <h2 className="pb-4">Declaration</h2>
         <Checkbox name="I hereby declare that the information given in the Application form is true to the best of my knowledge and belief. If any information is found to be wrong, i shall be liable for action. I hold myself responsible for the due and prompt payment of fees. " />
 
-        <button className="mt-12 bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">APPLY NOW</button>
+        <button className="mt-12 bg-yellow-500 border-0 py-3 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">SUMBIT</button>
       </div>
     </>
   )

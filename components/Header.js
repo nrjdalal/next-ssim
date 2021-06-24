@@ -209,7 +209,11 @@ const Header = () => {
             {/* Nav Item 05 */}
             <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">Contact Us</a>
             <div className="flex">
-              <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">APPLY NOW</button>
+              <Link href="/admission/online-form">
+                <a>
+                  <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">APPLY NOW</button>
+                </a>
+              </Link>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 bg-blue-800 rounded text-white p-1 ml-3 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
