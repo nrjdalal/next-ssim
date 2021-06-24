@@ -43,12 +43,12 @@ const Header = () => {
       <header className="text-gray-600 body-font bg-white border-b-2 border-gray-200">
         <div className="container mx-auto flex p-5 items-center justify-between">
           <Link href="/">
-            <a className="title-font font-medium text-gray-900 md:mb-0">
+            <a className="font-medium text-gray-900 md:mb-0">
               <img className="h-12 md:h-14 lg:h-16" src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png" alt="" />
             </a>
           </Link>
           <Link href="/">
-            <a className="title-font font-medium text-gray-900 md:mb-0">
+            <a className="hidden lg:block font-medium text-gray-900 md:mb-0">
               <img className="h-12 md:h-14 lg:h-16" src="https://jsb.jaipuria.edu.in/wordpress/wp-content/uploads/2021/01/jsb_strip_banner.jpg" alt="" />
             </a>
           </Link>
