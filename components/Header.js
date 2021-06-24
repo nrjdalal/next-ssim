@@ -172,10 +172,18 @@ const Header = () => {
               </a>
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                  <Link href="/placement/placement-overview">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Placement Overview</a>
+                  </Link>
+                  <Link href="/placement/summer-internships">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Summer Internships</a>
+                  </Link>
+                  <Link href="/placement/live-projects">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Live Projects</a>
+                  </Link>
+                  <Link href="/placement/our-recruiters">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Our Recruiters</a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -189,10 +197,12 @@ const Header = () => {
               </a>
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                  <Link href="/testimonials/alumni-testimonials">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Alumni Testimonials</a>
+                  </Link>
+                  <Link href="/testimonials/corprate-testimonials">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Corporate Testimonials</a>
+                  </Link>
                 </div>
               </div>
             </div>
