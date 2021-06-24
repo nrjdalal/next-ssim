@@ -47,6 +47,17 @@ const Header = () => {
               <img className="h-12 md:h-14 lg:h-16" src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png" alt="" />
             </a>
           </Link>
+          <Link href="/">
+            <a className="title-font font-medium text-gray-900 md:mb-0">
+              <img className="h-12 md:h-14 lg:h-16" src="https://jsb.jaipuria.edu.in/wordpress/wp-content/uploads/2021/01/jsb_strip_banner.jpg" alt="" />
+            </a>
+          </Link>
+        </div>
+      </header>
+
+      {/* Desktop Navbar */}
+      <navbar className="hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
+        <div className="container mx-auto flex p-5 items-center justify-between">
           <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center text-sm lg:text-base xl:text-lg justify-center">
             {/* Nav Item 01 */}
             <div className="group relative mr-5 xl:mr-10">
@@ -104,7 +115,7 @@ const Header = () => {
             {/* Nav Item 04 */}
             <div className="group relative mr-5 xl:mr-10">
               <a className=" group-hover:text-blue-500 flex items-center">
-                Placement
+                Faculty
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 group-hover:invisible" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                 </svg>
@@ -119,16 +130,50 @@ const Header = () => {
               </div>
             </div>
             {/* Nav Item 05 */}
-            <a className="hover:text-gray-900">Contact Us</a>
+            <div className="group relative mr-5 xl:mr-10">
+              <a className=" group-hover:text-blue-500 flex items-center">
+                Placement
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 group-hover:invisible" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
+                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                </div>
+              </div>
+            </div>
+            {/* Nav Item 06 */}
+            <div className="group relative mr-5 xl:mr-10">
+              <a className=" group-hover:text-blue-500 flex items-center">
+                Testimonials
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 group-hover:invisible" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
+                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                </div>
+              </div>
+            </div>
+            {/* Nav Item 05 */}
+            <a className="hover:text-gray-900 mr-5 xl:mr-10">Contact Us</a>
+            <div className="flex">
+              <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">APPLY NOW</button>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 bg-blue-800 rounded text-white p-1 ml-3 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+              </svg>
+            </div>
           </nav>
-          <div className="flex">
-            <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">APPLY NOW</button>
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 bg-blue-800 rounded text-white p-1 ml-3 lg:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </div>
         </div>
-      </header>
+      </navbar>
     </>
   )
 }
