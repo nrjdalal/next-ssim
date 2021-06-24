@@ -34,3 +34,5 @@ git push
 # remove to be cloned repository
 cd ..
 rm -rf ./ns-ssim
+
+npx kill-port 3000

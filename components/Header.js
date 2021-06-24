@@ -128,6 +128,21 @@ const Header = () => {
                   <Link href="/admission/">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
                   </Link>
+                  <Link href="/admission/">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  </Link>
+                  <Link href="/admission/">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  </Link>
+                  <Link href="/admission/">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  </Link>
+                  <Link href="/admission/">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  </Link>
+                  <Link href="/admission/">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -141,10 +156,9 @@ const Header = () => {
               </a>
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                  <Link href="/faculty/profiles">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">profiles</a>
+                  </Link>
                 </div>
               </div>
             </div>

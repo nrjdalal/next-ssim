@@ -23,6 +23,7 @@
     "eslint": "7.29.0",
     "eslint-config-next": "11.0.1",
     "gsap": "^3.7.0",
+    "kill-port": "^1.6.1",
     "postcss": "^8.3.5",
     "react-countup": "^4.3.3",
     "react-visibility-sensor": "^5.1.1",
