@@ -4,7 +4,7 @@ const Recruiters = () => {
   return (
     <>
       <section className="relative h-[320px] overflow-hidden mt-12">
-        <div className="absolute z-10 h-[320px] w-screen flex">
+        <div className="absolute z-10 h-[320px] w-full flex">
           <div className="h-[320px] w-full md:w-1/2">
             <section className="text-gray-600 body-font">
               <div className="container px-5 py-10 mx-auto">
