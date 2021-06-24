@@ -320,6 +320,110 @@ const chairmans_message = () => {
             </tr>
           </tbody>
         </table>
+        {/* Internships */}
+        <blockquote>
+          <h2>Internships</h2>
+        </blockquote>
+        <table>
+          <thead className="text-center">
+            <tr>
+              <th>
+                <strong>Course Code</strong>
+              </th>
+              <th>
+                <strong>Subject Name</strong>
+              </th>
+              <th>
+                <strong>Credits</strong>
+              </th>
+            </tr>
+          </thead>
+          <tbody className="text-center">
+            <tr>
+              <td>PG102</td>
+              <td>Corporate Accounting</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>PG103</td>
+              <td>Organization Behavior</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Total Credits</strong>
+              </td>
+              <td></td>
+              <td>
+                <strong>18</strong>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        {/* Trimester 6 */}
+        <blockquote>
+          <h2>Trimester VI</h2>
+        </blockquote>
+        <table>
+          <thead className="text-center">
+            <tr>
+              <th>
+                <strong>Course Code</strong>
+              </th>
+              <th>
+                <strong>Subject Name</strong>
+              </th>
+              <th>
+                <strong>Credits</strong>
+              </th>
+            </tr>
+          </thead>
+          <tbody className="text-center">
+            <tr>
+              <td>PG102</td>
+              <td>Corporate Accounting</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <strong>Specialization I</strong>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>PG103</td>
+              <td>Organization Behavior</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>
+                <strong>Specialization II</strong>
+              </td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>PG103</td>
+              <td>Organization Behavior</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Marketing Management I</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>
+                <strong>Total Credits</strong>
+              </td>
+              <td></td>
+              <td>
+                <strong>18</strong>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </>
   )
