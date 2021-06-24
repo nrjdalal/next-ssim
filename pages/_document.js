@@ -15,7 +15,7 @@ class MyDocument extends Document {
           */}
         </Head>
 
-        <body className="relative w-screen select-none overflow-x-hidden">
+        <body className="relative w-screen select-none overflow-x-hidden cursor-default">
           <Main />
           <NextScript />
         </body>
