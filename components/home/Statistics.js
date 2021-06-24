@@ -17,7 +17,7 @@ const Statistics = () => {
                   <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
                 </svg>
                 <h2 className="title-font font-medium text-3xl text-gray-900 font-mono">
-                  <CountUp start={viewPortEntered ? 13991 : null} end={14000} duration={3} redraw={true}>
+                  <CountUp start={viewPortEntered ? 10991 : null} end={11000} duration={3} redraw={true}>
                     {({ countUpRef }) => (
                       <div>
                         <span ref={countUpRef} />
@@ -48,7 +48,7 @@ const Statistics = () => {
                   />
                 </svg>
                 <h2 className="title-font font-medium text-3xl text-gray-900 font-mono">
-                  <CountUp start={viewPortEntered ? 691 : null} end={700} duration={3} redraw={true}>
+                  <CountUp start={viewPortEntered ? 291 : null} end={300} duration={3} redraw={true}>
                     {({ countUpRef }) => (
                       <div>
                         <span ref={countUpRef} />
@@ -66,6 +66,35 @@ const Statistics = () => {
                   </CountUp>
                 </h2>
                 <p className="leading-relaxed">Recruiters</p>
+              </div>
+            </div>
+
+            <div className="px-12">
+              <div className="px-4 py-4">
+                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                </svg>
+                <h2 className="title-font font-medium text-3xl text-gray-900 font-mono">
+                  <CountUp start={viewPortEntered ? 41 : null} end={50} duration={3} redraw={true}>
+                    {({ countUpRef }) => (
+                      <div>
+                        <span ref={countUpRef} />
+                        <VisibilitySensor
+                          onChange={(isVisible) => {
+                            if (isVisible) {
+                              setViewPortEntered(true)
+                            } else {
+                              setViewPortEntered(false)
+                            }
+                          }}
+                        >
+                          <a>+</a>
+                        </VisibilitySensor>
+                      </div>
+                    )}
+                  </CountUp>
+                </h2>
+                <p className="leading-relaxed">Years of Legacy</p>
               </div>
             </div>
             <div className="px-12">
@@ -91,35 +120,7 @@ const Statistics = () => {
                     )}
                   </CountUp>
                 </h2>
-                <p className="leading-relaxed">Campus</p>
-              </div>
-            </div>
-            <div className="px-12">
-              <div className="px-4 py-4">
-                <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="text-yellow-500 w-12 h-12 mb-3 inline-block" viewBox="0 0 24 24">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
-                <h2 className="title-font font-medium text-3xl text-gray-900 font-mono">
-                  <CountUp start={viewPortEntered ? 11 : null} end={20} duration={3} redraw={true}>
-                    {({ countUpRef }) => (
-                      <div>
-                        <span ref={countUpRef} />
-                        <VisibilitySensor
-                          onChange={(isVisible) => {
-                            if (isVisible) {
-                              setViewPortEntered(true)
-                            } else {
-                              setViewPortEntered(false)
-                            }
-                          }}
-                        >
-                          <a>+</a>
-                        </VisibilitySensor>
-                      </div>
-                    )}
-                  </CountUp>
-                </h2>
-                <p className="leading-relaxed">Years of Legacy</p>
+                <p className="leading-relaxed">Campuses & Schools</p>
               </div>
             </div>
           </div>
