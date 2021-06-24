@@ -58,7 +58,7 @@ const Header = () => {
               </a>
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/one" as="/one.html">
+                  <Link href="/one">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
                   </Link>
                   <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
