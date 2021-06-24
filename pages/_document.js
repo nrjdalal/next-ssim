@@ -21,7 +21,7 @@ class MyDocument extends Document {
           */}
         </Head>
 
-        <body className="relative select-none">
+        <body className="relative select-none overflow-x-hidden">
           {/* Floating Content */}
           <Admission />
           <Download />
