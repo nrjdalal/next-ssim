@@ -1,10 +1,8 @@
-import React from 'react'
-
 const the_institute = () => {
   return (
     <>
       <div className="container mx-auto prose my-12 px-5">
-        <img className="rounded-3xl" src="https://ssimdwarka.org/wp-content/uploads/2019/12/7.jpeg" alt="" />
+        <img className="rounded-3xl h-[400px] w-full object-cover object-center" src="https://ssimdwarka.org/wp-content/uploads/2019/12/7.jpeg" alt="" />
         <blockquote>
           Sri Sukhmani Institute of Management is a premier Institute, set up under the Sri Sukhmani Group of Institutions. The Group was established more than 3 decades ago, in 1979, by Philanthropist-Educationist Prof. Avtar Singh and has since carved a
           niche for itself in the area of Management.
@@ -22,6 +20,7 @@ const the_institute = () => {
         </blockquote>
 
         <h1 className="text-center italic">Our Campus</h1>
+
         <img className="rounded-3xl h-[400px] w-full object-cover object-center" src="https://ssimdwarka.org/wp-content/uploads/2019/12/1.jpg" alt="" />
         <h2 className="text-center italic">Classroom</h2>
         <blockquote>
