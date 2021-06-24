@@ -84,7 +84,7 @@ const Header = () => {
                   <Link href="/about/deans-message">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">Dean&apos;s Message</a>
                   </Link>
-                  <Link href="/about/board-of-Governors">
+                  <Link href="/about/board-of-governors">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">Board of Governors</a>
                   </Link>
                 </div>
