@@ -82,33 +82,33 @@ const chairmans_message = () => {
           </thead>
           <tbody className="text-center">
             <tr>
-              <td>PG101</td>
-              <td>Operations Management I</td>
+              <td>PG201</td>
+              <td>Supply Chain Management</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG102</td>
-              <td>Corporate Accounting</td>
+              <td>PG202</td>
+              <td>Financial Management I</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
+              <td>PG203</td>
+              <td>Managerial Accounting &amp; Control II</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG104</td>
-              <td>Marketing Management I</td>
+              <td>PG204</td>
+              <td>Business Communication</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG105</td>
-              <td>Quantitative Techniques I</td>
+              <td>PG205</td>
+              <td>Macro Economics</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG106</td>
-              <td>Managerial Economics</td>
+              <td>PG206</td>
+              <td>MQuantitative Techniques II</td>
               <td>3</td>
             </tr>
             <tr>
@@ -142,33 +142,33 @@ const chairmans_message = () => {
           </thead>
           <tbody className="text-center">
             <tr>
-              <td>PG101</td>
-              <td>Operations Management I</td>
+              <td>PG301</td>
+              <td>Management Information System</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG102</td>
-              <td>Corporate Accounting</td>
+              <td>PG302</td>
+              <td>Financial Management II</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
+              <td>PG303</td>
+              <td>Marketing Management II</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG104</td>
-              <td>Marketing Management I</td>
+              <td>PG304</td>
+              <td>Operations Management II</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG105</td>
-              <td>Quantitative Techniques I</td>
+              <td>PG305</td>
+              <td>Human Resource Management</td>
               <td>3</td>
             </tr>
             <tr>
-              <td>PG106</td>
-              <td>Managerial Economics</td>
+              <td>PG306</td>
+              <td>Research Methodology</td>
               <td>3</td>
             </tr>
             <tr>
@@ -202,8 +202,8 @@ const chairmans_message = () => {
           </thead>
           <tbody className="text-center">
             <tr>
-              <td>PG102</td>
-              <td>Corporate Accounting</td>
+              <td>PGC401</td>
+              <td>Business Environment</td>
               <td>3</td>
             </tr>
             <tr>
@@ -214,14 +214,14 @@ const chairmans_message = () => {
               <td></td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
-              <td>3</td>
+              <td>PG401/SC</td>
+              <td>Elective 1.1</td>
+              <td>5</td>
             </tr>
             <tr>
-              <td>PG104</td>
-              <td>Marketing Management I</td>
-              <td>3</td>
+              <td>PG402/SC</td>
+              <td>Elective 1.2</td>
+              <td>5</td>
             </tr>
             <tr>
               <td></td>
@@ -231,14 +231,14 @@ const chairmans_message = () => {
               <td></td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
-              <td>3</td>
+              <td>PG401/SC</td>
+              <td>Elective 2.1</td>
+              <td>5</td>
             </tr>
             <tr>
-              <td>PG104</td>
-              <td>Marketing Management I</td>
-              <td>3</td>
+              <td>PG402/SC</td>
+              <td>Elective 2.2</td>
+              <td>5</td>
             </tr>
             <tr>
               <td>
@@ -246,7 +246,7 @@ const chairmans_message = () => {
               </td>
               <td></td>
               <td>
-                <strong>18</strong>
+                <strong>23</strong>
               </td>
             </tr>
           </tbody>
@@ -271,8 +271,8 @@ const chairmans_message = () => {
           </thead>
           <tbody className="text-center">
             <tr>
-              <td>PG102</td>
-              <td>Corporate Accounting</td>
+              <td>PGC501</td>
+              <td>Strategic Management</td>
               <td>3</td>
             </tr>
             <tr>
@@ -283,14 +283,14 @@ const chairmans_message = () => {
               <td></td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
-              <td>3</td>
+              <td>PG501/SC</td>
+              <td>Elective 1.1</td>
+              <td>5</td>
             </tr>
             <tr>
-              <td>PG104</td>
-              <td>Marketing Management I</td>
-              <td>3</td>
+              <td>PG502/SC</td>
+              <td>Elective 1.2</td>
+              <td>5</td>
             </tr>
             <tr>
               <td></td>
@@ -300,14 +300,14 @@ const chairmans_message = () => {
               <td></td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
-              <td>3</td>
+              <td>PG501/SC</td>
+              <td>Elective 2.1</td>
+              <td>5</td>
             </tr>
             <tr>
-              <td>PG104</td>
-              <td>Marketing Management I</td>
-              <td>3</td>
+              <td>PG502/SC</td>
+              <td>Elective 2.2</td>
+              <td>5</td>
             </tr>
             <tr>
               <td>
@@ -315,14 +315,14 @@ const chairmans_message = () => {
               </td>
               <td></td>
               <td>
-                <strong>18</strong>
+                <strong>23</strong>
               </td>
             </tr>
           </tbody>
         </table>
         {/* Internships */}
         <blockquote>
-          <h2>Internships</h2>
+          <h2>INTERNSHIPS</h2>
         </blockquote>
         <table>
           <thead className="text-center">
@@ -340,14 +340,14 @@ const chairmans_message = () => {
           </thead>
           <tbody className="text-center">
             <tr>
-              <td>PG102</td>
-              <td>Corporate Accounting</td>
-              <td>3</td>
+              <td>PGIW01</td>
+              <td>Winter Internship</td>
+              <td>2</td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
-              <td>3</td>
+              <td>PGIS01</td>
+              <td>Summer Internship</td>
+              <td>4</td>
             </tr>
             <tr>
               <td>
@@ -355,14 +355,14 @@ const chairmans_message = () => {
               </td>
               <td></td>
               <td>
-                <strong>18</strong>
+                <strong>6</strong>
               </td>
             </tr>
           </tbody>
         </table>
         {/* Trimester 6 */}
         <blockquote>
-          <h2>Trimester VI</h2>
+          <h2>TRIMESTER VI</h2>
         </blockquote>
         <table>
           <thead className="text-center">
@@ -380,8 +380,8 @@ const chairmans_message = () => {
           </thead>
           <tbody className="text-center">
             <tr>
-              <td>PG102</td>
-              <td>Corporate Accounting</td>
+              <td>PGC601</td>
+              <td>Corporate Governance &amp; CSR</td>
               <td>3</td>
             </tr>
             <tr>
@@ -392,9 +392,9 @@ const chairmans_message = () => {
               <td></td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
-              <td>3</td>
+              <td>PG601/SC</td>
+              <td>Elective 1.1</td>
+              <td>5</td>
             </tr>
             <tr>
               <td></td>
@@ -404,14 +404,14 @@ const chairmans_message = () => {
               <td></td>
             </tr>
             <tr>
-              <td>PG103</td>
-              <td>Organization Behavior</td>
-              <td>3</td>
+              <td>PG601/SC</td>
+              <td>Elective 2.1</td>
+              <td>5</td>
             </tr>
             <tr>
               <td></td>
-              <td>Marketing Management I</td>
-              <td>3</td>
+              <td>Project report and Viva Voce</td>
+              <td>6</td>
             </tr>
             <tr>
               <td>
@@ -419,7 +419,7 @@ const chairmans_message = () => {
               </td>
               <td></td>
               <td>
-                <strong>18</strong>
+                <strong>19</strong>
               </td>
             </tr>
           </tbody>
