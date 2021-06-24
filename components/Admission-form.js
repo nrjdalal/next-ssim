@@ -1,7 +1,7 @@
 const Admission_form = () => {
   return (
     <>
-      <div className="fixed w-4/5 md:w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-50 rounded-3xl text-white border-2 border-gray-500 cursor-pointer">
+      <div className="hidden w-5/6 md:w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-50 rounded-3xl text-white border-2 border-gray-500 cursor-pointer">
         <div className="prose my-12 px-5 flex flex-col">
           <Input_mandtory name="Full Name" type="text" />
           <Input_mandtory name="Mobile Number" type="number" />
