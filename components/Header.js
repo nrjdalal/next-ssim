@@ -69,12 +69,24 @@ const Header = () => {
               </a>
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/one">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
+                  <Link href="/about/the-group">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">The Group</a>
                   </Link>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                  <Link href="/about/the-institute">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">The Institute</a>
+                  </Link>
+                  <Link href="/about/vision-mission">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Vision Mission</a>
+                  </Link>
+                  <Link href="/about/chairmans-message">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Chairman&apos;s Message</a>
+                  </Link>
+                  <Link href="/about/deans-message">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Dean&apos;s Message</a>
+                  </Link>
+                  <Link href="/about/board-of-Governors">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Board of Governors</a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -88,10 +100,18 @@ const Header = () => {
               </a>
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                  <Link href="/pgdm/programme">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Programme</a>
+                  </Link>
+                  <Link href="/pgdm/specializations">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Specializations</a>
+                  </Link>
+                  <Link href="/pgdm/value-added-courses">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">Value Added Courses</a>
+                  </Link>
+                  <Link href="/pgdm/faqs">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer">FAQs</a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -105,10 +125,9 @@ const Header = () => {
               </a>
               <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
                 <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
-                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                  <Link href="/admission/">
+                    <a className="my-3 hover:text-yellow-500 cursor-pointer"></a>
+                  </Link>
                 </div>
               </div>
             </div>
