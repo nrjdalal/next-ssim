@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Header = () => {
   return (
     <>
@@ -44,30 +46,75 @@ const Header = () => {
             <img className="h-12 md:h-14 lg:h-16" src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png" alt="" />
           </a>
           <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center text-sm lg:text-base xl:text-lg justify-center">
-            <a className="mr-5 xl:mr-10 hover:text-gray-900 flex items-center">
-              About
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </a>
-            <a className="mr-5 xl:mr-10 hover:text-gray-900 flex items-center">
-              PGDM
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </a>
-            <a className="mr-5 xl:mr-10 hover:text-gray-900 flex items-center">
-              Admission
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </a>
-            <a className="mr-5 xl:mr-10 hover:text-gray-900 flex items-center">
-              Placement
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </a>
+            {/* Nav Item 01 */}
+            <div className="group relative mr-5 xl:mr-10">
+              <a className=" group-hover:text-blue-500 flex items-center">
+                About
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 group-hover:invisible" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
+                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                </div>
+              </div>
+            </div>
+            {/* Nav Item 02 */}
+            <div className="group relative mr-5 xl:mr-10">
+              <a className=" group-hover:text-blue-500 flex items-center">
+                PGDM
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 group-hover:invisible" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
+                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                </div>
+              </div>
+            </div>
+            {/* Nav Item 03 */}
+            <div className="group relative mr-5 xl:mr-10">
+              <a className=" group-hover:text-blue-500 flex items-center">
+                Admission
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 group-hover:invisible" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
+                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                </div>
+              </div>
+            </div>
+            {/* Nav Item 04 */}
+            <div className="group relative mr-5 xl:mr-10">
+              <a className=" group-hover:text-blue-500 flex items-center">
+                Placement
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 ml-1 group-hover:invisible" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </a>
+              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
+                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">One</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Two</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Three</a>
+                  <a className="my-3 hover:text-yellow-500 cursor-pointer">Four</a>
+                </div>
+              </div>
+            </div>
+            {/* Nav Item 05 */}
             <a className="hover:text-gray-900">Contact Us</a>
           </nav>
           <div className="flex">
