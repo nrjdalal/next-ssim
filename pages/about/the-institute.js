@@ -1,3 +1,4 @@
+import Breadcrumb from '../../components/Breadcrumb'
 import {
   ContentOnLeft,
   ContentOnRight,
@@ -8,6 +9,7 @@ import {
 const the_institute = () => {
   return (
     <>
+      <Breadcrumb title="the institute" />
       <ProseWide>
         <FlexColumnCenter>
           <img

@@ -3,7 +3,7 @@ import Breadcrumb from '../../components/Breadcrumb'
 const rename_later = () => {
   return (
     <>
-      <Breadcrumb title="The Group" />
+      <Breadcrumb title="the group" />
     </>
   )
 }
