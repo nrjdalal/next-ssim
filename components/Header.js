@@ -207,7 +207,9 @@ const Header = () => {
               </div>
             </div>
             {/* Nav Item 05 */}
-            <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">Contact Us</a>
+            <Link href="/contact-us">
+              <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">Contact Us</a>
+            </Link>
             <div className="flex">
               <Link href="/admission/online-form">
                 <a>
