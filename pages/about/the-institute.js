@@ -8,7 +8,7 @@ import {
 const the_institute = () => {
   return (
     <>
-      <ProseWide className="px-6 py-12 text-justify">
+      <ProseWide>
         <FlexColumnCenter>
           <img
             className="rounded-3xl h-[400px] w-full max-w-[600px] object-cover object-center"

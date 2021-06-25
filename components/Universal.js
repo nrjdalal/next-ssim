@@ -1,7 +1,3 @@
-// export const name = (props) => {
-//   return <>{props.children}</>
-// }
-
 export const FlexColumnCenter = (props) => {
   return (
     <div
@@ -24,7 +20,9 @@ export const FlexRowCenter = (props) => {
 
 export const ProseWide = (props) => {
   return (
-    <div className={`mx-auto prose max-w-none md:w-5/6 ${props.className}`}>
+    <div
+      className={`mx-auto prose max-w-none md:w-5/6 px-6 text-justify ${props.className}`}
+    >
       {props.children}
     </div>
   )
