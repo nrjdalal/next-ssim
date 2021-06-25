@@ -36,6 +36,9 @@ const Footer = () => {
                 <Footer_link name="Education Loan" to="/admission/education-loan" />
                 <Footer_link name="Online Form" to="/admission/online-form" />
                 <Footer_link name="Download Brochure" to="/admission/download-brochure" />
+                <a href="/documents/brochure.pdf" download>
+                  Download Brochure
+                </a>
                 <Footer_link name="FAQs" to="/admission/faqs" />
               </nav>
             </div>
