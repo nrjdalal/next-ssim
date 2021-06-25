@@ -11,7 +11,7 @@ const Header = () => {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-6 mr-1 sm:ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
             </svg>
-            <p className="mt-0.5">9876543210</p>
+            <p className="mt-0.5">+91 8929 399 191</p>
           </div>
           <div className="flex items-center">
             <a className="text-white">
