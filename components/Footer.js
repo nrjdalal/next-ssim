@@ -49,7 +49,7 @@ const Footer = () => {
                 <Footer_link name="Live Projects" to="/placement/live-projects" />
                 <Footer_link name="Testimonials" to="/" />
                 <Footer_link name="Privacy Policy" to="/" />
-                <Footer_link name="Contact Us" to="/" />
+                <Footer_link name="Contact Us" to="/contact-us" />
               </nav>
             </div>
           </div>
