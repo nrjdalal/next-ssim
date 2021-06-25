@@ -44,7 +44,7 @@ const the_group = () => {
 
         <ContentOnLeft
           src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
-          className="lg:text-right"
+          className="text-center lg:text-right"
         >
           International Polytechnic for Women, New Delhi
         </ContentOnLeft>
@@ -58,7 +58,7 @@ const the_group = () => {
 
         <ContentOnLeft
           src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
-          className="lg:text-right"
+          className="text-center lg:text-right"
         >
           Sri Sukhmani Institute of Engineering & Technology, Chandigarh
         </ContentOnLeft>
@@ -72,7 +72,7 @@ const the_group = () => {
 
         <ContentOnLeft
           src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
-          className="lg:text-right"
+          className="text-center lg:text-right"
         >
           Sri Sukhmani Institute of Dental College & Hospital, Chandigarh
         </ContentOnLeft>
@@ -86,7 +86,7 @@ const the_group = () => {
 
         <ContentOnLeft
           src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
-          className="lg:text-right"
+          className="text-center lg:text-right"
         >
           Sri Sukhmani International School, Chandigarh
         </ContentOnLeft>
