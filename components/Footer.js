@@ -42,6 +42,11 @@ const Footer = () => {
             <div className="lg:w-1/6 md:w-1/2 w-full text-center">
               <h2 className="font-medium text-yellow-300 tracking-widest text-sm mb-3">OTHERS</h2>
               <nav className="mb-10 flex flex-col">
+                <Footer_link name="Summer Internships" to="/placement/summer-internships" />
+                <Footer_link name="Live Projects" to="/placement/live-projects" />
+                <Footer_link name="Testimonials" to="/testimonials" />
+                <Footer_link name="" to="/" />
+                <Footer_link name="" to="/" />
                 <Footer_link name="" to="/" />
               </nav>
             </div>
