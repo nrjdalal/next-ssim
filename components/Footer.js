@@ -25,18 +25,18 @@ const Footer = () => {
                 <Footer_link name="Value Added Courses" to="/pgdm/value-added-courses" />
                 <Footer_link name="FAQs" to="/pgdm/faqs" />
                 <Footer_link name="Placement Overview" to="/placement/placement-overview" />
-                <Footer_link name="Our Recruiters" to="/placemnet/our-recruiters" />
+                <Footer_link name="Our Recruiters" to="/placement/our-recruiters" />
               </nav>
             </div>
             <div className="lg:w-1/6 md:w-1/2 w-full text-center">
               <h2 className="font-medium text-yellow-300 tracking-widest text-sm mb-3">ADMISSIONS</h2>
               <nav className="mb-10 flex flex-col">
-                <Footer_link name="Admission Process" to="/admissions/admission-process" />
-                <Footer_link name="Fee Structure" to="/admissions/fee-structure" />
-                <Footer_link name="Education Loan" to="/admissions/education-loan" />
-                <Footer_link name="Online Form" to="/admissions/online-form" />
-                <Footer_link name="Download Brochure" to="/admissions/download-brochure" />
-                <Footer_link name="FAQs" to="/admissions/faqs" />
+                <Footer_link name="Admission Process" to="/admission/admission-process" />
+                <Footer_link name="Fee Structure" to="/admission/fee-structure" />
+                <Footer_link name="Education Loan" to="/admission/education-loan" />
+                <Footer_link name="Online Form" to="/admission/online-form" />
+                <Footer_link name="Download Brochure" to="/admission/download-brochure" />
+                <Footer_link name="FAQs" to="/admission/faqs" />
               </nav>
             </div>
             <div className="lg:w-1/6 md:w-1/2 w-full text-center">
@@ -44,7 +44,7 @@ const Footer = () => {
               <nav className="mb-10 flex flex-col">
                 <Footer_link name="Summer Internships" to="/placement/summer-internships" />
                 <Footer_link name="Live Projects" to="/placement/live-projects" />
-                <Footer_link name="Testimonials" to="/testimonials" />
+                <Footer_link name="Testimonials" to="/" />
                 <Footer_link name="" to="/" />
                 <Footer_link name="" to="/" />
                 <Footer_link name="" to="/" />
