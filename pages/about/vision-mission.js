@@ -1,8 +1,10 @@
+import Breadcrumb from '../../components/Breadcrumb'
 import { ProseWide } from '../../components/Universal'
 
 const rename_later = () => {
   return (
     <>
+      <Breadcrumb title="the group" />
       <ProseWide className="pb-12">
         <h2 className="pt-12 text-center italic">OUR VISION</h2>
         <blockquote>

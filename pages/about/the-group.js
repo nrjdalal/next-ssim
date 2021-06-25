@@ -29,7 +29,7 @@ const the_group = () => {
             engineering, hospitality, management, nursing and a lot more, the
             Group has gained an impeccable reputation for consistently imparting
             quality education. The group manages and operated multiple colleges
-            in New Delhi, Chandigarh, and DeraBassi.
+            in New Delhi, Chandigarh, and Dera Bassi.
           </blockquote>
         </FlexColumnCenter>
 

@@ -10,7 +10,7 @@ const the_institute = () => {
   return (
     <>
       <Breadcrumb title="the institute" />
-      <ProseWide>
+      <ProseWide className="py-12">
         <FlexColumnCenter>
           <img
             className="rounded-3xl h-[400px] w-full max-w-[600px] object-cover object-center"
