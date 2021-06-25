@@ -22,6 +22,9 @@
   [type='radio'] {
     @apply rounded border-gray-300 text-blue-600 focus:ring-blue-500;
   }
+  body {
+    -webkit-tap-highlight-color: transparent;
+  }
 }
 
 @tailwind components;
