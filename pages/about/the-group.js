@@ -37,7 +37,7 @@ const the_group = () => {
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="lg:text-left"
+          className="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Management, New Delhi
         </ContentOnRight>
@@ -51,7 +51,7 @@ const the_group = () => {
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="lg:text-left"
+          className="text-center lg:text-left"
         >
           Swarn Public School, New Delhi
         </ContentOnRight>
@@ -65,7 +65,7 @@ const the_group = () => {
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="lg:text-left"
+          className="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Hospitality & Management, Chandigarh
         </ContentOnRight>
@@ -79,7 +79,7 @@ const the_group = () => {
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="lg:text-left"
+          className="text-center lg:text-left"
         >
           Sri Sukhmani Polytechnic, Chandigarh
         </ContentOnRight>
@@ -93,7 +93,7 @@ const the_group = () => {
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="lg:text-left"
+          className="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Medical Science & Research, Chandigarh
         </ContentOnRight>
