@@ -12,10 +12,27 @@ const Pop_ups = () => {
     setActive(false)
   }
 
+  const initialState = {
+    name:"",
+    email:"",
+    mobile:"",
+    city:"",
+    _captcha:false
+  }
+
+  const [formState, setFormState] = useState(initialState);
+
+
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log(e)
-    // axios.post()
+    e.preventDefault();
+    axios.post("https://formsubmit.co/ajax/bahipe7012@seatto.com", {...formState}).then(res=>{
+      if(res.status === 200){
+        setActive(false)
+        setFormState(initialState)
+      }
+    }).catch(e => {
+      alert("form not submitted")
+    });
   }
 
   return (
@@ -66,14 +83,12 @@ const Pop_ups = () => {
           </div>
           <form
             onSubmit={(e) => handleSubmit(e)}
-            action="https://formsubmit.co/bahipe7012@seatto.com"
-            method="POST"
           >
             <h3 className="text-center pb-5">Admission Open 2021-22</h3>
-            <Input_mandtory name="Full Name" type="text" />
-            <Input_mandtory name="Mobile Number" type="text" />
-            <Input_mandtory name="Email Address" type="email" />
-            <Input_mandtory name="City" type="text" />
+            <Input_mandtory name="Full Name" type="text" value={formState.name} onChange={(e) => setFormState({...formState, name:e.target.value})} />
+            <Input_mandtory name="Mobile Number" type="text" value={formState.mobile} onChange={(e) => setFormState({...formState, mobile:e.target.value})} />
+            <Input_mandtory name="Email Address" type="email" value={formState.email} onChange={(e) => setFormState({...formState, email:e.target.value})} />
+            <Input_mandtory name="City" type="text" value={formState.city} onChange={(e) => setFormState({...formState, city:e.target.value})} />
             <input type="hidden" name="_captcha" value="false" />
             <button
               type="submit"
@@ -92,7 +107,7 @@ const Input_mandtory = (prop) => {
   return (
     <>
       <div className="mt-5">
-        <input name={prop.name} type={prop.type} placeholder={prop.name} />
+        <input name={prop.name} type={prop.type} placeholder={prop.name} value={prop.value} onChange={prop.onChange} />
       </div>
     </>
   )
