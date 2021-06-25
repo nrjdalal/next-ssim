@@ -57,7 +57,7 @@ const Footer = () => {
 
         <div className="bg-gray-900">
           <div className="container mx-auto py-4 px-5  flex flex-wrap flex-col sm:flex-row">
-            <p className="text-white text-sm text-center sm:text-left">© 2020 SSIMDWARKA.ORG</p>
+            <p className="text-white text-sm text-center sm:text-left">© 2020 ssimdwarka.org</p>
             <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-white text-sm">Designed by VeroXyle</span>
           </div>
         </div>
