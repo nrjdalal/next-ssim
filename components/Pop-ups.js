@@ -13,12 +13,12 @@ const Pop_ups = () => {
     <>
       {/* Download Brochures */}
       <a href="/documents/brochure.pdf" download>
-        <button style={isActive ? { display: 'none' } : { position: 'fixed' }} className="top-1/2 -left-16 rotate-90 z-40 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer" download="">
+        <button style={isActive ? { display: 'none' } : { position: 'fixed' }} className="top-1/2 -left-16 rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer" download="">
           Download Brochure
         </button>
       </a>
       {/* Admission Open Button */}
-      <button onClick={toggleClass} style={isActive ? { display: 'none' } : { position: 'fixed' }} className="top-1/2 right-[-72px] -rotate-90 z-40 bg-green-500 px-3 py-1 rounded text-white  cursor-pointer">
+      <button onClick={toggleClass} style={isActive ? { display: 'none' } : { position: 'fixed' }} className="top-1/2 right-[-72px] -rotate-90 z-30 bg-green-500 px-3 py-1 rounded text-white  cursor-pointer">
         Admission Open 2021
       </button>
       {/* Pop Up */}
