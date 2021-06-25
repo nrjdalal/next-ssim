@@ -3,7 +3,7 @@ import { FlexColumnCenter, ProseWide } from '../../components/Universal'
 const the_institute = () => {
   return (
     <>
-      <ProseWide className="px-6 py-12">
+      <ProseWide className="px-6 py-12 text-justify">
         <FlexColumnCenter>
           <img
             className="rounded-3xl h-[400px] w-[600px] object-cover object-center"
