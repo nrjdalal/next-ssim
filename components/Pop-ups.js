@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import axios from 'axios'
 
 const Pop_ups = () => {
   const [isActive, setActive] = useState(true)
@@ -9,6 +10,12 @@ const Pop_ups = () => {
 
   const closeMenu = () => {
     setActive(false)
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(e)
+    // axios.post()
   }
 
   return (
@@ -32,12 +39,15 @@ const Pop_ups = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </div>
-          <h3 className="text-center pb-5">Admission Open 2021-22</h3>
-          <Input_mandtory name="Full Name" type="text" />
-          <Input_mandtory name="Mobile Number" type="number" />
-          <Input_mandtory name="Email Address" type="email" />
-          <Input_mandtory name="City" type="text" />
-          <button className="mt-12 bg-gray-500 border-0 py-3 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">SUMBIT</button>
+          <form onSubmit={(e) => handleSubmit(e)} action="https://formsubmit.co/bahipe7012@seatto.com" method="POST">
+            <h3 className="text-center pb-5">Admission Open 2021-22</h3>
+            <Input_mandtory name="Full Name" type="text" />
+            <Input_mandtory name="Mobile Number" type="number" />
+            <Input_mandtory name="Email Address" type="email" />
+            <Input_mandtory name="City" type="text" />
+            <input type="hidden" name="_captcha" value="false" />
+            <button type="submit" className="mt-12 w-full bg-gray-500 border-0 py-3 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">SUMBIT</button>
+          </form>
         </div>
       </div>
     </>
@@ -50,7 +60,7 @@ const Input_mandtory = (prop) => {
       <label className="m-1 mt-4">
         {prop.name} <span className="text-red-500">*</span>
       </label>
-      <input type={prop.type} />
+      <input name={prop.name} type={prop.type} />
     </>
   )
 }
