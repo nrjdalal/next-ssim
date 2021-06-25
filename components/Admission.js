@@ -16,12 +16,13 @@ const Admission = () => {
       </button>
       {/* Pop Up */}
       <div className="w-5/6 md:w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-50 rounded-3xl text-white border-2 border-gray-500 cursor-pointer" style={isActive ? { position: 'fixed' } : { display: 'none' }}>
-        <div className="prose my-12 px-5 flex flex-col">
+        <div className="prose my-12 px-5 flex flex-col text-center">
           <div onClick={closeMenu} className="flex justify-end">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </div>
+          <h3 className="text-center pb-5">Admission Open 2021-22</h3>
           <Input_mandtory name="Full Name" type="text" />
           <Input_mandtory name="Mobile Number" type="number" />
           <Input_mandtory name="Email Address" type="email" />
