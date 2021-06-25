@@ -11,7 +11,7 @@ const Admission = () => {
 
   return (
     <>
-      <button onClick={toggleClass} className="fixed top-1/2 right-[-72px] -rotate-90 z-40 bg-green-500 px-3 py-1 rounded text-white  cursor-pointer">
+      <button onClick={toggleClass} style={isActive ? { display: 'none' } : { position: 'fixed' }} className="fixed top-1/2 right-[-72px] -rotate-90 z-40 bg-green-500 px-3 py-1 rounded text-white  cursor-pointer">
         Admission Open 2021
       </button>
       {/* Pop Up */}
@@ -22,7 +22,6 @@ const Admission = () => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </div>
-
           <Input_mandtory name="Full Name" type="text" />
           <Input_mandtory name="Mobile Number" type="number" />
           <Input_mandtory name="Email Address" type="email" />
