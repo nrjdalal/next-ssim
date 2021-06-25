@@ -25,7 +25,7 @@ const Pop_ups = () => {
       </button>
       {/* Pop Up */}
       <div style={isActive ? { position: 'fixed' } : { display: 'none' }} className="h-full w-full bg-black top-0 z-40 bg-opacity-50"></div>
-      <div className="w-11/12 md:w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-50 rounded-3xl text-white border-2 border-gray-500 cursor-pointer" style={isActive ? { position: 'fixed' } : { display: 'none' }}>
+      <div className="w-11/12 max-w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-50 rounded-3xl text-white border-2 border-gray-500 cursor-pointer" style={isActive ? { position: 'fixed' } : { display: 'none' }}>
         <div className="prose mt-4 mb-12 px-5 flex flex-col text-center">
           <div onClick={closeMenu} className="flex justify-end">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
