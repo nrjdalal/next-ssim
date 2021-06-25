@@ -22,6 +22,7 @@ const Pop_ups = () => {
         Admission Open 2021
       </button>
       {/* Pop Up */}
+      <div style={isActive ? { position: 'fixed' } : { display: 'none' }} className="h-full w-full bg-black top-0 z-40 bg-opacity-50"></div>
       <div className="w-5/6 md:w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-50 rounded-3xl text-white border-2 border-gray-500 cursor-pointer" style={isActive ? { position: 'fixed' } : { display: 'none' }}>
         <div className="prose mt-4 mb-12 px-5 flex flex-col text-center">
           <div onClick={closeMenu} className="flex justify-end">
