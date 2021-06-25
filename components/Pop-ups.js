@@ -2,9 +2,11 @@ import { useState } from 'react'
 
 const Pop_ups = () => {
   const [isActive, setActive] = useState(true)
+
   const toggleClass = () => {
     setActive(!isActive)
   }
+
   const closeMenu = () => {
     setActive(false)
   }
