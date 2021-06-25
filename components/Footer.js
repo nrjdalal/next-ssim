@@ -42,14 +42,14 @@ const Footer = () => {
               </nav>
             </div>
             <div className="lg:w-1/6 md:w-1/2 w-full text-center">
-              <h2 className="font-medium text-yellow-300 tracking-widest text-sm mb-3">OTHERS</h2>
+              <h2 className="font-medium text-yellow-300 tracking-widest text-sm mb-3">OTHER</h2>
               <nav className="mb-10 flex flex-col">
+                <Footer_link name="Faculty Profiles" to="/faculty/profiles" />
                 <Footer_link name="Summer Internships" to="/placement/summer-internships" />
                 <Footer_link name="Live Projects" to="/placement/live-projects" />
                 <Footer_link name="Testimonials" to="/" />
-                <Footer_link name="" to="/" />
-                <Footer_link name="" to="/" />
-                <Footer_link name="" to="/" />
+                <Footer_link name="Privacy Policy" to="/" />
+                <Footer_link name="Contact Us" to="/" />
               </nav>
             </div>
           </div>
