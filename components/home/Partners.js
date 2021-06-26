@@ -3,13 +3,13 @@ import Link from 'next/link'
 const Partners = () => {
   return (
     <div className="bg-[#096b97]">
-      <div className="container mx-auto flex flex-col md:flex-row py-12">
-        <div className="flex flex-col items-center w-full mx-5">
+      <div className="container mx-auto flex flex-col lg:flex-row p-6">
+        <div className="flex flex-col items-center w-full">
           <h1 className="text-3xl font-semibold italic text-white">
             Alumni Tesimonials
           </h1>
           {/* Part 1 */}
-          <div className="bg-gray-100 my-12 rounded-3xl overflow-hidden p-8">
+          <div className="bg-gray-100 my-12 rounded-3xl overflow-hidden p-8 lg:mr-5">
             <div className="flex items-center">
               <div className="w-1/3 max-w-[192px]">
                 <div className="aspect-h-1 aspect-w-1">
@@ -44,12 +44,12 @@ const Partners = () => {
           </Link>
         </div>
 
-        <div className="flex flex-col items-center w-full mx-5">
+        <div className="flex flex-col items-center w-full">
           <h1 className="text-3xl font-semibold italic text-white">
             Corporate Tesimonials
           </h1>
           {/* Part 1 */}
-          <div className="bg-gray-100 my-12 rounded-3xl overflow-hidden p-8">
+          <div className="bg-gray-100 my-12 rounded-3xl overflow-hidden p-8 lg:ml-5">
             <div className="flex items-center">
               <div className="w-1/3 max-w-[192px]">
                 <div className="aspect-h-1 aspect-w-1">
