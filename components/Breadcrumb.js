@@ -5,7 +5,7 @@ const Breadcrumb = (props) => {
   return (
     <>
       <Head>
-        <title>SSIM - {props.title}</title>
+        <title className="capitalize">SSIM - {props.title}</title>
       </Head>
       <div className="relative h-[100px] sm:h-[150px] md:h-[200px] w-full bg-gray-800 flex items-center">
         <img
@@ -21,7 +21,7 @@ const Breadcrumb = (props) => {
             &nbsp;&nbsp;
             {' > '}
             &nbsp;&nbsp;
-            <a className="">{props.title}</a>
+            <a className="capitalize">{props.title}</a>
           </p>
         </div>
       </div>

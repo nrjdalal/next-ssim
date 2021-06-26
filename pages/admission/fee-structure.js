@@ -1,8 +1,10 @@
 import { ProseWide } from '../../components/Universal'
+import Breadcrumb from '../../components/Breadcrumb'
 
 const chairmans_message = () => {
   return (
     <>
+      <Breadcrumb title="Fee Structure" />
       <ProseWide className="container mx-auto prose my-12 px-5 text-center flex flex-col items-center">
         {/* <h2 className="italic">Fee Strucutre</h2>
 

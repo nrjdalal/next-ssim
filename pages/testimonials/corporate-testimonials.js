@@ -1,6 +1,9 @@
+import Breadcrumb from '../../components/Breadcrumb'
+
 const alumni_testimonials = () => {
   return (
     <>
+      <Breadcrumb title="Corporate Testimonials" />
       {/* 1 */}
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">

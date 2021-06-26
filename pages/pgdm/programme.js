@@ -1,8 +1,10 @@
 import { ProseWide } from '../../components/Universal'
+import Breadcrumb from '../../components/Breadcrumb'
 
 const programme = () => {
   return (
     <>
+      <Breadcrumb title="Programme" />
       <ProseWide className="pb-12 md:w-2/3">
         <h2 className="pt-12 text-left">PGDM PROGRAM</h2>
         <blockquote className="text-sm sm:text-base">

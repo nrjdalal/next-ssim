@@ -9,6 +9,7 @@ import Recruiters from '../components/home/Recruiters'
 import Features from '../components/home/Features'
 import Logos from '../components/home/Logos'
 
+
 const index = () => {
   return (
     <>

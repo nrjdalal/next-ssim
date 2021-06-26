@@ -4,7 +4,7 @@ import { ProseWide } from '../../components/Universal'
 const chairmans_message = () => {
   return (
     <>
-      <Breadcrumb title="chairman's message" />
+      <Breadcrumb title="Chairman's Message" />
       <ProseWide className="container mx-auto prose my-12 px-5">
         <div className="flex justify-center">
           <img

@@ -1,6 +1,9 @@
+import Breadcrumb from '../components/Breadcrumb'
+
 const contact_us = () => {
   return (
     <>
+      <Breadcrumb title="Contact Us" />
       <section className="text-gray-600 body-font relative">
         <div className="absolute inset-0 bg-gray-300">
           <iframe
