@@ -24,7 +24,7 @@ const chairmans_message = () => {
         </blockquote>
         <br />
 
-        <div className="p-5 border-2 border-gray-100 flex justify-center w-2/3 text-sm sm:text-base">
+        <div className="p-5 border-2 border-gray-100  w-2/3 text-sm sm:text-base">
           <table>
             <thead>
               <tr>
@@ -88,46 +88,48 @@ const chairmans_message = () => {
 
         <h2 className="italic">RTGS / NEFT / BANK TRANSFER</h2>
 
-        <table>
-          <thead>
-            <tr>
-              <th></th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>
-                <strong>NAME</strong>
-              </td>
-              <td>SRI SUKHMANI INSTITUTE OF MANAGEMENT</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>BANK</strong>
-              </td>
-              <td>PUNJAB NATIONAL BANK</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>BRANCH/CITY</strong>
-              </td>
-              <td>SOUTH EXTENSION PART 1, NEW DELHI</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>IFSC CODE</strong>
-              </td>
-              <td>PUNB0017600</td>
-            </tr>
-            <tr>
-              <td>
-                <strong>ACCOUNT NO.</strong>
-              </td>
-              <td>0176000101132626</td>
-            </tr>
-          </tbody>
-        </table>
+        <div className="p-5 border-2 border-gray-100  w-2/3 text-sm sm:text-base">
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>NAME</strong>
+                </td>
+                <td>SRI SUKHMANI INSTITUTE OF MANAGEMENT</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>BANK</strong>
+                </td>
+                <td>PUNJAB NATIONAL BANK</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>BRANCH/CITY</strong>
+                </td>
+                <td>SOUTH EXTENSION PART 1, NEW DELHI</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>IFSC CODE</strong>
+                </td>
+                <td>PUNB0017600</td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>ACCOUNT NO.</strong>
+                </td>
+                <td>0176000101132626</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </ProseWide>
     </>
   )
