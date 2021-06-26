@@ -37,9 +37,9 @@ export const ContentOnLeft = (props) => {
         alt={props.alt}
       />
       <div className="prose px-5 pt-8 lg:pt-0 text-justify order-2 lg:order-1 w-full lg:pr-12">
-        <h2 className={`italic text-center mt-0 ${props.hClassName}`}>
+        <h3 className={`italic text-center mt-0 ${props.hClassName}`}>
           {props.title || ''}
-        </h2>
+        </h3>
         <p className={`${props.pClassName}`}>{props.children || ''}</p>
       </div>
     </FlexColumnCenter>
@@ -55,9 +55,9 @@ export const ContentOnRight = (props) => {
         alt={props.alt}
       />
       <div className="prose px-5 pt-8 lg:pt-0 text-justify w-full lg:pl-12">
-        <h2 className={`italic text-center mt-0 ${props.hClassName}`}>
+        <h3 className={`italic text-center mt-0 ${props.hClassName}`}>
           {props.title || ''}
-        </h2>
+        </h3>
         <p className={`${props.pClassName}`}>{props.children || ''}</p>
       </div>
     </FlexColumnCenter>
