@@ -6,9 +6,9 @@ const rename_later = () => {
     <>
       <Breadcrumb title="board of governors" />
       <ProseWide className="pb-12">
-        <h2 className="pt-12 text-center italic">ADVISORY COUNCIL</h2>
+        <h2 className="pt-12 text-center">ADVISORY COUNCIL</h2>
         <br />
-        <blockquote>Prof. Avtar Singh</blockquote>
+        <h3>Prof. Avtar Singh</h3>
         <p className="">
           Founder and Chairman, Sri Sukhmani Group of Institutes
         </p>
