@@ -55,7 +55,7 @@ const MobBar = () => {
       </div>
       {/* Dropdown */}
       <div
-        className="relative flex lg:hidden top-0 z-[60] w-screen h-screen bg-gray-900 text-white flex-col items-center bg-opacity-90 pt-5"
+        className="relative flex lg:hidden top-0 z-[60] w-screen h-screen bg-gray-900 text-white flex-col items-center bg-opacity-95 pt-5"
         style={isMenu ? { position: 'fixed' } : { display: 'none' }}
       >
         <svg
