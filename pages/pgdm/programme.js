@@ -1,12 +1,39 @@
+import { ProseWide } from '../../components/Universal'
+
 const programme = () => {
   return (
     <>
-      <div className="container mx-auto prose my-12 px-5">
-        {/* Trimester 1 */}
+      <ProseWide className="pb-24 md:w-2/3">
+        <h2 className="pt-12 text-center">PGDM PROGRAM</h2>
         <blockquote>
-          <h2>TRIMESTER I</h2>
+          Our PGDM program, combined with SAP Training, is an innovative pursuit
+          in management education. It combines skill-oriented qualifications in
+          the field of management services including management research and
+          thus adds to students’ employability. We follow a practical and
+          experimental learning approach coupled with interactive sessions and
+          peer-to-peer feedback mechanism. Our main aim is to be creative and
+          keep innovating the age-old activity of imparting education, thereby
+          revolutionizing the way you learn and assimilate information. With
+          more focus on practical aspects of education, we ensure that students
+          are ready to face the market and succeed. Our mentorship program helps
+          each individual learner connect with corporate mentors and gain
+          greater exposure to multiple levels of expertise and knowledge.
         </blockquote>
-        <table>
+        <h2 className="text-center">PROGRAM HIGHLIGHTS</h2>
+        <blockquote>
+          A pragmatic approach to learning through case studies Specialized
+          Personality Development Programs Field Training and Practical coaching
+          using Live Projects Imparting essential Business Communication Skills
+          Workshops and seminars by leading industry experts Strong Alumni
+          Network with global reach
+        </blockquote>
+
+        <h2 className="text-center">PGDM PROGRAM STRUCTURE</h2>
+        {/* Trimester 1 */}
+        <>
+          <h3 className="text-center italic">TRIMESTER I</h3>
+        </>
+        <table className="border-[1px]">
           <thead className="text-center">
             <tr>
               <th>
@@ -63,10 +90,10 @@ const programme = () => {
           </tbody>
         </table>
         {/* Trimester 2 */}
-        <blockquote>
-          <h2>TRIMESTER II</h2>
-        </blockquote>
-        <table>
+        <>
+          <h3 className="text-center italic">TRIMESTER II</h3>
+        </>
+        <table className="border-[1px]">
           <thead className="text-center">
             <tr>
               <th>
@@ -123,10 +150,10 @@ const programme = () => {
           </tbody>
         </table>
         {/* Trimester 3 */}
-        <blockquote>
-          <h2>TRIMESTER III</h2>
-        </blockquote>
-        <table>
+        <>
+          <h3 className="text-center italic">TRIMESTER III</h3>
+        </>
+        <table className="border-[1px]">
           <thead className="text-center">
             <tr>
               <th>
@@ -183,10 +210,10 @@ const programme = () => {
           </tbody>
         </table>
         {/* Trimester 4 */}
-        <blockquote>
-          <h2>TRIMESTER IV</h2>
-        </blockquote>
-        <table>
+        <>
+          <h3 className="text-center italic">TRIMESTER IV</h3>
+        </>
+        <table className="border-[1px]">
           <thead className="text-center">
             <tr>
               <th>
@@ -252,10 +279,10 @@ const programme = () => {
           </tbody>
         </table>
         {/* Trimester 5 */}
-        <blockquote>
-          <h2>TRIMESTER V</h2>
-        </blockquote>
-        <table>
+        <>
+          <h3 className="text-center italic">TRIMESTER V</h3>
+        </>
+        <table className="border-[1px]">
           <thead className="text-center">
             <tr>
               <th>
@@ -321,10 +348,10 @@ const programme = () => {
           </tbody>
         </table>
         {/* Internships */}
-        <blockquote>
-          <h2>INTERNSHIPS</h2>
-        </blockquote>
-        <table>
+        <>
+          <h3 className="text-center italic">INTERNSHIPS</h3>
+        </>
+        <table className="border-[1px]">
           <thead className="text-center">
             <tr>
               <th>
@@ -361,10 +388,10 @@ const programme = () => {
           </tbody>
         </table>
         {/* Trimester 6 */}
-        <blockquote>
-          <h2>TRIMESTER VI</h2>
-        </blockquote>
-        <table>
+        <>
+          <h3 className="text-center italic">TRIMESTER VI</h3>
+        </>
+        <table className="border-[1px]">
           <thead className="text-center">
             <tr>
               <th>
@@ -424,7 +451,7 @@ const programme = () => {
             </tr>
           </tbody>
         </table>
-      </div>
+      </ProseWide>
     </>
   )
 }
