@@ -31,14 +31,14 @@ const programme = () => {
 
         <h2 className="text-left">PGDM PROGRAM STRUCTURE</h2>
 
-        <div className="flex flex-wrap">
-          <div className="w-full lg:w-1/2 lg:p-5 lg:border-l-2 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
+        <div className="flex flex-wrap justify-center">
+          <div className="w-full sm:w-4/5 lg:w-1/2 lg:p-5 lg:border-l-2 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
             {/* Trimester 1 */}
             <h3 className="pl-12 text-left italic">TRIMESTER I</h3>
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[110px]">
+                  <th className="text-left w-[70px] sm:w-[110px] lg:w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -92,7 +92,7 @@ const programme = () => {
               </tbody>
             </table>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-5 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
+          <div className="w-full sm:w-4/5 lg:w-1/2 lg:p-5 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
             {/* Trimester 2 */}
 
             <h3 className="pl-12 text-left italic">TRIMESTER II</h3>
@@ -100,7 +100,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[110px]">
+                  <th className="text-left w-[70px] sm:w-[110px] lg:w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -154,14 +154,14 @@ const programme = () => {
               </tbody>
             </table>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-5 lg:border-l-2 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
+          <div className="w-full sm:w-4/5 lg:w-1/2 lg:p-5 lg:border-l-2 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
             {' '}
             {/* Trimester 3 */}
             <h3 className="pl-12 text-left italic">TRIMESTER III</h3>
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[110px]">
+                  <th className="text-left w-[70px] sm:w-[110px] lg:w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -215,14 +215,14 @@ const programme = () => {
               </tbody>
             </table>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-5 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
+          <div className="w-full sm:w-4/5 lg:w-1/2 lg:p-5 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
             {' '}
             {/* Trimester 4 */}
             <h3 className="pl-12 text-left italic">TRIMESTER IV</h3>
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[110px]">
+                  <th className="text-left w-[70px] sm:w-[110px] lg:w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -285,14 +285,14 @@ const programme = () => {
               </tbody>
             </table>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-5 lg:border-l-2 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
+          <div className="w-full sm:w-4/5 lg:w-1/2 lg:p-5 lg:border-l-2 lg:border-t-2 lg:border-r-2 lg:border-gray-300">
             {' '}
             {/* Trimester 5 */}
             <h3 className="pl-12 text-left italic">TRIMESTER V</h3>
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[110px]">
+                  <th className="text-left w-[70px] sm:w-[110px] lg:w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -355,7 +355,7 @@ const programme = () => {
               </tbody>
             </table>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-5 lg:border-t-2 lg:border-r-2 lg:border-gray-300 lg:border-b-2 mb-[-2px]">
+          <div className="w-full sm:w-4/5 lg:w-1/2 lg:p-5 lg:border-t-2 lg:border-r-2 lg:border-gray-300 lg:border-b-2 mb-[-2px]">
             {/* Trimester 6 */}
 
             <h3 className="pl-12 text-left italic">TRIMESTER VI</h3>
@@ -363,7 +363,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[110px]">
+                  <th className="text-left w-[70px] sm:w-[110px] lg:w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -421,14 +421,14 @@ const programme = () => {
               </tbody>
             </table>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-5 lg:border-l-2 lg:border-t-2 lg:border-r-2 lg:border-gray-300 lg:border-b-2">
+          <div className="w-full sm:w-4/5 lg:w-1/2 lg:p-5 lg:border-l-2 lg:border-t-2 lg:border-r-2 lg:border-gray-300 lg:border-b-2">
             {' '}
             {/* Internships */}
             <h3 className="pl-12 text-left italic">INTERNSHIPS</h3>
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[110px]">
+                  <th className="text-left w-[70px] sm:w-[110px] lg:w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
