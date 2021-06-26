@@ -120,14 +120,15 @@ const the_institute = () => {
 
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
-          title="Wi-Fi Enabled"
+          title="Six Sigma "
           src="https://source.unsplash.com/400x300/?6.jpg"
         >
-          We have a State-of-the-Art, fully air-conditioned, Wifi campus with
-          24x7 high bandwidth internet connectivity. The IT lab consists of
-          computers in interconnected local area networks. Our IT programs are
-          regularly updated by incorporating the latest hardware/ software
-          developments across the world.
+          Six Sigma is a set of methods and tools for process improvement.
+          Developed in 1986, Six Sigma has become a global phenomenon with
+          companies around the world. Companies and individuals are using six
+          sigma methodologies to improve operational efficiencies. Six Sigma
+          Certification is a great way to improve your capabilities as a leader
+          in your organization. It helps in renovating the business processes.
         </ContentOnLeft>
 
         <div className="h-12" />
