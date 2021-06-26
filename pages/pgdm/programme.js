@@ -38,7 +38,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[140px]">
+                  <th className="text-left w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -100,7 +100,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[140px]">
+                  <th className="text-left w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -161,7 +161,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[140px]">
+                  <th className="text-left w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -222,7 +222,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[140px]">
+                  <th className="text-left w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -292,7 +292,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[140px]">
+                  <th className="text-left w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -363,7 +363,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[140px]">
+                  <th className="text-left w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
@@ -428,7 +428,7 @@ const programme = () => {
             <table className="">
               <thead className="text-left">
                 <tr>
-                  <th className="text-left w-[70px] xl:w-[140px]">
+                  <th className="text-left w-[70px] xl:w-[110px]">
                     <strong>Code</strong>
                   </th>
                   <th>
