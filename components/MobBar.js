@@ -27,11 +27,15 @@ const MobBar = () => {
   return (
     <>
       <div className="flex lg:hidden container mx-auto p-5 justify-between">
-        <img
-          className="h-14 md:h-16"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png"
-          alt=""
-        />
+        <Link href="/">
+          <a>
+            <img
+              className="h-14 md:h-16"
+              src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png"
+              alt=""
+            />
+          </a>
+        </Link>
         <button onClick={toggleClass} className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
