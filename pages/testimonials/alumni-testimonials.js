@@ -162,7 +162,7 @@ const alumni_testimonials = () => {
               jean shorts. Slow-carb next level shoindigoitch ethical authentic,
               yr scenester sriracha forage franzen organic drinking vinegar.
             </p>
-            <span className="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+            <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"></span>
             <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
               HOLDEN CAULFIELD
             </h2>
