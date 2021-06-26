@@ -37,7 +37,7 @@ const Partners = () => {
           </div>
           <Link href="/testimonials/alumni-testimonials">
             <a>
-              <button className="bg-yellow-500 border-0 py-2 px-4 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white font-medium">
+              <button className="bg-yellow-500 border-0 py-2 px-4 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white font-medium tracking-wider">
                 READ MORE
               </button>
             </a>
@@ -77,7 +77,7 @@ const Partners = () => {
           </div>
           <Link href="/testimonials/corporate-testimonials">
             <a>
-              <button className="bg-yellow-500 border-0 py-2 px-4 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white font-medium">
+              <button className="bg-yellow-500 border-0 py-2 px-4 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white font-medium tracking-wider">
                 READ MORE
               </button>
             </a>
