@@ -52,49 +52,49 @@ const the_group = () => {
         </ContentOnLeft>
 
         <ContentOnRight
-          src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
+          src="/about/the-group/Swarn Public School.jpg"
           pClassName="text-center lg:text-left"
         >
           Swarn Public School, New Delhi
         </ContentOnRight>
 
         <ContentOnLeft
-          src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
+          src="/about/the-group/Sri Sukhmani Institute of Engineering and Technology.jpg"
           pClassName="text-center lg:text-right"
         >
           Sri Sukhmani Institute of Engineering & Technology, Chandigarh
         </ContentOnLeft>
 
         <ContentOnRight
-          src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
+          src="/about/the-group/Sri Sukhmani Institute of Hospitality & Management.jpg"
           pClassName="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Hospitality & Management, Chandigarh
         </ContentOnRight>
 
         <ContentOnLeft
-          src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
+          src="/about/the-group/Sri Sukhmani Dental College.png"
           pClassName="text-center lg:text-right"
         >
           Sri Sukhmani Institute of Dental College & Hospital, Chandigarh
         </ContentOnLeft>
 
         <ContentOnRight
-          src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
+          src="/about/the-group/Sri Sukhmani College of Nursing.jpg"
           pClassName="text-center lg:text-left"
         >
           Sri Sukhmani Polytechnic, Chandigarh
         </ContentOnRight>
 
         <ContentOnLeft
-          src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
+          src="/about/the-group/Sri Sukhmani International School.png"
           pClassName="text-center lg:text-right"
         >
           Sri Sukhmani International School, Chandigarh
         </ContentOnLeft>
 
         <ContentOnRight
-          src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
+          src="/about/the-group/Sri Sukhmani Institute of Medical Science & Research.jpg"
           pClassName="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Medical Science & Research, Chandigarh
