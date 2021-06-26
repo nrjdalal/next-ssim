@@ -115,6 +115,8 @@ const the_institute = () => {
         updated by incorporating the latest hardware/ software developments
         across the world.
       </ContentOnLeft>
+
+      <div className="h-12" />
     </>
   )
 }
