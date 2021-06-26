@@ -5,7 +5,7 @@ const Recruiters = () => {
     <>
       <div className="relative">
         <div className="absolute left-1/2 -translate-x-1/2 bottom-0 bg-white p-5 z-10 border-b-2 border-gray-100 rounded-tr-3xl rounded-tl-3xl">
-          <h1 className="text-2xl italic font-semibold text-[#096b97]">
+          <h1 className="text-xl lg:text-2xl italic font-semibold text-[#096b97]">
             Our Recruiters
           </h1>
         </div>
