@@ -3,8 +3,8 @@ import React from 'react'
 const Recruiters = () => {
   return (
     <>
-      <div className="flex flex-col items-center">
-        <section className="relative h-[150px] w-2/3 overflow-hidden">
+      <div className="container mx-auto flex flex-col items-center overflow-hidden">
+        <section className="relative h-[150px] w-full sm:w-4/5 md:w-3/4 lg:2/3 xl:wd-1/2">
           <div className="animate-x">
             <img
               className="object-cover"
