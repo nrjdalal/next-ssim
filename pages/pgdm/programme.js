@@ -355,7 +355,7 @@ const programme = () => {
               </tbody>
             </table>
           </div>
-          <div className="w-full lg:w-1/2 lg:p-5 lg:border-t-2 lg:border-r-2 lg:border-gray-300 lg:border-b-2 m-[-2px]">
+          <div className="w-full lg:w-1/2 lg:p-5 lg:border-t-2 lg:border-r-2 lg:border-gray-300 lg:border-b-2 mb-[-2px]">
             {/* Trimester 6 */}
 
             <h3 className="pl-12 text-left italic">TRIMESTER VI</h3>
