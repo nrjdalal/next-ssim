@@ -49,72 +49,72 @@ const the_institute = () => {
         </FlexColumnCenter>
 
         <h1 className="pt-12 text-center italic">Our Campus</h1>
-
-        <ContentOnRight
-          title="Classroom"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/1.jpg"
-        >
-          The classrooms are aesthetically designed to provide a stimulating
-          atmosphere, conducive to the all-round development of the students.
-          The classrooms are fully air-conditioned and equipped with the latest
-          facilities for presentations, with the modern audio-visual system, LCD
-          projectors, computers, and the internet.
-        </ContentOnRight>
-
-        <ContentOnLeft
-          title="IT Lab"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/2.jpg"
-        >
-          The SSIM Institute has a well-equipped state of the art computer lab,
-          with well-equipped systems of the latest technical configuration. The
-          required legal softwares are also installed in each system. High-speed
-          internet connectivity provides extended access to vast intellectual
-          resources.
-        </ContentOnLeft>
-
-        <ContentOnRight
-          title="Library"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/3.jpg"
-        >
-          SSIM Dwarka has a well-stocked library, replete with the latest and
-          most sought after books, National Journals, International Journals &
-          e-journals. We realize that the library and information systems play a
-          pivotal role in the learning activities of students. Accordingly, we
-          ensure that our library is kept updated with the latest information
-          and learning tools.
-        </ContentOnRight>
-
-        <ContentOnLeft
-          title="Co-curricular Activities"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/4.jpg"
-        >
-          While you study at SSIM Dwarka, you will be actively encouraged to
-          participate & engage in co-curricular activities. The institute
-          organizes many social and sporting events throughout the year to
-          develop holistic creativity.
-        </ContentOnLeft>
-
-        <ContentOnRight
-          title="Cafeteria"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/5.jpg"
-        >
-          The institution has an ultra-modern canteen with an aesthetic sense of
-          design and décor which offers hygienic, wholesome and nutritious food
-          at subsidized rates to satisfy different taste buds. Complete, planned
-          food is served in neat, clean & hygienic surroundings.
-        </ContentOnRight>
-
-        <ContentOnLeft
-          title="Wi-Fi Enabled"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/6.jpg"
-        >
-          We have a State-of-the-Art, fully air-conditioned, Wifi campus with
-          24x7 high bandwidth internet connectivity. The IT lab consists of
-          computers in interconnected local area networks. Our IT programs are
-          regularly updated by incorporating the latest hardware/ software
-          developments across the world.
-        </ContentOnLeft>
       </ProseWide>
+
+      <ContentOnRight
+        title="Classroom"
+        src="https://ssimdwarka.org/wp-content/uploads/2019/12/1.jpg"
+      >
+        The classrooms are aesthetically designed to provide a stimulating
+        atmosphere, conducive to the all-round development of the students. The
+        classrooms are fully air-conditioned and equipped with the latest
+        facilities for presentations, with the modern audio-visual system, LCD
+        projectors, computers, and the internet.
+      </ContentOnRight>
+
+      <ContentOnLeft
+        title="IT Lab"
+        src="https://ssimdwarka.org/wp-content/uploads/2019/12/2.jpg"
+      >
+        The SSIM Institute has a well-equipped state of the art computer lab,
+        with well-equipped systems of the latest technical configuration. The
+        required legal softwares are also installed in each system. High-speed
+        internet connectivity provides extended access to vast intellectual
+        resources.
+      </ContentOnLeft>
+
+      <ContentOnRight
+        title="Library"
+        src="https://ssimdwarka.org/wp-content/uploads/2019/12/3.jpg"
+      >
+        SSIM Dwarka has a well-stocked library, replete with the latest and most
+        sought after books, National Journals, International Journals &
+        e-journals. We realize that the library and information systems play a
+        pivotal role in the learning activities of students. Accordingly, we
+        ensure that our library is kept updated with the latest information and
+        learning tools.
+      </ContentOnRight>
+
+      <ContentOnLeft
+        title="Co-curricular Activities"
+        src="https://ssimdwarka.org/wp-content/uploads/2019/12/4.jpg"
+      >
+        While you study at SSIM Dwarka, you will be actively encouraged to
+        participate & engage in co-curricular activities. The institute
+        organizes many social and sporting events throughout the year to develop
+        holistic creativity.
+      </ContentOnLeft>
+
+      <ContentOnRight
+        title="Cafeteria"
+        src="https://ssimdwarka.org/wp-content/uploads/2019/12/5.jpg"
+      >
+        The institution has an ultra-modern canteen with an aesthetic sense of
+        design and décor which offers hygienic, wholesome and nutritious food at
+        subsidized rates to satisfy different taste buds. Complete, planned food
+        is served in neat, clean & hygienic surroundings.
+      </ContentOnRight>
+
+      <ContentOnLeft
+        title="Wi-Fi Enabled"
+        src="https://ssimdwarka.org/wp-content/uploads/2019/12/6.jpg"
+      >
+        We have a State-of-the-Art, fully air-conditioned, Wifi campus with 24x7
+        high bandwidth internet connectivity. The IT lab consists of computers
+        in interconnected local area networks. Our IT programs are regularly
+        updated by incorporating the latest hardware/ software developments
+        across the world.
+      </ContentOnLeft>
     </>
   )
 }

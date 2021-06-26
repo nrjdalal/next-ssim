@@ -36,66 +36,66 @@ const the_group = () => {
         <h1 className="pt-12 text-center italic">List of Our Institutes</h1>
       </ProseWide>
 
-      <div className="mx-auto md:w-5/6 px-6 pb-16">
+      <div className="mx-auto md:w-5/6 px-6 pb-8">
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="text-center lg:text-left"
+          ppClassName="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Management, New Delhi
         </ContentOnRight>
 
         <ContentOnLeft
           src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
-          className="text-center lg:text-right"
+          pClassName="text-center lg:text-right"
         >
           International Polytechnic for Women, New Delhi
         </ContentOnLeft>
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="text-center lg:text-left"
+          pClassName="text-center lg:text-left"
         >
           Swarn Public School, New Delhi
         </ContentOnRight>
 
         <ContentOnLeft
           src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
-          className="text-center lg:text-right"
+          pClassName="text-center lg:text-right"
         >
           Sri Sukhmani Institute of Engineering & Technology, Chandigarh
         </ContentOnLeft>
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="text-center lg:text-left"
+          pClassName="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Hospitality & Management, Chandigarh
         </ContentOnRight>
 
         <ContentOnLeft
           src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
-          className="text-center lg:text-right"
+          pClassName="text-center lg:text-right"
         >
           Sri Sukhmani Institute of Dental College & Hospital, Chandigarh
         </ContentOnLeft>
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="text-center lg:text-left"
+          pClassName="text-center lg:text-left"
         >
           Sri Sukhmani Polytechnic, Chandigarh
         </ContentOnRight>
 
         <ContentOnLeft
           src="/about/the-group/Sri Sukhmanu Polytechnic.jpg"
-          className="text-center lg:text-right"
+          pClassName="text-center lg:text-right"
         >
           Sri Sukhmani International School, Chandigarh
         </ContentOnLeft>
 
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          className="text-center lg:text-left"
+          pClassName="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Medical Science & Research, Chandigarh
         </ContentOnRight>
