@@ -39,7 +39,7 @@ const the_group = () => {
       <div className="mx-auto md:w-5/6 px-6 pb-8">
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
-          ppClassName="text-center lg:text-left"
+          pClassName="text-center lg:text-left"
         >
           Sri Sukhmani Institute of Management, New Delhi
         </ContentOnRight>
