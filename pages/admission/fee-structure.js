@@ -24,7 +24,7 @@ const chairmans_message = () => {
         </blockquote>
         <br />
 
-        <div className="p-5 border-2 border-gray-100  w-2/3 text-sm sm:text-base">
+        <div className="p-5 border-2 border-gray-100 w-full md:w-2/3 text-sm sm:text-base">
           <table>
             <thead>
               <tr>
@@ -88,7 +88,7 @@ const chairmans_message = () => {
 
         <h2 className="italic">RTGS / NEFT / BANK TRANSFER</h2>
 
-        <div className="p-5 border-2 border-gray-100  w-2/3 text-sm sm:text-base">
+        <div className="p-5 border-2 border-gray-100 w-full md:w-2/3 text-sm sm:text-base">
           <table>
             <thead>
               <tr>
