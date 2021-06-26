@@ -63,3 +63,20 @@ export const ContentOnRight = (props) => {
     </FlexColumnCenter>
   )
 }
+
+export const Logo150 = (props) => {
+  return (
+    <>
+      <div className="h-[150px] w-[150px] m-3 border-2 border-gray-100 rounded-2xl">
+        <img
+          className="object-contain p-1.5 w-full h-full"
+          src={
+            props.src ||
+            'https://cdn.sstatic.net/Img/teams/teams-illo-free-sidebar-promo.svg?v=47faa659a05e'
+          }
+          alt={props.alt || "couldn't load"}
+        />
+      </div>
+    </>
+  )
+}
