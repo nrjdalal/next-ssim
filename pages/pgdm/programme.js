@@ -5,7 +5,7 @@ const programme = () => {
     <>
       <ProseWide className="pb-24 md:w-2/3">
         <h2 className="pt-12 text-left">PGDM PROGRAM</h2>
-        <blockquote>
+        <blockquote className="text-sm sm:text-base">
           Our PGDM program, combined with SAP Training, is an innovative pursuit
           in management education. It combines skill-oriented qualifications in
           the field of management services including management research and
@@ -20,7 +20,7 @@ const programme = () => {
           greater exposure to multiple levels of expertise and knowledge.
         </blockquote>
         <h2 className="text-left">PROGRAM HIGHLIGHTS</h2>
-        <p className="pl-4 text-left text-sm sm:text-base">
+        <p className="pl-2 text-left text-xs sm:text-base">
           <li>A pragmatic approach to learning through case studies</li>
           <li>Specialized Personality Development Programs</li>
           <li>Field Training and Practical coaching using Live Projects</li>
