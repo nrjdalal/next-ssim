@@ -1,3 +1,3 @@
 ssimdwarka.org
 form fixed
-photos
+photos yay
