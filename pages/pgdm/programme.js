@@ -39,7 +39,7 @@ const programme = () => {
               <thead className="text-center">
                 <tr>
                   <th className="text-left">
-                    <strong>Course Code</strong>
+                    <strong>Code</strong>
                   </th>
                   <th>
                     <strong>Subject Name</strong>
@@ -101,7 +101,7 @@ const programme = () => {
               <thead className="text-center">
                 <tr>
                   <th className="text-left">
-                    <strong>Course Code</strong>
+                    <strong>Code</strong>
                   </th>
                   <th>
                     <strong>Subject Name</strong>
@@ -162,7 +162,7 @@ const programme = () => {
             <thead className="text-center">
               <tr>
                 <th className="text-left">
-                  <strong>Course Code</strong>
+                  <strong>Code</strong>
                 </th>
                 <th>
                   <strong>Subject Name</strong>
@@ -222,7 +222,7 @@ const programme = () => {
             <thead className="text-center">
               <tr>
                 <th className="text-left">
-                  <strong>Course Code</strong>
+                  <strong>Code</strong>
                 </th>
                 <th>
                   <strong>Subject Name</strong>
@@ -291,7 +291,7 @@ const programme = () => {
             <thead className="text-center">
               <tr>
                 <th className="text-left">
-                  <strong>Course Code</strong>
+                  <strong>Code</strong>
                 </th>
                 <th>
                   <strong>Subject Name</strong>
@@ -360,7 +360,7 @@ const programme = () => {
             <thead className="text-center">
               <tr>
                 <th className="text-left">
-                  <strong>Course Code</strong>
+                  <strong>Code</strong>
                 </th>
                 <th>
                   <strong>Subject Name</strong>
@@ -400,7 +400,7 @@ const programme = () => {
             <thead className="text-center">
               <tr>
                 <th className="text-left">
-                  <strong>Course Code</strong>
+                  <strong>Code</strong>
                 </th>
                 <th>
                   <strong>Subject Name</strong>
