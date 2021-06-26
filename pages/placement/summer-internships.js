@@ -1,12 +1,30 @@
 import Breadcrumb from '../../components/Breadcrumb'
+import { ProseWide } from '../../components/Universal'
 
 const rename_later = () => {
   return (
     <>
       <Breadcrumb title="Summer Internships" />
-      <div className="w-screen h-[720px] flex items-center justify-center prose">
-        <blockquote>Content Coming Soon</blockquote>
-      </div>
+      <ProseWide className="py-24">
+        <p>
+          The right internship is an important aspect of the entire PGDM
+          programme. In a continually changing corporate world, it is imperative
+          for business schools to prepare their students for taking on future
+          challenges. An internship tenure not only adds value to the degree but
+          also defines the future career path of the degree holder.
+        </p>
+
+        <p>
+          Internship programs by SSIM are devised to heighten the awareness of
+          students regarding various rural and social issues and the corporate
+          work culture. Students are required to complete summer internships
+          with corporate business houses. These give them a fundamental
+          understanding of the functioning of various organizations and
+          businesses.
+        </p>
+
+        <p>~ Recruiters Logos to be added ~</p>
+      </ProseWide>
     </>
   )
 }

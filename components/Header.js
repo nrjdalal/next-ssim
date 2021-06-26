@@ -208,11 +208,11 @@ const Header = () => {
                       Value Added Courses
                     </a>
                   </Link>
-                  <Link href="/pgdm/faqs">
+                  {/* <Link href="/pgdm/faqs">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">
                       FAQs
                     </a>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
