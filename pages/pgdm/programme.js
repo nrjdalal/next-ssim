@@ -31,7 +31,7 @@ const programme = () => {
 
         <h2 className="text-left">PGDM PROGRAM STRUCTURE</h2>
 
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap justify-center">
           <div className="w-full lg:w-1/2 lg:pr-5 lg:border-r-2 lg:border-gray-100">
             {/* Trimester 1 */}
             <h3 className="pl-12 text-left italic">TRIMESTER I</h3>
