@@ -36,8 +36,8 @@ export const ContentOnLeft = (props) => {
         src={props.src}
         alt={props.alt}
       />
-      <div className="prose px-5 pt-5 pb-10 text-justify order-2 lg:order-1 w-full lg:pr-12">
-        <h2 className={`text-center mt-0${props.hClassName}`}>
+      <div className="prose px-5 pt-8 lg:pt-0 text-justify order-2 lg:order-1 w-full lg:pr-12">
+        <h2 className={`italic text-center mt-0 ${props.hClassName}`}>
           {props.title || ''}
         </h2>
         <p className={`${props.pClassName}`}>{props.children || ''}</p>
@@ -54,8 +54,8 @@ export const ContentOnRight = (props) => {
         src={props.src}
         alt={props.alt}
       />
-      <div className="prose px-5 pt-5 pb-10 text-justify w-full lg:pl-12">
-        <h2 className={`text-center mt-0 ${props.hClassName}`}>
+      <div className="prose px-5 pt-8 lg:pt-0 text-justify w-full lg:pl-12">
+        <h2 className={`italic text-center mt-0 ${props.hClassName}`}>
           {props.title || ''}
         </h2>
         <p className={`${props.pClassName}`}>{props.children || ''}</p>
