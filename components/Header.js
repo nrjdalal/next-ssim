@@ -86,7 +86,7 @@ const Header = () => {
         </div>
       </div>
       {/* Header */}
-      <header className="text-gray-600 body-font bg-white border-b-2 border-gray-200">
+      <header className="hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
         <div className="container mx-auto flex p-5 items-center justify-between">
           <Link href="/">
             <a className="font-medium text-gray-900 md:mb-0">

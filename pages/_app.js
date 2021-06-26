@@ -4,11 +4,13 @@ import '../styles/globals.css'
 import Header from '../components/Header'
 import Pop_ups from '../components/Pop-ups'
 import Footer from '../components/Footer'
+import MobBar from '../components/MobBar'
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
+      <MobBar />
       <Pop_ups />
       <Component {...pageProps} />
       <Footer />
