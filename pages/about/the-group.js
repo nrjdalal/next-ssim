@@ -52,7 +52,7 @@ const the_group = () => {
         </ContentOnLeft>
 
         <ContentOnRight
-          src="/about/the-group/Sri Swarn Public School.jpg"
+          src="/about/the-group/Swarn Public School.jpg"
           pClassName="text-center lg:text-left"
         >
           Swarn Public School, New Delhi
@@ -80,7 +80,7 @@ const the_group = () => {
         </ContentOnLeft>
 
         <ContentOnRight
-          src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
+          src="/about/the-group/Sri Sukhmani College of Nursing.jpg"
           pClassName="text-center lg:text-left"
         >
           Sri Sukhmani Polytechnic, Chandigarh
