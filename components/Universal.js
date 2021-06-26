@@ -38,7 +38,7 @@ export const ContentOnLeft = (props) => {
       />
       <div className="order-2 lg:order-1 w-full lg:pr-12">
         <h2 className="text-center">{props.title || ''}</h2>
-        <p className="pb-5">{props.children || ''}</p>
+        <p className="py-5">{props.children || ''}</p>
       </div>
     </FlexColumnCenter>
   )
@@ -54,7 +54,7 @@ export const ContentOnRight = (props) => {
       />
       <div className="w-full lg:pl-12">
         <h2 className="text-center">{props.title || ''}</h2>
-        <p className="pb-5">{props.children || ''}</p>
+        <p className="py-5">{props.children || ''}</p>
       </div>
     </FlexColumnCenter>
   )

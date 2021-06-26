@@ -34,7 +34,9 @@ const the_group = () => {
         </FlexColumnCenter>
 
         <h1 className="pt-12 text-center italic">List of Our Institutes</h1>
+      </ProseWide>
 
+      <div className="mx-auto md:w-5/6 px-6 pb-16">
         <ContentOnRight
           src="/about/the-group/Sri Sukhmani Institute of Management Dwarka.jpg"
           className="text-center lg:text-left"
@@ -97,7 +99,7 @@ const the_group = () => {
         >
           Sri Sukhmani Institute of Medical Science & Research, Chandigarh
         </ContentOnRight>
-      </ProseWide>
+      </div>
     </>
   )
 }
