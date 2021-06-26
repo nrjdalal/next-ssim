@@ -37,14 +37,14 @@ const Partners = () => {
           </div>
           <Link href="/admission/online-form">
             <a>
-              <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">
+              <button className="bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">
                 READ MORE
               </button>
             </a>
           </Link>
         </div>
 
-        <div className="flex flex-col items-center w-full">
+        <div className="flex flex-col items-center w-full pt-12 lg:p-0">
           <h1 className="text-3xl font-semibold italic text-white">
             Corporate Tesimonials
           </h1>
@@ -77,7 +77,7 @@ const Partners = () => {
           </div>
           <Link href="/admission/online-form">
             <a>
-              <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">
+              <button className="bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">
                 READ MORE
               </button>
             </a>
