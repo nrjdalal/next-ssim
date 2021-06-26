@@ -3,7 +3,7 @@ import { ProseWide } from '../../components/Universal'
 const programme = () => {
   return (
     <>
-      <ProseWide className="pb-24 md:w-2/3">
+      <ProseWide className="pb-12 md:w-2/3">
         <h2 className="pt-12 text-left">PGDM PROGRAM</h2>
         <blockquote className="text-sm sm:text-base">
           Our PGDM program, combined with SAP Training, is an innovative pursuit
