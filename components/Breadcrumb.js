@@ -1,8 +1,12 @@
+import Head from 'next/head'
 import Link from 'next/link'
 
 const Breadcrumb = (props) => {
   return (
     <>
+      <Head>
+        <title>SSIM - {props.title}</title>
+      </Head>
       <div className="relative h-[100px] sm:h-[150px] md:h-[200px] w-full bg-gray-800 flex items-center">
         <img
           className="h-full opacity-30"
