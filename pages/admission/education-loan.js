@@ -5,8 +5,8 @@ const rename_later = () => {
   return (
     <>
       <Breadcrumb title="education loan" />
-      <ProseWide className="pb-12">
-        <blockquote className="pt-12">
+      <ProseWide className="py-24">
+        <blockquote>
           Sri Sukhmani Institute of Management is recognized by all the
           Nationalized and Private Banks for grant of education loans to its
           students. The Institute Facilitate students with necessary documents
