@@ -106,7 +106,10 @@ const Footer = () => {
               © 2020 ssimdwarka.org
             </p>
             <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-left text-white text-sm">
-              Designed by VeroXyle
+              Designed by{' '}
+              <Link href="https://veroxyle.com">
+                <a>VeroXyle</a>
+              </Link>
             </span>
           </div>
         </div>
