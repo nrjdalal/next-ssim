@@ -24,7 +24,7 @@ const Hero = () => {
           src="/images/banners/banner-1-sm.jpg"
         />
         <img
-          className="sm:absolute xl:hidden h-[500px] object-cover object-top w-screen z-10"
+          className="xl:hidden sm:absolute h-[500px] object-cover object-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-1-md.jpg"
         />
@@ -33,8 +33,6 @@ const Hero = () => {
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
         />
-
-        {/* Repeating */}
 
         {/* <img
           ref={(el) => {
