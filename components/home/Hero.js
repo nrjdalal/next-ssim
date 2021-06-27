@@ -5,21 +5,39 @@ const Hero = () => {
   const slides = useRef([])
   slides.current = []
 
-  // useEffect(() => {
-  //   gsap.from(slides.current, {
-  //     opacity: 0,
-  //     ease: Power1.easeInOut,
-  //     duration: 5,
-  //     stagger: 7,
-  //     repeat: -1,
-  //   })
-  // }, [])
+  useEffect(() => {
+    gsap.from(slides.current, {
+      opacity: 0,
+      ease: Power1.easeInOut,
+      duration: 5,
+      stagger: 7,
+      repeat: -1,
+    })
+  }, [])
 
   return (
     <>
       <section className="relative h-[200px] md:h-[300px] bg-blue-900">
         <img
           className="absolute h-[200px] md:h-[300px] object-cover object-top w-screen z-10"
+          alt="hero"
+          src="/images/banners/banner-1-lg.jpg"
+        />
+
+        <img
+          ref={(el) => {
+            slides.current[0] = el
+          }}
+          className="absolute h-[200px] md:h-[300px] object-cover z-10 object-left md:object-center w-screen"
+          alt="hero"
+          src="/images/banners/banner-2-lg.jpg"
+        />
+
+        <img
+          ref={(el) => {
+            slides.current[1] = el
+          }}
+          className="absolute h-[200px] md:h-[300px] object-cover z-10 object-center w-screen"
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
         />
