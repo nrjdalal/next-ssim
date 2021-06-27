@@ -17,9 +17,9 @@ const Hero = () => {
 
   return (
     <>
-      <section className="relative h-[200px] md:h-[300px] bg-blue-900">
+      <section className="relative h-[500px] md:h-[500px] bg-blue-900">
         <img
-          className="absolute h-[200px] md:h-[300px] object-cover object-top w-screen z-10"
+          className="absolute h-[500px] md:h-[500px] object-cover object-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
         />
@@ -28,7 +28,7 @@ const Hero = () => {
           ref={(el) => {
             slides.current[0] = el
           }}
-          className="absolute h-[200px] md:h-[300px] object-cover object-top w-screen z-10"
+          className="absolute h-[500px] md:h-[500px] object-cover object-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-2-lg.jpg"
         />
@@ -37,7 +37,7 @@ const Hero = () => {
           ref={(el) => {
             slides.current[1] = el
           }}
-          className="absolute h-[200px] md:h-[300px] object-cover object-top w-screen z-10"
+          className="absolute h-[500px] md:h-[500px] object-cover object-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
         />

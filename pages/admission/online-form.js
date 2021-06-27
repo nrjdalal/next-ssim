@@ -19,7 +19,7 @@ const online_form = () => {
 
   return (
     <>
-      <Breadcrumb title="online form" />
+      <Breadcrumb title="Apply Now" />
       <form name="onlineForm" onSubmit={(e) => handleSubmit(e)}>
       <div className="container mx-auto prose my-12 px-5 flex flex-col max-w-[600px]">
         <h2>Basic Information</h2>
