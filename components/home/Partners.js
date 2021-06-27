@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 const Partners = () => {
   return (
-    <div className="bg-[#096b97]">
-      <div className="container mx-auto flex flex-col lg:flex-row p-6 py-16 pb-[150px]">
+    <div className="bg-[#096b97] py-16">
+      <div className="container mx-auto flex flex-col lg:flex-row p-6">
         <div className="flex flex-col items-center w-full">
           <h1 className="text-3xl font-semibold italic text-white">
             Alumni Tesimonials

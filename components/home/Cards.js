@@ -2,7 +2,7 @@ const Cards = () => {
   return (
     <>
       <section className="text-gray-400 body-font text-justify">
-        <div className="container px-5 py-6 pb-12 mx-auto">
+        <div className="container px-5 py-6 pb-24 mx-auto">
           <div className="flex flex-wrap -m-4 justify-center">
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-yellow-500 p-6 rounded-lg">
@@ -18,7 +18,7 @@ const Cards = () => {
                   </h3>
                 </div>
 
-                <p className="pt-3 text-white text-sm line-clamp-4">
+                <p className="pt-3 text-white text-sm line-clamp-5">
                   SSIM students are professionals and intellectuals, in the
                   making. The institution provides a learning environment that
                   is adaptable and flexible, facilitating potential change in
@@ -42,7 +42,7 @@ const Cards = () => {
                     NEWS AND EVENTS
                   </h3>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-4">
+                <p className="pt-3 text-white text-sm line-clamp-5">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Cupiditate praesentium iure eveniet, nulla quae numquam
                   repellat esse porro incidunt eos? Placeat praesentium
@@ -63,7 +63,7 @@ const Cards = () => {
                     ALUMNI TESTIMONIAL
                   </h3>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-4">
+                <p className="pt-3 text-white text-sm line-clamp-5">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Cupiditate praesentium iure eveniet, nulla quae numquam
                   repellat esse porro incidunt eos? Placeat praesentium
@@ -84,7 +84,7 @@ const Cards = () => {
                     NEWSLETTER
                   </h3>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-4">
+                <p className="pt-3 text-white text-sm line-clamp-5">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Cupiditate praesentium iure eveniet, nulla quae numquam
                   repellat esse porro incidunt eos? Placeat praesentium
