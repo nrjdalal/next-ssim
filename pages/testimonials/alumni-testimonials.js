@@ -77,7 +77,7 @@ const alumni_testimonials = () => {
                 <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="/images/testimonials/alumni/Abhinav Singh.jpg"
+                  src="/images/testimonials/alumni/Abhinav Singh.JPG"
                 />
                 <p className="leading-relaxed">
                   This college is one of the best college in delhi , this college provides an excellent learning environment, with amazing infrastructure. This college provides wonderful 100 % placement .
@@ -94,7 +94,7 @@ const alumni_testimonials = () => {
                 <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="/images/testimonials/alumni/Anvita.jpg"
+                  src="/images/testimonials/alumni/Anvita.JPG"
                 />
                 <p className="leading-relaxed">
                   SSIM has given me a huge platform to showcase my talent, enhance my strengths and overcome my weaknesses. The faculty at SSIM is one of the best as they are very helpful and are always present whenever the students need. The corporate resource centre helped us a lot for placements.
@@ -145,7 +145,7 @@ const alumni_testimonials = () => {
                 <img
                   alt="testimonial"
                   className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="/images/testimonials/alumni/Aanchal.jpg"
+                  src="/images/testimonials/alumni/Aanchal.JPG"
                 />
                 <p className="leading-relaxed">
                   I learnt and gained extensive experiences which helped throughout my studies in all my thick and thin. The knowledge and discipline we get from this SSIM is phenomenal which helps you to succeed all the endeavors. And I’m sure it will help me in my in professional world. I owe a huge vote of thanks to every opportunity given to me to explore my personality and potential at SSIM.
