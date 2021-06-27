@@ -342,7 +342,7 @@ const Input_mandtory = (props) => {
         <label className="m-1">
           {props.name} <span className="text-red-500">*</span>
         </label>
-        <input type={props.type} name={props.fieldName} placeholder={props.placeholder || ''} />
+        <input type={props.type} name={props.fieldName} placeholder={props.placeholder || ''} required/>
       </div>
     </>
   )
