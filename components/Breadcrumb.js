@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Breadcrumb = (props) => {
   const capitalize = (text) => {
-    return text.charAt(0).toUpperCase() + text.slice(1)
+    return text.toUpperCase()
   }
   return (
     <>
@@ -19,12 +19,12 @@ const Breadcrumb = (props) => {
         <div className="absolute px-[20px] sm:px-[40px] md:px-[60px] lg:px-[80px] xl:px-[100px] 2xl:px-[120px]">
           <p className="text-xl sm:text-2xl text-green-500 tracking-widest">
             <Link href="/">
-              <a className="">Home</a>
+              <a className="">HOME</a>
             </Link>
             &nbsp;&nbsp;
             {' > '}
             &nbsp;&nbsp;
-            <a className="capitalize">{props.title}</a>
+            <a className="uppercase">{props.title}</a>
           </p>
         </div>
       </div>
