@@ -2,13 +2,11 @@ import Breadcrumb from '../../components/Breadcrumb'
 import { Logo150, ProseWide } from '../../components/Universal'
 
 const rename_later = () => {
-
-  let srcs = [];
+  let srcs = []
 
   for (let index = 1; index <= 53; index++) {
     srcs.push(`/images/recruiters/${index}.jpg`)
   }
-
 
   return (
     <>
@@ -27,13 +25,15 @@ const rename_later = () => {
           the corporate world much before they actually get into it.
         </p>
       </ProseWide>
-      <div className="mx-auto md:w-5/6 px-3 pt-2 pb-24">
-        {
-          srcs.map((src, index) => {
+      {/* <div className="mx-auto md:w-5/6 px-3 pt-2 pb-24"> */}
+      <div className="container mx-auto px-6 py-24 pt-12">
+        <div className="flex flex-wrap justify-center">
+          {srcs.map((src, index) => {
             return <Logo150 key={index} src={src} />
-          })
-        }
+          })}
+        </div>
       </div>
+      {/* </div> */}
     </>
   )
 }
