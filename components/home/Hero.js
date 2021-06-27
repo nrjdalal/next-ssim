@@ -17,7 +17,12 @@ const Hero = () => {
 
   return (
     <>
-      <section className="relative h-[500px] md:h-[500px] bg-blue-900">
+      <img
+        className="w-screen bg-[#096b97] mb-20"
+        src="/images/banners/1.png"
+        alt=""
+      />
+      {/* <section className="relative h-[500px] md:h-[500px] bg-blue-900">
         <img
           className="absolute h-[500px] md:h-[500px] object-cover object-top w-screen z-10"
           alt="hero"
@@ -40,9 +45,9 @@ const Hero = () => {
           className="absolute h-[500px] md:h-[500px] object-cover object-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
-        />
+        /> */}
 
-        {/* <img
+      {/* <img
           ref={(el) => {
             slides.current[0] = el
           }}
@@ -83,7 +88,7 @@ const Hero = () => {
           src="/images/banners/Banner 1.jpg"
         /> */}
 
-        {/* <img
+      {/* <img
           ref={(el) => {
             slides.current[5] = el
           }}
@@ -123,7 +128,7 @@ const Hero = () => {
           alt="hero"
           src="https://images.unsplash.com/photo-1503428593586-e225b39bddfe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
         /> */}
-      </section>
+      {/* </section> */}
     </>
   )
 }
