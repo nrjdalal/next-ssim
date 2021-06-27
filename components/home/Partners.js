@@ -15,23 +15,20 @@ const Partners = () => {
                 <div className="aspect-h-1 aspect-w-1">
                   <img
                     className="rounded-3xl object-cover"
-                    src="https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aW5kaWFuJTIwbWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                    src="/images/testimonials/alumni/Abhinav Singh.jpg"
                     alt=""
                   />
                 </div>
               </div>
               <div className="pl-5">
-                <div className="font-medium">Abhishek Garg</div>
-                <div>VeroXyle</div>
+                <div className="font-medium">Abhinav Singh</div>
+                <div>PGDM Batch 2017-19</div>
               </div>
             </div>
             {/* Part 2 */}
             <div className="prose mt-8">
               <blockquote className="">
-                Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                carry neutra before they sold out fixie 90&apos;s microdosing.
-                Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard
-                pabst authentic iceland.
+                This college is one of the best college in delhi , this college provides an excellent learning environment, with amazing infrastructure. This college provides wonderful 100 % placement .
               </blockquote>
             </div>
           </div>
@@ -55,23 +52,20 @@ const Partners = () => {
                 <div className="aspect-h-1 aspect-w-1">
                   <img
                     className="rounded-3xl object-cover"
-                    src="https://images.unsplash.com/photo-1616084403156-9ae114afa6a0?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aW5kaWFuJTIwbWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                    src="/images/testimonials/corporate/Muni Raman.jpg"
                     alt=""
                   />
                 </div>
               </div>
               <div className="pl-5">
-                <div className="font-medium">Aditya Dubey</div>
-                <div>Tata Consultant</div>
+                <div className="font-medium">Muni Raman</div>
+                <div>Singer, Actor</div>
               </div>
             </div>
             {/* Part 2 */}
             <div className="prose mt-8">
               <blockquote className="">
-                Synth chartreuse iPhone lomo cray raw denim brunch everyday
-                carry neutra before they sold out fixie 90&apos;s microdosing.
-                Tacos pinterest fanny pack venmo, post-ironic heirloom try-hard
-                pabst authentic iceland.
+                I really enjoyed interacting with the high energy students of SSIM. I believe the institute has been creating capable leaders of tomorrow who have entrepreneurial skills and competencies.
               </blockquote>
             </div>
           </div>

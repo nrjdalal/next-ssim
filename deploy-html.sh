@@ -4,7 +4,8 @@ set -e
 read -p "Commit Name - " CNAME
 
 # auto push latest next repository
-git commit -am "$CNAME"
+git add -A
+git commit -m "$CNAME"
 git pull
 git push
 
