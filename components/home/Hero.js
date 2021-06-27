@@ -5,26 +5,42 @@ const Hero = () => {
   const slides = useRef([])
   slides.current = []
 
-  useEffect(() => {
-    gsap.from(slides.current, { opacity: 0, ease: Power1.easeInOut, duration: 5, stagger: 7, repeat: -1 })
-  }, [])
+  // useEffect(() => {
+  //   gsap.from(slides.current, {
+  //     opacity: 0,
+  //     ease: Power1.easeInOut,
+  //     duration: 5,
+  //     stagger: 7,
+  //     repeat: -1,
+  //   })
+  // }, [])
 
   return (
     <>
       <section className="relative h-[500px] bg-blue-900">
         <img
-          className="absolute h-[500px] object-cover object-center w-screen"
+          className="absolute sm:hidden h-[500px] object-cover object-top w-screen z-10"
           alt="hero"
-          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
+          src="/images/banners/banner-1-sm.jpg"
+        />
+        <img
+          className="sm:absolute xl:hidden h-[500px] object-cover object-top w-screen z-10"
+          alt="hero"
+          src="/images/banners/banner-1-md.jpg"
+        />
+        <img
+          className="xl:absolute h-[500px] object-cover object-top w-screen z-10"
+          alt="hero"
+          src="/images/banners/banner-1-lg.jpg"
         />
 
         {/* Repeating */}
 
-        <img
+        {/* <img
           ref={(el) => {
             slides.current[0] = el
           }}
-          className="absolute h-[500px] object-cover z-10 object-center w-screen"
+          className="absolute h-[500px] object-cover z-10 object-left md:object-center w-screen"
           alt="hero"
           src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80"
         />
@@ -58,8 +74,9 @@ const Hero = () => {
           }}
           className="absolute h-[500px] object-cover z-10 object-center w-screen"
           alt="hero"
-          src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80"
-        />
+          src="/images/banners/Banner 1.jpg"
+        /> */}
+
         {/* <img
           ref={(el) => {
             slides.current[5] = el
