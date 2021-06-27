@@ -11,7 +11,7 @@ const Logos = () => {
                 className="mw-33p pr300 px350-ns w-100p"
                 height="90"
                 width="90"
-                src="/images/footerLogo/AIMA.png"
+                src="/images/footerLogo/AIMA.jpg"
                 alt=""
               />
             </div>
@@ -20,7 +20,7 @@ const Logos = () => {
                 className="mw-33p pr300 px350-ns w-100p"
                 height="90"
                 width="90"
-                src="/images/footerLogo/AICTE.jpg"
+                src="/images/footerLogo/AICTE.png"
                 alt=""
               />
             </div>
