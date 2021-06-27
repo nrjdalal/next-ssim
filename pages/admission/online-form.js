@@ -1,17 +1,14 @@
 import Breadcrumb from '../../components/Breadcrumb'
-import { useState } from 'react';
 import axios from 'axios'
 
 const online_form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    var formElement = document.querySelector("form");
+    var formElement = document.forms.namedItem("onlineForm");
     var formData = new FormData(formElement);
     axios.post("https://formsubmit.co/ajax/admin@nrjdalal.com", formData).then(res=>{
       if(res.status === 200){
-        setActive(false)
-        setFormState(initialState)
         alert("form submitted")
       }
     }).catch(e => {
@@ -23,7 +20,7 @@ const online_form = () => {
   return (
     <>
       <Breadcrumb title="online form" />
-      <form onSubmit={(e) => handleSubmit(e)}>
+      <form name="onlineForm" onSubmit={(e) => handleSubmit(e)}>
       <div className="container mx-auto prose my-12 px-5 flex flex-col max-w-[600px]">
         <h2>Basic Information</h2>
         <Input_mandtory name="NAME (MR./MS.)" fieldName="Name" type="text" className="mt-0" />
