@@ -2,6 +2,14 @@ import Breadcrumb from '../../components/Breadcrumb'
 import { Logo150, ProseWide } from '../../components/Universal'
 
 const rename_later = () => {
+
+  let srcs = [];
+
+  for (let index = 1; index <= 53; index++) {
+    srcs.push(`/images/recruiters/${index}.jpg`)
+  }
+
+
   return (
     <>
       <Breadcrumb title="Live Projects" />
@@ -20,7 +28,11 @@ const rename_later = () => {
         </p>
       </ProseWide>
       <div className="mx-auto md:w-5/6 px-3 pt-2 pb-24">
-        <Logo150 />
+        {
+          srcs.map((src, index) => {
+            return <Logo150 key={index} src={src} />
+          })
+        }
       </div>
     </>
   )
