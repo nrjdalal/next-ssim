@@ -60,7 +60,7 @@ const Cards = () => {
                   </h3>
                 </div>
                 <p className="pt-3 text-white text-sm line-clamp-5">
-                A Bachelor's degree in any discipline with minimum 50% marks from a recognized University. Candidates appearing for their final year exam may also apply. Short listing will be based on CAT/MAT/CMAT and S-SAT score and GD/PI/TI.
+                A Bachelor&apos;s degree in any discipline with minimum 50% marks from a recognized University. Candidates appearing for their final year exam may also apply. Short listing will be based on CAT/MAT/CMAT and S-SAT score and GD/PI/TI.
                 </p>
               </div>
             </div>
