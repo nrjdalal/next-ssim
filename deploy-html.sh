@@ -4,8 +4,8 @@ set -e
 read -p "Commit Name - " CNAME
 
 # auto push latest next repository
-git add .
-git commit -m "$CNAME"
+git commit -am "$CNAME"
+git pull
 git push
 
 # create a nextstatic(ns) build
