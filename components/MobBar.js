@@ -73,7 +73,7 @@ const MobBar = () => {
           <a>
             <img
               className="h-14 md:h-16"
-              src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png"
+              src="/images/logo-ssim.png"
               alt=""
             />
           </a>
