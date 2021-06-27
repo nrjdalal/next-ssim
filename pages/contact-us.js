@@ -13,14 +13,13 @@ const Contact_us = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("https://htmlFormsubmit.co/ajax/admin@nrjdalal.com", {...FormState}).then(res=>{
+    axios.post("https://formsubmit.co/ajax/admin@nrjdalal.com", {...FormState}).then(res=>{
       if(res.status === 200){
-        setActive(false)
         setFormState(initialState)
-        alert("htmlForm submitted")
+        alert("Form submitted")
       }
     }).catch(e => {
-      alert("htmlForm not submitted")
+      alert("Form not submitted")
     });
   }
 
