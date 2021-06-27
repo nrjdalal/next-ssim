@@ -25,10 +25,11 @@ const Pop_ups = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("https://formsubmit.co/ajax/d06b62be7b28e72ef3ef1519cbcfaa17", {...formState}).then(res=>{
+    axios.post("https://formsubmit.co/ajax/admin@nrjdalal.com", {...formState}).then(res=>{
       if(res.status === 200){
         setActive(false)
         setFormState(initialState)
+        alert("form submitted")
       }
     }).catch(e => {
       alert("form not submitted")

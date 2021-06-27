@@ -1,54 +1,79 @@
 import Breadcrumb from '../../components/Breadcrumb'
+import { useState } from 'react';
 
 const online_form = () => {
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    var formElement = document.querySelector("form");
+    var formData = new FormData(formElement);
+    axios.post("https://formsubmit.co/ajax/admin@nrjdalal.com", formData).then(res=>{
+      if(res.status === 200){
+        setActive(false)
+        setFormState(initialState)
+        alert("form submitted")
+      }
+    }).catch(e => {
+      alert("form not submitted")
+    });
+  }
+
+
   return (
     <>
       <Breadcrumb title="online form" />
+      <form onSubmit={(e) => handleSubmit(e)}>
       <div className="container mx-auto prose my-12 px-5 flex flex-col max-w-[600px]">
         <h2>Basic Information</h2>
-        <Input_mandtory name="NAME (MR./MS.)" type="text" className="mt-0" />
-        <Input_mandtory name="E-mail Id" type="email" />
+        <Input_mandtory name="NAME (MR./MS.)" fieldName="Name" type="text" className="mt-0" />
+        <Input_mandtory name="E-mail Id" fieldName="email" type="email" />
         <div className="flex flex-col sm:flex-row">
           <Input_mandtory
             name="Aadhaar Card No"
             type="text"
+            fieldName="aadhar"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Mobile No"
             type="text"
+            fieldName="mobile"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
 
         <h2>Father&apos;s Information</h2>
-        <Input_mandtory name="FATHER’S NAME" type="text" className="mt-0" />
+        <Input_mandtory name="FATHER’S NAME" type="text" fieldName="father name" className="mt-0" />
         <Mandatory_textarea name="Organization Name & Address" />
         <div className="flex flex-col sm:flex-row">
           <Input_mandtory
             name="Designation"
             type="text"
+            fieldName="fathers-Designation"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Mobile No"
             type="text"
+            fieldName="fathers-mobile"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
 
         <h2>Mother&apos;s Information</h2>
-        <Input_mandtory name="MOTHER'S NAME" type="text" className="mt-0" />
+        <Input_mandtory name="MOTHER'S NAME" fieldName="mothers-name" type="text" className="mt-0" />
         <Mandatory_textarea name="Organization Name & Address" />
         <div className="flex flex-col sm:flex-row">
           <Input_mandtory
             name="Designation"
             type="text"
+            fieldName="mothers-designation"
             className="sm:w-1/2 mr-2"
           />
           <Input_mandtory
             name="Mobile No"
             type="text"
+            fieldName="mothers-mobile"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -58,11 +83,13 @@ const online_form = () => {
           <Input_mandtory
             name="Date of Birth"
             type="date"
+            fieldName="DOB"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Religion"
             type="text"
+            fieldName="Relegion"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -71,11 +98,13 @@ const online_form = () => {
           <Input_mandtory
             name="Category (SC/ST/OBC/Genral)"
             type="text"
+            fieldName="category"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Nationality"
             type="text"
+            fieldName="nationality"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -88,11 +117,13 @@ const online_form = () => {
           <Input_mandtory
             name="State"
             type="text"
+            fieldName="permanent_state"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Pin Code"
             type="text"
+            fieldName="permanent_pin_code"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -102,11 +133,13 @@ const online_form = () => {
           <Input_mandtory
             name="State"
             type="text"
+            fieldName="present_state"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Pin Code"
             type="text"
+            fieldName="present_pin_code"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -117,11 +150,13 @@ const online_form = () => {
           <Input_mandtory
             name="Board / University"
             type="text"
+            fieldName="high_school_board"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Year of Passing"
             type="text"
+            fieldName="high_school_year_of_passing"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -129,11 +164,13 @@ const online_form = () => {
           <Input_mandtory
             name="Percentage / Grade"
             type="text"
+            fieldName="high_school_precentage"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Specialization/Stream"
             type="text"
+            fieldName="high_school_specialization"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -143,11 +180,13 @@ const online_form = () => {
           <Input_mandtory
             name="Board / University"
             type="text"
+            fieldName="intermediate_board"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Year of Passing"
             type="text"
+            fieldName="intermediate_year_of_passing"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -155,6 +194,7 @@ const online_form = () => {
           <Input_mandtory
             name="Percentage / Grade"
             type="text"
+            fieldName="intermediate_passing_percentage"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
@@ -169,11 +209,13 @@ const online_form = () => {
           <Input_mandtory
             name="Board / University"
             type="text"
+            fieldName="graduation_board"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Year of Passing"
             type="text"
+            fieldName="graduation_year_of_passing"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -181,11 +223,13 @@ const online_form = () => {
           <Input_mandtory
             name="Percentage / Grade"
             type="text"
+            fieldName="graduation_percentage"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input_mandtory
             name="Specialization/Stream"
             type="text"
+            fieldName="graduation_specialization"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -195,11 +239,13 @@ const online_form = () => {
           <Input
             name="Board / University"
             type="text"
+            fieldName="other_board"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input
             name="Year of Passing"
             type="text"
+            fieldName="other_year_of_passing"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -207,11 +253,13 @@ const online_form = () => {
           <Input
             name="Percentage / Grade"
             type="text"
+            fieldName="other_percentage"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input
             name="Specialization/Stream"
             type="text"
+            fieldName="other_specialization"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -221,18 +269,20 @@ const online_form = () => {
           <Input
             name="Exam Name"
             type="text"
+            fieldName="Entrance_exam_name"
             className="sm:w-1/2 sm:mr-2"
             placeholder="CAT / MAT / C-MAT / Other"
           />
           <Input
             name="Reg./Roll No."
             type="text"
+            fieldName="entrance_exam_roll_no"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
         <div className="flex flex-col sm:flex-row">
-          <Input name="Score" type="text" className="sm:w-1/2 sm:mr-2" />
-          <Input name="Percentile" type="text" className="sm:w-1/2 sm:ml-2" />
+          <Input name="Score" type="text" fieldName="entrance_score" className="sm:w-1/2 sm:mr-2" />
+          <Input name="Percentile" type="text" fieldName="entrance_percentile" className="sm:w-1/2 sm:ml-2" />
         </div>
 
         <h3 className="italic">Professional Experience (if Any)</h3>
@@ -240,6 +290,7 @@ const online_form = () => {
           <Input
             name="Name of the Company"
             type="text"
+            fieldName="name_of_company"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input name="Designation" type="text" className="sm:w-1/2 sm:ml-2" />
@@ -248,11 +299,13 @@ const online_form = () => {
           <Input
             name="Period From-To"
             type="text"
+            fieldName="period_from_to"
             className="sm:w-1/2 sm:mr-2"
           />
           <Input
             name="Exp. in Year(s)"
             type="text"
+            fieldName="experience_in_years"
             className="sm:w-1/2 sm:ml-2"
           />
         </div>
@@ -260,6 +313,7 @@ const online_form = () => {
           <Input
             name="Responsibilities"
             type="text"
+            fieldName="responsibilities"
             className="sm:w-1/2 sm:mr-2"
           />
         </div>
@@ -268,6 +322,7 @@ const online_form = () => {
 
         <Input_mandtory
           name="Where did you come to know about the Institute and the program?"
+          fieldName="referral_details"
           type="text"
         />
 
@@ -277,6 +332,7 @@ const online_form = () => {
           SUMBIT
         </button>
       </div>
+      </form>
     </>
   )
 }
@@ -288,7 +344,7 @@ const Input_mandtory = (props) => {
         <label className="m-1">
           {props.name} <span className="text-red-500">*</span>
         </label>
-        <input type={props.type} placeholder={props.placeholder || ''} />
+        <input type={props.type} name={props.fieldName} placeholder={props.placeholder || ''} />
       </div>
     </>
   )
@@ -299,7 +355,7 @@ const Input = (props) => {
     <>
       <div className={`mt-4 w-full ${props.className}`}>
         <label className="m-1">{props.name}</label>
-        <input type={props.type} placeholder={props.placeholder || ''} />
+        <input type={props.type} name={props.fieldName} placeholder={props.placeholder || ''} />
       </div>
     </>
   )

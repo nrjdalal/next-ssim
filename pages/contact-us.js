@@ -1,6 +1,30 @@
 import Breadcrumb from '../components/Breadcrumb'
+import { useState } from 'react';
 
 const contact_us = () => {
+
+  const initialState = {
+    email:"",
+    message:"",
+  }
+
+  const [formState, setFormState] = useState(initialState);
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    axios.post("https://formsubmit.co/ajax/admin@nrjdalal.com", {...formState}).then(res=>{
+      if(res.status === 200){
+        setActive(false)
+        setFormState(initialState)
+        alert("form submitted")
+      }
+    }).catch(e => {
+      alert("form not submitted")
+    });
+  }
+
+
   return (
     <>
       <Breadcrumb title="Contact Us" />
@@ -18,6 +42,7 @@ const contact_us = () => {
           ></iframe>
         </div>
         <div className="container px-5 py-24 mx-auto flex">
+          <form onSubmit={(e) => handleSubmit(e)}>
           <div className="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
             <h2 className="text-gray-900 text-2xl mb-1 font-medium title-font text-center">
               Contact Us
@@ -36,6 +61,10 @@ const contact_us = () => {
                 type="email"
                 id="email"
                 name="email"
+                value={formState.email}
+                onChange={(e) => {
+                  setFormState({...formState, email:e.target.value})
+                }}
                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -49,17 +78,21 @@ const contact_us = () => {
               <textarea
                 id="message"
                 name="message"
+                value={formState.message}
+                onChange={(e) => {
+                  setFormState({...formState, message:e.target.value})
+                }}
                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
-              ></textarea>
+              />
             </div>
             <button className="text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg">
-              Button
+              Submit
             </button>
             <p className="text-xs text-gray-500 mt-3">
-              Chicharrones blog helvetica normcore iceland tousled brook viral
-              artisan.
+              
             </p>
           </div>
+          </form>
         </div>
       </section>
     </>
