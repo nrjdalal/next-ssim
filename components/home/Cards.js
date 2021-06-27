@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const Cards = () => {
   return (
     <>
@@ -12,13 +14,17 @@ const Cards = () => {
                   alt="content"
                 />
 
-                <div className="bg-white px-2 rounded text-center">
-                  <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">
-                    CHAIRMAN&apos;S MESSAGE
-                  </h3>
+                <div className="bg-white px-2 py-2 rounded text-center">
+                  <Link href="/about/chairmans-message">
+                    <a>
+                      <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
+                        CHAIRMAN&apos;S MESSAGE
+                      </h3>
+                    </a>
+                  </Link>
                 </div>
 
-                <p className="pt-3 text-white text-sm line-clamp-5">
+                <p className="pt-3 text-white text-sm line-clamp-4">
                   SSIM students are professionals and intellectuals, in the
                   making. The institution provides a learning environment that
                   is adaptable and flexible, facilitating potential change in
@@ -37,13 +43,23 @@ const Cards = () => {
                   src="https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80"
                   alt="content"
                 />
-                <div className="bg-white px-2 rounded text-center">
-                  <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">
-                    PGDM PROGRAMME
-                  </h3>
+                <div className="bg-white px-2 py-2 rounded text-center">
+                  <Link href="/pgdm/programme">
+                    <a>
+                      <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
+                        PGDM PROGRAMME
+                      </h3>
+                    </a>
+                  </Link>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-5">
-                Our PGDM program, combined with SAP Training, is an innovative pursuit in management education. It combines skill-oriented qualifications in the field of management services including management research and thus adds to students’ employability. We follow a practical and experimental learning approach coupled with interactive sessions and peer-to-peer feedback mechanism.
+                <p className="pt-3 text-white text-sm line-clamp-4">
+                  Our PGDM program, combined with SAP Training, is an innovative
+                  pursuit in management education. It combines skill-oriented
+                  qualifications in the field of management services including
+                  management research and thus adds to students’ employability.
+                  We follow a practical and experimental learning approach
+                  coupled with interactive sessions and peer-to-peer feedback
+                  mechanism.
                 </p>
               </div>
             </div>
@@ -54,13 +70,20 @@ const Cards = () => {
                   src="https://images.unsplash.com/photo-1567168539593-59673ababaae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
                   alt="content"
                 />
-                <div className="bg-white px-2 rounded text-center">
-                  <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">
-                    ADMISSION
-                  </h3>
+                <div className="bg-white px-2 py-2 rounded text-center">
+                  <Link href="/admission/admission-process">
+                    <a>
+                      <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
+                        ADMISSION
+                      </h3>
+                    </a>
+                  </Link>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-5">
-                A Bachelor&apos;s degree in any discipline with minimum 50% marks from a recognized University. Candidates appearing for their final year exam may also apply. Short listing will be based on CAT/MAT/CMAT and S-SAT score and GD/PI/TI.
+                <p className="pt-3 text-white text-sm line-clamp-4">
+                  A Bachelor&apos;s degree in any discipline with minimum 50%
+                  marks from a recognized University. Candidates appearing for
+                  their final year exam may also apply. Short listing will be
+                  based on CAT/MAT/CMAT and S-SAT score and GD/PI/TI.
                 </p>
               </div>
             </div>
@@ -71,13 +94,20 @@ const Cards = () => {
                   src="https://images.unsplash.com/photo-1590415108862-fa060c0e358f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGZlZWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
                   alt="content"
                 />
-                <div className="bg-white px-2 rounded text-center">
-                  <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">
-                    PLACEMENT
-                  </h3>
+                <div className="bg-white px-2 py-2 rounded text-center">
+                  <Link href="/placement/placement-overview">
+                    <a>
+                      <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
+                        PLACEMENT
+                      </h3>
+                    </a>
+                  </Link>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-5">
-                The Placement Division of SSIM finds strength in the group’s long-cherished history and its network. SSIM follows global placement methodologies expertise in the Global Recruitment Process.
+                <p className="pt-3 text-white text-sm line-clamp-4">
+                  The Placement Division of SSIM finds strength in the group’s
+                  long-cherished history and its network. SSIM follows global
+                  placement methodologies expertise in the Global Recruitment
+                  Process.
                 </p>
               </div>
             </div>
