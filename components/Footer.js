@@ -19,10 +19,10 @@ const Footer = () => {
                   to="/about/chairmans-message"
                 />
                 <Footer_link name="Dean's Message" to="/about/deans-message" />
-                <Footer_link
+                {/* <Footer_link
                   name="Board of Governors"
                   to="/about/board-of-governors"
-                />
+                /> */}
               </nav>
             </div>
             <div className="lg:w-1/6 md:w-1/2 w-full text-left">
@@ -39,7 +39,7 @@ const Footer = () => {
                   name="Value Added Courses"
                   to="/pgdm/value-added-courses"
                 />
-                <Footer_link name="FAQs" to="/pgdm/faqs" />
+                {/* <Footer_link name="FAQs" to="/pgdm/faqs" /> */}
                 <Footer_link
                   name="Placement Overview"
                   to="/placement/placement-overview"
@@ -68,13 +68,13 @@ const Footer = () => {
                   to="/admission/education-loan"
                 />
                 <Footer_link name="Online Form" to="/admission/online-form" />
-                <a
+                {/* <a
                   href="/documents/brochure.pdf"
                   download
                   className="text-white hover:text-yellow-300 pb-1"
                 >
                   Download Brochure
-                </a>
+                </a> */}
                 <Footer_link name="FAQs" to="/admission/faqs" />
               </nav>
             </div>
@@ -92,8 +92,8 @@ const Footer = () => {
                   name="Live Projects"
                   to="/placement/live-projects"
                 />
-                <Footer_link name="Testimonials" to="/" />
-                <Footer_link name="Privacy Policy" to="/" />
+                {/* <Footer_link name="Testimonials" to="/" /> */}
+                <Footer_link name="Privacy Policy" to="/privacy-policy" />
                 <Footer_link name="Contact Us" to="/contact-us" />
               </nav>
             </div>

@@ -75,7 +75,7 @@ const MobBar = () => {
         </svg>
 
         <Sublink title="Home" href="/" />
-        <Sublink title="Life @ SSIM" href="/" />
+        <Sublink title="Life @ SSIM" href="/life-at-ssim" />
 
         <Dropdown title="About">
           <Sublink title="The Group" href="/about/the-group" />

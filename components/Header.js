@@ -113,7 +113,7 @@ const Header = () => {
       <navbar className="hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
         <div className="container mx-auto flex p-5 items-center justify-between">
           <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center text-sm lg:text-base xl:text-lg justify-center">
-            <Link href="/">
+            <Link href="/life-at-ssim">
               <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">
                 Life @ SSIM
               </a>
