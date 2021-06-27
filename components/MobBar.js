@@ -12,6 +12,48 @@ const MobBar = () => {
     setMenu(false)
   }
 
+  const Dropdown = (props) => {
+    const [isDrop, setDrop] = useState(false)
+
+    const toggleDrop = () => {
+      setDrop(!isDrop)
+    }
+
+    const closeDrop = () => {
+      setDrop(false)
+    }
+
+    return (
+      <>
+        <button onClick={toggleDrop} className="text-left mt-6 w-[300px]">
+          <div className="bg-gray-900 p-4 py-2 flex justify-between items-center rounded-2xl ">
+            <h3 className="font-semibold w-11/12">{props.title}</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="ml-3 w-7 h-7"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+          </div>
+          <div
+            style={isDrop ? { display: 'flex' } : { display: 'none' }}
+            className="flex-col items-center mt-4"
+          >
+            {props.children}
+          </div>
+        </button>
+      </>
+    )
+  }
+
   const Sublink = (props) => {
     return (
       <>
@@ -140,35 +182,6 @@ const MobBar = () => {
 
         <Sublink title="Contact Us" href="/contact-us" />
       </div>
-    </>
-  )
-}
-
-const Dropdown = (props) => {
-  return (
-    <>
-      <button className="group text-left mt-6 w-[300px]">
-        <div className="bg-gray-900 p-4 py-2 flex justify-between items-center rounded-2xl ">
-          <h3 className="font-semibold w-11/12">{props.title}</h3>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="ml-3 w-7 h-7"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-            />
-          </svg>
-        </div>
-        <div className="hidden group-focus-within:flex flex-col items-center mt-4">
-          {props.children}
-        </div>
-      </button>
     </>
   )
 }
