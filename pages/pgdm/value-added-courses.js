@@ -9,7 +9,7 @@ import {
 const the_institute = () => {
   return (
     <>
-      <Breadcrumb title="Corporate H Certifications" />
+      <Breadcrumb title="Corporate Edge Certifications" />
       {/* <ProseWide className="py-12">
         <FlexColumnCenter>
           <img
@@ -56,7 +56,7 @@ const the_institute = () => {
           pClassName="text-sm xl:text-base"
           className="pt-24"
           title="ERP Training "
-          src="https://source.unsplash.com/400x300/?1.jpg"
+          src="/images/corporate_edge/1.JPG"
         >
           NSE course on personal finance teach school students the value of
           investing, provide an introduction to the Indian capital markets and
@@ -68,7 +68,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="National Stock Exchange (NSE)"
-          src="https://source.unsplash.com/400x300/?2.jpg"
+          src="/images/corporate_edge/2.JPG"
         >
           The SSIM Institute has a well-equipped state of the art computer lab,
           with well-equipped systems of the latest technical configuration. The
@@ -80,7 +80,7 @@ const the_institute = () => {
         <ContentOnRight
           pClassName="text-sm xl:text-base"
           title="Security Exchange Board of India (SEBI)"
-          src="https://source.unsplash.com/400x300/?3.jpg"
+          src="/images/corporate_edge/3.JPG"
         >
           The scope of this workshop lies within a few questions, as to why you
           should invest, what should be your investment objectives, investment
@@ -90,7 +90,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Digital Marketing"
-          src="https://source.unsplash.com/400x300/?4.jpg"
+          src="/images/corporate_edge/4.JPG"
         >
           There are several manners in which a person can advantage from getting
           marketing knowhow, and it’s one of the major perk for attending a
@@ -105,7 +105,7 @@ const the_institute = () => {
         <ContentOnRight
           pClassName="text-sm xl:text-base"
           title="PGL (Personal Grooming Lab)"
-          src="https://source.unsplash.com/400x300/?5.jpg"
+          src="/images/corporate_edge/5.JPG"
         >
           Personal Grooming Lab has an understated but powerful influence on
           one’s progress. It helps to build a lasting image of an individual
@@ -121,7 +121,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Six Sigma "
-          src="https://source.unsplash.com/400x300/?6.jpg"
+          src="/images/corporate_edge/6.PNG"
         >
           Six Sigma is a set of methods and tools for process improvement.
           Developed in 1986, Six Sigma has become a global phenomenon with
