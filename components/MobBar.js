@@ -179,7 +179,7 @@ const MobBar = () => {
           />
         </Dropdown>
 
-        <span className="w-3/12 border-b-2 border-white mt-8" />
+        <span className="w-3/12 border-b-2 border-white mt-6" />
         <Sublink title="Life @ SSIM" href="/life-at-ssim" />
         <Sublink title="Contact Us" href="/contact-us" />
       </div>
