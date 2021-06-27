@@ -7,7 +7,7 @@ const online_form = () => {
     e.preventDefault();
     var formElement = document.forms.namedItem("onlineForm");
     var formData = new FormData(formElement);
-    axios.post("https://formsubmit.co/ajax/admin@nrjdalal.com", formData).then(res=>{
+    axios.post("https://formsubmit.co/ajax/application.ssimdwarka@gmail.com", formData).then(res=>{
       if(res.status === 200){
         alert("form submitted")
       }

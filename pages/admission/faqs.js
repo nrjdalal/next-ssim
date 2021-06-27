@@ -48,7 +48,7 @@ const rename_later = () => {
           Yes, it is duly approved by AICTE, Ministry of HRD, Government of India.
         </Question>
         <Question question="What will be Total Fee and Scholarship?">
-          Total Fee for the Program is 7.5 Lakhs and we provide scholarships to meritorious students. Check Details (https://jaipuria.edu.in/pgdm/admissions-1/fee-structure/)
+          Total Fee for the Program is 7.5 Lakhs and we provide scholarships to meritorious students. Check Details
         </Question>
         <Question question="What are government job prospects after doing PGDM?">
         Since it is a course approved by the Statutory Body of Government of India, there should not be any difficulty in being eligible for various jobs in Government of India/Corporations.
