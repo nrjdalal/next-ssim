@@ -17,19 +17,9 @@ const Hero = () => {
 
   return (
     <>
-      <section className="relative h-[500px] bg-blue-900">
+      <section className="relative h-[200px] md:h-[300px] bg-blue-900">
         <img
-          className="absolute sm:hidden h-[500px] object-cover object-top w-screen z-10"
-          alt="hero"
-          src="/images/banners/banner-1-sm.jpg"
-        />
-        <img
-          className="sm:absolute xl:hidden  h-[500px] object-cover object-top w-screen z-10"
-          alt="hero"
-          src="/images/banners/banner-1-md.jpg"
-        />
-        <img
-          className="xl:absolute h-[500px] object-cover object-top w-screen z-10"
+          className="absolute h-[200px] md:h-[300px] object-cover object-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
         />
