@@ -3,7 +3,7 @@ import React from 'react'
 const Logos = () => {
   return (
     <div>
-      <section className="bg-blue-100 py-3">
+      <section className="py-3">
         <div className="container px-5 mx-auto">
           <div className="flex flex-col sm:flex-row justify-center items-center">
             <div className="relative px-2 py-6">
