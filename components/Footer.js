@@ -102,7 +102,7 @@ const Footer = () => {
 
         <div className="bg-gray-900">
           <div className="container mx-auto py-4 px-5 flex justify-between">
-            <span className="w-full text-center sm:text-left text-white text-sm">
+            <span className="w-full text-center sm:text-left text-white text-base tracking-wider italic">
               <p>
                 Designed by{' '}
                 <Link href="https://veroxyle.com">
