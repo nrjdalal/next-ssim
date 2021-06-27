@@ -29,7 +29,7 @@ const rename_later = () => {
           businesses.
         </p>
 
-        <h3 className="text-center">Our Recruiters</h3>
+        <h3 className="text-center">SIP Companies</h3>
       </ProseWide>
       <div className="pt-8 pb-24">
         {/* Logo Sec */}

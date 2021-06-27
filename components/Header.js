@@ -121,7 +121,7 @@ const Header = () => {
             {/* Nav Item 01 */}
             <div className="group relative mr-5 xl:mr-10">
               <a className=" group-hover:text-blue-500 flex items-center">
-                About
+                About Us
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-4 w-4 ml-1 group-hover:invisible"
@@ -166,7 +166,7 @@ const Header = () => {
                   </Link>
                   <Link href="/about/board-of-governors">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Board of Governors
+                      Advisory Council
                     </a>
                   </Link>
                 </div>
@@ -205,7 +205,7 @@ const Header = () => {
                   </Link>
                   <Link href="/pgdm/value-added-courses">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Value Added Courses
+                      Corporate H Certifications
                     </a>
                   </Link>
                   {/* <Link href="/pgdm/faqs">
@@ -254,7 +254,7 @@ const Header = () => {
                   </Link>
                   <Link href="/admission/online-form">
                     <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Online Form
+                      Apply Now
                     </a>
                   </Link>
                   <a

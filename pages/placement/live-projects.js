@@ -24,6 +24,8 @@ const rename_later = () => {
           students and allows them to explore the professional work culture in
           the corporate world much before they actually get into it.
         </p>
+
+        <h3 className="text-center">Live Project Companies</h3>
       </ProseWide>
       {/* <div className="mx-auto md:w-5/6 px-3 pt-2 pb-24"> */}
       <div className="container mx-auto px-6 py-24 pt-12">
