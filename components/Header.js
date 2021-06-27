@@ -3,7 +3,86 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <>
-      {/* Mini Header */}
+      <EasyHeaders />
+      {/* Desktop Navbar */}
+      <navbar className="hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
+        <div className="container mx-auto flex p-5 items-center justify-between">
+          <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center lg:text-sm xl:text-base justify-center lg:w-[1080px] xl:w-[1280px]">
+            {/* Nav Item 01 */}
+            <DropNav title="About Us">
+              <NavLink title="The Group" href="/about/the-group" />
+              <NavLink title="The Institute" href="/about/the-institute" />
+            </DropNav>
+            <DropNav title="PGDM">
+              <NavLink title="The Group" href="/about/the-group" />
+              <NavLink title="The Institute" href="/about/the-institute" />
+            </DropNav>
+
+            <DropNav title="Admission">
+              <NavLink title="The Group" href="/about/the-group" />
+              <NavLink title="The Institute" href="/about/the-institute" />
+            </DropNav>
+
+            <DropNav title="Faculty">
+              <NavLink title="The Group" href="/about/the-group" />
+              <NavLink title="The Institute" href="/about/the-institute" />
+            </DropNav>
+
+            <DropNav title="Placement">
+              <NavLink title="The Group" href="/about/the-group" />
+              <NavLink title="The Institute" href="/about/the-institute" />
+            </DropNav>
+
+            <DropNav title="Testimonials">
+              <NavLink title="The Group" href="/about/the-group" />
+              <NavLink title="The Institute" href="/about/the-institute" />
+            </DropNav>
+
+            <Link href="/life-at-ssim">
+              <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">
+                Life @ SSIM
+              </a>
+            </Link>
+
+            <Link href="/contact-us">
+              <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">
+                Contact Us
+              </a>
+            </Link>
+
+            <div className="flex">
+              <Link href="/admission/online-form">
+                <a>
+                  <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">
+                    APPLY NOW
+                  </button>
+                </a>
+              </Link>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-8 w-8 bg-blue-800 rounded text-white p-1 ml-3 lg:hidden"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </div>
+          </nav>
+        </div>
+      </navbar>
+    </>
+  )
+}
+
+const EasyHeaders = () => {
+  return (
+    <>
       <div className="bg-gray-900 text-white">
         <div className="container mx-auto flex justify-between pr-6 py-3">
           <div className="flex items-center">
@@ -108,309 +187,51 @@ const Header = () => {
           </Link>
         </div>
       </header>
+    </>
+  )
+}
 
-      {/* Desktop Navbar */}
-      <navbar className="hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
-        <div className="container mx-auto flex p-5 items-center justify-between">
-          <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center text-sm lg:text-base xl:text-lg justify-center">
-            <Link href="/life-at-ssim">
-              <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">
-                Life @ SSIM
-              </a>
-            </Link>
-            {/* Nav Item 01 */}
-            <div className="group relative mr-5 xl:mr-10">
-              <a className=" group-hover:text-blue-500 flex items-center">
-                About Us
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-1 group-hover:invisible"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </a>
-              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
-                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/about/the-group">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      The Group
-                    </a>
-                  </Link>
-                  <Link href="/about/the-institute">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      The Institute
-                    </a>
-                  </Link>
-                  <Link href="/about/vision-mission">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Vision Mission
-                    </a>
-                  </Link>
-                  <Link href="/about/chairmans-message">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Chairman&apos;s Message
-                    </a>
-                  </Link>
-                  <Link href="/about/deans-message">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Dean&apos;s Message
-                    </a>
-                  </Link>
-                  <Link href="/about/board-of-governors">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Advisory Council
-                    </a>
-                  </Link>
-                </div>
+const DropNav = (props) => {
+  return (
+    <>
+      <div className="group mr-5 xl:mr-10">
+        <div className="flex items-center">
+          <p className="group-hover:text-blue-500 font-medium">{props.title}</p>
+          <div className="relative">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="relative h-4 w-4 ml-1 group-hover:text-blue-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+            <div className="hidden group-hover:block absolute z-20 w-[300px] top-4 left-1/2 -translate-x-1/2 py-5">
+              <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
+                {props.children}
               </div>
             </div>
-            {/* Nav Item 02 */}
-            <div className="group relative mr-5 xl:mr-10">
-              <a className=" group-hover:text-blue-500 flex items-center">
-                PGDM
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-1 group-hover:invisible"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </a>
-              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
-                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/pgdm/programme">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Programme
-                    </a>
-                  </Link>
-                  <Link href="/pgdm/specializations">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Specializations
-                    </a>
-                  </Link>
-                  <Link href="/pgdm/value-added-courses">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Corporate H Certifications
-                    </a>
-                  </Link>
-                  {/* <Link href="/pgdm/faqs">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      FAQs
-                    </a>
-                  </Link> */}
-                </div>
-              </div>
-            </div>
-            {/* Nav Item 03 */}
-            <div className="group relative mr-5 xl:mr-10">
-              <a className=" group-hover:text-blue-500 flex items-center">
-                Admission
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-1 group-hover:invisible"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </a>
-              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
-                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/admission/admission-process">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Admission Process
-                    </a>
-                  </Link>
-                  <Link href="/admission/fee-structure">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Fee Structure
-                    </a>
-                  </Link>
-                  <Link href="/admission/education-loan">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Education Loan
-                    </a>
-                  </Link>
-                  <Link href="/admission/online-form">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Apply Now
-                    </a>
-                  </Link>
-                  <a
-                    href="/documents/brochure.pdf"
-                    download
-                    className="my-3 hover:text-yellow-500 cursor-pointer"
-                  >
-                    Download Brochure
-                  </a>
-                  <Link href="/admission/faqs">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      FAQs
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            {/* Nav Item 04 */}
-            <div className="group relative mr-5 xl:mr-10">
-              <a className=" group-hover:text-blue-500 flex items-center">
-                Faculty
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-1 group-hover:invisible"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </a>
-              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
-                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/faculty/profiles">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Profiles
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            {/* Nav Item 05 */}
-            <div className="group relative mr-5 xl:mr-10">
-              <a className=" group-hover:text-blue-500 flex items-center">
-                Placement
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-1 group-hover:invisible"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </a>
-              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
-                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/placement/placement-overview">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Placement Overview
-                    </a>
-                  </Link>
-                  <Link href="/placement/summer-internships">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Summer Internships
-                    </a>
-                  </Link>
-                  <Link href="/placement/live-projects">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Live Projects
-                    </a>
-                  </Link>
-                  <Link href="/placement/our-recruiters">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Our Recruiters
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            {/* Nav Item 06 */}
-            <div className="group relative mr-5 xl:mr-10">
-              <a className=" group-hover:text-blue-500 flex items-center">
-                Testimonials
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-4 w-4 ml-1 group-hover:invisible"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  />
-                </svg>
-              </a>
-              <div className="hidden group-hover:block absolute z-20 w-[320px] top-5 left-1/2 -translate-x-1/2 py-5">
-                <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
-                  <Link href="/testimonials/alumni-testimonials">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Alumni Testimonials
-                    </a>
-                  </Link>
-                  <Link href="/testimonials/corporate-testimonials">
-                    <a className="my-3 hover:text-yellow-500 cursor-pointer">
-                      Corporate Testimonials
-                    </a>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            {/* Direct Elements */}
-            <Link href="/contact-us">
-              <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer">
-                Contact Us
-              </a>
-            </Link>
-            <div className="flex">
-              <Link href="/admission/online-form">
-                <a>
-                  <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">
-                    APPLY NOW
-                  </button>
-                </a>
-              </Link>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8 bg-blue-800 rounded text-white p-1 ml-3 lg:hidden"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            </div>
-          </nav>
+          </div>
         </div>
-      </navbar>
+      </div>
+    </>
+  )
+}
+
+const NavLink = (props) => {
+  return (
+    <>
+      <Link href={props.href}>
+        <a className="my-1 hover:text-white hover:bg-yellow-500 p-1.5 px-3 rounded cursor-pointer">
+          {props.title}
+        </a>
+      </Link>
     </>
   )
 }
