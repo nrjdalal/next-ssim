@@ -80,7 +80,7 @@ const the_institute = () => {
         <ContentOnRight
           pClassName="text-sm xl:text-base"
           title="Security Exchange Board of India (SEBI)"
-          src="/images/corporate_edge/3.JPG"
+          src="/images/corporate_edge/4.JPG"
         >
           The scope of this workshop lies within a few questions, as to why you
           should invest, what should be your investment objectives, investment
@@ -90,7 +90,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Digital Marketing"
-          src="/images/corporate_edge/4.JPG"
+          src="/images/corporate_edge/6.PNG"
         >
           There are several manners in which a person can advantage from getting
           marketing knowhow, and it’s one of the major perk for attending a
@@ -121,7 +121,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Six Sigma "
-          src="/images/corporate_edge/6.PNG"
+          src="/images/corporate_edge/3.JPG"
         >
           Six Sigma is a set of methods and tools for process improvement.
           Developed in 1986, Six Sigma has become a global phenomenon with
