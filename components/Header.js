@@ -12,30 +12,40 @@ const Header = () => {
             <DropNav title="About Us">
               <NavLink title="The Group" href="/about/the-group" />
               <NavLink title="The Institute" href="/about/the-institute" />
+              <NavLink title="Vision Mission" href="/about/vision-mission" />
+              <NavLink title="Chairman&#39;s Message" href="/about/chairmans-message" />
+              <NavLink title="Dean&#39;s Message" href="/about/deans-message" />
+              <NavLink title="Advisory Council" href="/about/board-of-governors" />
             </DropNav>
             <DropNav title="PGDM">
-              <NavLink title="The Group" href="/about/the-group" />
-              <NavLink title="The Institute" href="/about/the-institute" />
+              <NavLink title="Programme" href="/pgdm/programme" />
+              <NavLink title="Specializations" href="/pgdm/specializations" />
+              <NavLink title="Corporate Edge Certifications" href="/pgdm/value-added-courses" />
             </DropNav>
 
             <DropNav title="Admission">
-              <NavLink title="The Group" href="/about/the-group" />
-              <NavLink title="The Institute" href="/about/the-institute" />
+              <NavLink title="Admission Criteria" href="/admission/admission-process" />
+              <NavLink title="Fee Structure" href="/admission/fee-structure" />
+              <NavLink title="Education Loan" href="/admission/education-loan" />
+              <NavLink title="Apply Now" href="/admission/online-form" />
+              <NavLink title="Download Brochure" href="/documents/brochure.pdf" />
+              <NavLink title="FAQs" href="/admission/faqs" />
             </DropNav>
 
             <DropNav title="Faculty">
-              <NavLink title="The Group" href="/about/the-group" />
-              <NavLink title="The Institute" href="/about/the-institute" />
+              <NavLink title="Profiles" href="/faculty/profiles/" />
             </DropNav>
 
             <DropNav title="Placement">
-              <NavLink title="The Group" href="/about/the-group" />
-              <NavLink title="The Institute" href="/about/the-institute" />
+              <NavLink title="Placement Overview" href="/placement/placement-overview" />
+              <NavLink title="Summer Internships" href="/placement/summer-internships" />
+              <NavLink title="Live Projects" href="/placement/live-projects" />
+              <NavLink title="Our Recruiters" href="/placement/our-recruiters" />
             </DropNav>
 
             <DropNav title="Testimonials">
-              <NavLink title="The Group" href="/about/the-group" />
-              <NavLink title="The Institute" href="/about/the-institute" />
+              <NavLink title="Alumni Tesimonials" href="/testimonials/alumni-testimonials" />
+              <NavLink title="Corporate Testimonials" href="/testimonials/corporate-testimonials" />
             </DropNav>
 
             <Link href="/life-at-ssim">

@@ -77,7 +77,7 @@ const MobBar = () => {
         <Sublink title="Home" href="/" />
         <Sublink title="Life @ SSIM" href="/life-at-ssim" />
 
-        <Dropdown title="About">
+        <Dropdown title="About Us">
           <Sublink title="The Group" href="/about/the-group" />
           <Sublink title="The Institute" href="/about/the-institute" />
           <Sublink title="Vision Mission" href="/about/vision-mission" />
@@ -93,7 +93,7 @@ const MobBar = () => {
           <Sublink title="Programme" href="/pgdm/programme" />
           <Sublink title="Specializations" href="/pgdm/specializations" />
           <Sublink
-            title="Value Added Courses"
+            title="Corporate Edge Certifications"
             href="/pgdm/value-added-courses"
           />
         </Dropdown>
@@ -105,7 +105,7 @@ const MobBar = () => {
           />
           <Sublink title="Fee Structure" href="/admission/fee-structure" />
           <Sublink title="Education Loan" href="/admission/education-loan" />
-          <Sublink title="Online Form" href="/admission/online-form" />
+          <Sublink title="Apply Now" href="/admission/online-form" />
           <Sublink title="Download Brochure" href="/documents/brochure.pdf" />
           <Sublink title="FAQs" href="/admission/faqs" />
         </Dropdown>
