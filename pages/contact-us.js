@@ -1,7 +1,7 @@
 import Breadcrumb from '../components/Breadcrumb'
 import { useState } from 'react';
 
-const contact_us = () => {
+const Contact_us = () => {
 
   const initialState = {
     email:"",
@@ -99,4 +99,4 @@ const contact_us = () => {
   )
 }
 
-export default contact_us
+export default Contact_us
