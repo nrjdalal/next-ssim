@@ -64,8 +64,8 @@ const Contact_us = () => {
               </div>
             </div>
           </div>
-          <form onSubmit={(e) => handleSubmit(e)}>
           <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+            <form onSubmit={(e) => handleSubmit(e)}>
             <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">
               Contact Us
             </h2>
@@ -121,8 +121,8 @@ const Contact_us = () => {
             <p className="text-xs text-gray-500 mt-3">
               
             </p>
-          </div>
           </form>
+          </div>
         </div>
       </section>
     </>
