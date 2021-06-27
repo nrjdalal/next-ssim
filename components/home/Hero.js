@@ -28,7 +28,7 @@ const Hero = () => {
           ref={(el) => {
             slides.current[0] = el
           }}
-          className="absolute h-[200px] md:h-[300px] object-cover z-10 object-left md:object-center w-screen"
+          className="absolute h-[200px] md:h-[300px] object-cover object-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-2-lg.jpg"
         />
@@ -37,7 +37,7 @@ const Hero = () => {
           ref={(el) => {
             slides.current[1] = el
           }}
-          className="absolute h-[200px] md:h-[300px] object-cover z-10 object-center w-screen"
+          className="absolute h-[200px] md:h-[300px] object-cover object-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
         />
