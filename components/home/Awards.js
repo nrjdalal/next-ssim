@@ -1,16 +1,6 @@
-import { Logo150 } from '../../components/Universal'
-import Breadcrumb from '../../components/Breadcrumb'
-
 const Awards = () => {
-  let srcs = []
-
-  for (let index = 1; index <= 53; index++) {
-    srcs.push(`/images/recruiters/${index}.jpg`)
-  }
-
   return (
     <>
-      <Breadcrumb title="Our Recruiters" />
       <div className="py-10">
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
