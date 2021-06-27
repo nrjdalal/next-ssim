@@ -13,7 +13,7 @@ const Contact_us = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("https://formsubmit.co/ajax/admin@nrjdalal.com", {...FormState}).then(res=>{
+    axios.post("https://formsubmit.co/ajax/application.ssimdwarka@gmail.com", {...FormState}).then(res=>{
       if(res.status === 200){
         setFormState(initialState)
         alert("Form submitted")
