@@ -26,7 +26,7 @@ const MobBar = () => {
     return (
       <>
         <button onClick={toggleDrop} className="text-left mt-6 w-[300px]">
-          <div className="bg-gray-900 p-4 py-2 flex justify-between items-center rounded-2xl ">
+          <div className="bg-gray-900 p-4 py-2 flex justify-between items-center rounded-2xl border-[1px] border-gray-500">
             <h3 className="font-semibold w-11/12">{props.title}</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -45,7 +45,7 @@ const MobBar = () => {
           </div>
           <div
             style={isDrop ? { display: 'flex' } : { display: 'none' }}
-            className="flex-col items-center mt-4"
+            className="flex-col items-center mt-2"
           >
             {props.children}
           </div>
@@ -97,7 +97,7 @@ const MobBar = () => {
       </div>
       {/* Dropdown */}
       <div
-        className="relative flex lg:hidden top-0 z-[60] w-screen h-screen bg-gray-900 text-white flex-col items-center bg-opacity-95 pt-5"
+        className="relative flex lg:hidden top-0 z-[60] w-screen h-screen bg-gray-900 text-white flex-col items-center pt-8 pb-8 overflow-y-auto"
         style={isMenu ? { position: 'fixed' } : { display: 'none' }}
       >
         <svg
@@ -117,7 +117,6 @@ const MobBar = () => {
         </svg>
 
         <Sublink title="Home" href="/" />
-        <Sublink title="Life @ SSIM" href="/life-at-ssim" />
 
         <Dropdown title="About Us">
           <Sublink title="The Group" href="/about/the-group" />
@@ -180,6 +179,8 @@ const MobBar = () => {
           />
         </Dropdown>
 
+        <span className="w-3/12 border-b-2 border-white mt-8" />
+        <Sublink title="Life @ SSIM" href="/life-at-ssim" />
         <Sublink title="Contact Us" href="/contact-us" />
       </div>
     </>
