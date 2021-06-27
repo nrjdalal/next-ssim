@@ -2,6 +2,12 @@ import Breadcrumb from '../../components/Breadcrumb'
 import { Logo150, ProseWide } from '../../components/Universal'
 
 const rename_later = () => {
+  let srcs = [];
+
+  for (let index = 1; index <= 53; index++) {
+    srcs.push(`/images/recruiters/${index}.jpg`)
+  }
+
   return (
     <>
       <Breadcrumb title="Summer Internships" />
@@ -29,26 +35,11 @@ const rename_later = () => {
         {/* Logo Sec */}
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
-            <Logo150 />
-            <Logo150 src="https://picsum.photos/100/150" />
-            <Logo150 src="https://picsum.photos/150/50" />
-            <Logo150 />
-            <Logo150 src="https://picsum.photos/100/150" />
-            <Logo150 src="https://picsum.photos/150/50" />
-            <Logo150 />
-            <Logo150 src="https://picsum.photos/100/150" />
-            <Logo150 src="https://picsum.photos/150/50" />
-            <Logo150 />
-            <Logo150 src="https://picsum.photos/100/150" />
-            <Logo150 src="https://picsum.photos/150/50" />
-            <Logo150 />
-            <Logo150 src="https://picsum.photos/100/150" />
-            <Logo150 src="https://picsum.photos/150/50" />
-            <Logo150 />
-            <Logo150 src="https://picsum.photos/100/150" />
-            <Logo150 src="https://picsum.photos/150/50" />
-            <Logo150 />
-            <Logo150 src="https://picsum.photos/100/150" />
+            {
+              srcs.map((src, index) => {
+                return <Logo150 key={index} src={src} />
+              })
+            }
           </div>
         </div>
         {/* Logo Sec */}
