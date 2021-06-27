@@ -5,7 +5,7 @@ const Recruiters = () => {
     <>
       <section className="relative h-[320px] overflow-hidden my-3">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <h1 className="text-3xl tracking-wider font-bold text-blue-500">
+          <h1 className="text-2xl sm:text-3xl tracking-wider font-bold text-blue-500">
             OUR RECRUITERS
           </h1>
         </div>
