@@ -1,7 +1,45 @@
-import { ProseWide } from '../../components/Universal.js'
+import { useRef } from 'react'
+
 import Breadcrumb from '../../components/Breadcrumb'
 
 const rename_later = () => {
+  const Question = (props) => {
+    const isOpen = useRef()
+
+    const faqToggle = () => {
+      isOpen.current.focus()
+    }
+
+    return (
+      <>
+        <button
+          onClick={faqToggle}
+          ref={isOpen}
+          className="group text-left mt-6 w-full outline-none"
+        >
+          <div className="bg-gray-200 p-3 flex justify-between items-center rounded-2xl">
+            <h3 className="font-semibold w-11/12">{props.question}</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="ml-3 w-7 h-7"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
+              />
+            </svg>
+          </div>
+          <p className="hidden group-focus:block px-3 mt-4">{props.children}</p>
+        </button>
+      </>
+    )
+  }
+
   return (
     <>
       <Breadcrumb title="FAQ's" />
@@ -11,33 +49,6 @@ const rename_later = () => {
           have it, simply because it is pain...
         </Question>
       </div>
-    </>
-  )
-}
-
-const Question = (props) => {
-  return (
-    <>
-      <button className="group text-left mt-6 w-full">
-        <div className="bg-gray-200 p-3 flex justify-between items-center rounded-2xl">
-          <h3 className="font-semibold w-11/12">{props.question}</h3>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="ml-3 w-7 h-7"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-            />
-          </svg>
-        </div>
-        <p className="hidden group-focus:block px-3 mt-4">{props.children}</p>
-      </button>
     </>
   )
 }
