@@ -5,7 +5,7 @@ const Footer = () => {
     <>
       <footer className="text-gray-600 body-font bg-blue-900">
         <div className="container px-5 py-12 mx-auto">
-          <div className="flex flex-wrap md:text-left text-left -mb-10 -mx-4 justify-between">
+          <div className="flex flex-wrap md:text-left text-left -mb-10 justify-between">
             <div className="lg:w-1/6 md:w-1/2 w-full text-left">
               <h2 className="font-medium text-yellow-300 tracking-widest text-sm mb-3">
                 ABOUT
@@ -101,15 +101,19 @@ const Footer = () => {
         </div>
 
         <div className="bg-gray-900">
-          <div className="container mx-auto py-4 px-5  flex flex-wrap flex-col sm:flex-row">
-            <p className="text-white text-sm text-left sm:text-left">
-              © 2020 ssimdwarka.org
-            </p>
-            <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-left text-white text-sm">
-              Designed by{' '}
-              <Link href="https://veroxyle.com">
-                <a>VeroXyle</a>
-              </Link>
+          <div className="container mx-auto py-4 px-5 flex justify-between">
+            <span className="w-full text-center sm:text-left text-white text-sm">
+              <p>
+                Designed by{' '}
+                <Link href="https://veroxyle.com">
+                  <a className="cursor-pointer text-yellow-400 hover:text-yellow-500">
+                    VeroXyle
+                  </a>
+                </Link>
+              </p>
+            </span>
+            <span className="w-full hidden sm:block text-right text-white text-sm">
+              <p>&copy; ssimdwarka.org</p>
             </span>
           </div>
         </div>
@@ -123,7 +127,7 @@ const Footer_link = (prop) => {
   return (
     <>
       <Link href={prop.to}>
-        <a className="text-white hover:text-yellow-300 pb-1 text-left">
+        <a className="text-white hover:text-yellow-300 pb-1 text-left cursor-pointer">
           {prop.name}
         </a>
       </Link>
