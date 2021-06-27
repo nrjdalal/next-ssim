@@ -1,5 +1,5 @@
-import Breadcrumb from '../../components/Breadcrumb'
-import { ProseWide } from '../../components/Universal'
+import Breadcrumb from '../components/Breadcrumb'
+import { ProseWide } from '../components/Universal'
 
 const rename_later = () => {
   return (
