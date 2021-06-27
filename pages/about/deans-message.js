@@ -9,8 +9,8 @@ const deans_message = () => {
         <div className="flex justify-center">
           <img
             className="rounded-3xl w-[250px] object-cover object-center"
-            src="https://ssimdwarka.org/wp-content/uploads/2019/12/9-1.jpeg"
-            alt=""
+            src="/images/other/dean.jpeg"
+            alt="dean"
           />
         </div>
         <blockquote>

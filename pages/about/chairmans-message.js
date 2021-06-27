@@ -9,8 +9,8 @@ const chairmans_message = () => {
         <div className="flex justify-center">
           <img
             className="rounded-3xl w-[250px] object-cover object-center"
-            src="https://ssimdwarka.org/wp-content/uploads/2020/01/20191211_110634-scaled-1.jpg"
-            alt=""
+            src="/images/other/chairman.jpeg"
+            alt="chairman"
           />
         </div>
         <blockquote>
