@@ -32,7 +32,7 @@ export const ContentOnLeft = (props) => {
   return (
     <FlexColumnCenter className={`mb-10 lg:flex-row ${props.className}`}>
       <img
-        className={`order-1 lg:order-2 rounded-3xl h-[300px] w-full max-w-[400px] object-cover object-center ${props.imgClassName}`}
+        className={`order-1 lg:order-2 rounded-3xl h-[300px] w-full max-w-[400px] shadow-xl object-cover object-center ${props.imgClassName}`}
         src={props.src}
         alt={props.alt}
       />
@@ -50,7 +50,7 @@ export const ContentOnRight = (props) => {
   return (
     <FlexColumnCenter className={`mb-10 lg:flex-row ${props.className}`}>
       <img
-        className={`rounded-3xl h-[300px] w-full max-w-[400px] object-cover object-center ${props.imgClassName}`}
+        className={`rounded-3xl h-[300px] w-full max-w-[400px] shadow-2xl object-cover object-center ${props.imgClassName}`}
         src={props.src}
         alt={props.alt}
       />
