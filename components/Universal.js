@@ -67,7 +67,7 @@ export const ContentOnRight = (props) => {
 export const Logo150 = (props) => {
   return (
     <>
-      <div className="h-[150px] w-[150px] m-3 border-2 border-gray-100 rounded-2xl">
+      <div className="h-[150px] w-[150px] m-3 border-2 border-gray-300 rounded-2xl">
         <img
           className="object-contain p-1.5 w-full h-full"
           src={
