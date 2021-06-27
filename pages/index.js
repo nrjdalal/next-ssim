@@ -6,9 +6,9 @@ import Statistics from '../components/home/Statistics'
 import Cards from '../components/home/Cards'
 import Partners from '../components/home/Partners'
 import Recruiters from '../components/home/Recruiters'
+import Obselete from '../components/home/Obselete'
 import Features from '../components/home/Features'
 import Logos from '../components/home/Logos'
-
 
 const index = () => {
   return (
@@ -22,7 +22,8 @@ const index = () => {
       <Statistics />
       <Cards />
       <Partners />
-      <Recruiters />
+      {/* <Recruiters /> */}
+      <Obselete />
       <Features />
       <Logos />
     </>

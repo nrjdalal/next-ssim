@@ -3,8 +3,13 @@ import React from 'react'
 const Recruiters = () => {
   return (
     <>
-      <section className="relative h-[320px] overflow-hidden mt-12">
-        <div className="absolute z-10 h-[320px] w-full flex">
+      <section className="relative h-[320px] overflow-hidden my-3">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <h1 className="text-3xl tracking-wider font-bold text-blue-500">
+            OUR RECRUITERS
+          </h1>
+        </div>
+        {/* <div className="absolute z-10 h-[320px] w-full flex">
           <div className="h-[320px] w-full md:w-1/2">
             <section className="text-gray-600 body-font">
               <div className="container px-5 py-10 mx-auto">
@@ -55,16 +60,16 @@ const Recruiters = () => {
               </div>
             </section>
           </div>
-        </div>
+        </div> */}
         <div className="flex animate-x opacity-20">
           <img
             className="h-[320px] object-cover "
-            src="https://raw.githubusercontent.com/nrjdalal/ns-ssim/master/brands.webp"
+            src="/images/brandlogos.webp"
             alt=""
           />
           <img
             className="h-[320px] object-cover"
-            src="https://raw.githubusercontent.com/nrjdalal/ns-ssim/master/brands.webp"
+            src="/images/brandlogos.webp"
             alt=""
           />
         </div>
