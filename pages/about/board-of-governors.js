@@ -13,6 +13,42 @@ const rename_later = () => {
         <p className="">
           Founder and Chairman, Sri Sukhmani Group of Institutes
         </p>
+            
+        <h3>Mr. Kanwaljit Singh</h3>
+        <p className="">
+          Vice-Chairman, Sri Sukhmani Group of Institutes
+        </p>
+
+        <h3>Ms. Joyeeta Kumar</h3>
+        <p className="">
+          VP-Head Buying & Merchandising, Reliance Retail
+        </p>
+
+        <h3>Mr. Kumar Ashish</h3>
+        <p className="">
+          President, Bandhan Bank
+        </p>
+
+        <h3>Mr. Sanjeet Joher</h3>
+        <p className="">
+        Head – South Asia, VFS Global
+
+        </p>
+
+        <h3>Ms. Sanjana Kalra</h3>
+        <p className="">
+          Educationist
+        </p>
+
+        <h3>Dr. Sujata Kaul</h3>
+        <p className="">
+          Educationist
+        </p>
+
+        <h3>Sushant Sinha</h3>
+        <p className="">
+          Educationist
+        </p>
       </ProseWide>
     </>
   )

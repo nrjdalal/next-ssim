@@ -39,15 +39,11 @@ const Cards = () => {
                 />
                 <div className="bg-white px-2 rounded text-center">
                   <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">
-                    NEWS AND EVENTS
+                    PGDM PROGRAMME
                   </h3>
                 </div>
                 <p className="pt-3 text-white text-sm line-clamp-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate praesentium iure eveniet, nulla quae numquam
-                  repellat esse porro incidunt eos? Placeat praesentium
-                  perferendis, impedit deserunt consectetur consequatur. Culpa,
-                  beatae! Dicta!
+                Our PGDM program, combined with SAP Training, is an innovative pursuit in management education. It combines skill-oriented qualifications in the field of management services including management research and thus adds to students’ employability. We follow a practical and experimental learning approach coupled with interactive sessions and peer-to-peer feedback mechanism.
                 </p>
               </div>
             </div>
@@ -60,15 +56,11 @@ const Cards = () => {
                 />
                 <div className="bg-white px-2 rounded text-center">
                   <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">
-                    ALUMNI TESTIMONIAL
+                    ADMISSION
                   </h3>
                 </div>
                 <p className="pt-3 text-white text-sm line-clamp-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate praesentium iure eveniet, nulla quae numquam
-                  repellat esse porro incidunt eos? Placeat praesentium
-                  perferendis, impedit deserunt consectetur consequatur. Culpa,
-                  beatae! Dicta!
+                A Bachelor's degree in any discipline with minimum 50% marks from a recognized University. Candidates appearing for their final year exam may also apply. Short listing will be based on CAT/MAT/CMAT and S-SAT score and GD/PI/TI.
                 </p>
               </div>
             </div>
@@ -81,15 +73,11 @@ const Cards = () => {
                 />
                 <div className="bg-white px-2 rounded text-center">
                   <h3 className="tracking-widest text-gray-900 text-lg font-semibold title-font">
-                    NEWSLETTER
+                    PLACEMENT
                   </h3>
                 </div>
                 <p className="pt-3 text-white text-sm line-clamp-5">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Cupiditate praesentium iure eveniet, nulla quae numquam
-                  repellat esse porro incidunt eos? Placeat praesentium
-                  perferendis, impedit deserunt consectetur consequatur. Culpa,
-                  beatae! Dicta!
+                The Placement Division of SSIM finds strength in the group’s long-cherished history and its network. SSIM follows global placement methodologies expertise in the Global Recruitment Process.
                 </p>
               </div>
             </div>
