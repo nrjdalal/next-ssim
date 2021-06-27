@@ -9,7 +9,7 @@ import {
 const the_institute = () => {
   return (
     <>
-      <Breadcrumb title="value-added courses" />
+      <Breadcrumb title="Corporate H Certifications" />
       {/* <ProseWide className="py-12">
         <FlexColumnCenter>
           <img

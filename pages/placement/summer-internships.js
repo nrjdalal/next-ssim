@@ -4,7 +4,7 @@ import { Logo150, ProseWide } from '../../components/Universal'
 const rename_later = () => {
   let srcs = [];
 
-  for (let index = 1; index <= 53; index++) {
+  for (let index = 1; index <= 28; index++) {
     srcs.push(`/images/recruiters/${index}.jpg`)
   }
 

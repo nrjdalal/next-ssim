@@ -4,7 +4,7 @@ import { ProseWide } from '../../components/Universal'
 const rename_later = () => {
   return (
     <>
-      <Breadcrumb title="Board of Governors" />
+      <Breadcrumb title="Advisory Council" />
 
       <ProseWide className="pb-12">
         <h2 className="pt-12 text-center">ADVISORY COUNCIL</h2>
