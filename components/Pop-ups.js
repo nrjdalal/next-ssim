@@ -161,11 +161,11 @@ const Pop_ups = () => {
 
       <div
         style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="hidden sm:flex z-30 right-0 top-1/2 -translate-y-1/2 flex-col border-t-2 border-l-2 border-b-2 border-gray-300"
+        className="hidden sm:flex z-30 right-0 top-1/2 -translate-y-1/2 flex-col border-t-2 border-l-2 border-b-2 border-gray-300 rounded-tl-xl rounded-bl-xl overflow-hidden"
       >
         <button
           onClick={toggleClass}
-          className="rounded-tl-xl z-30 bg-red-500 p-2 text-white cursor-pointer flex flex-col items-center w-full"
+          className="z-30 bg-red-500 p-2 text-white cursor-pointer flex flex-col items-center w-full"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -241,7 +241,7 @@ const Pop_ups = () => {
         </button>
 
         <button
-          className="rounded-bl-xl bg-yellow-500 p-2 text-white cursor-pointer flex flex-col items-center w-full"
+          className="bg-yellow-500 p-2 text-white cursor-pointer flex flex-col items-center w-full"
           download=""
         >
           <svg
