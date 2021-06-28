@@ -233,4 +233,12 @@ const alumni_testimonials = () => {
   )
 }
 
+const LogoImg = (props) => {
+  return (
+    <>
+      <img src={props.src} alt="" />
+    </>
+  )
+}
+
 export default alumni_testimonials
