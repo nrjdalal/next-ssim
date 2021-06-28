@@ -146,11 +146,20 @@ const EasyHeaders = () => {
                 d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
               />
             </svg>
-            <p className="mt-0.5"><a href="tel:+91-8929399191">+918929399191</a></p>
-            <p className="hidden sm:block mt-0.5 ml-2"><a href="tel:+91-8588890906">+918588890906</a></p>
+            <p className="mt-0.5">
+              <a href="tel:+91-8929399191">+918929399191</a>
+            </p>
+            <p className="hidden sm:block mt-0.5 ml-2">
+              <a href="tel:+91-8588890906">+918588890906</a>
+            </p>
           </div>
           <div className="flex items-center">
-            <a className="text-white" href="https://www.facebook.com/dwarkassim/" target="_blank" rel="noreferrer">
+            <a
+              className="invisible text-white"
+              href="https://www.facebook.com/dwarkassim/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -174,7 +183,12 @@ const EasyHeaders = () => {
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
             </a> */}
-            <a className="ml-3 text-white" href="https://www.instagram.com/ssimdelhi_org/" target="_blank" rel="noreferrer">
+            <a
+              className="invisible ml-3 text-white"
+              href="https://www.instagram.com/ssimdelhi_org/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -210,23 +224,20 @@ const EasyHeaders = () => {
       </div>
       {/* Header */}
       <header className="hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
-        <div className="container mx-auto flex p-5 items-center justify-between">
+        <div className="container mx-auto flex p-4 items-center justify-between">
           <Link href="/">
-            <a className="font-medium text-gray-900 md:mb-0">
+            <a className="font-medium text-gray-900 md:mb-0 flex flex-col items-end tracking-wider">
               <img
-                className="h-12 md:h-14 lg:h-16"
+                className="md:h-14 lg:h-16"
                 src="/images/logo-ssim.png"
                 alt=""
               />
+              <p className="text-[11px] font-semibold">Dwarka, New Delhi</p>
             </a>
           </Link>
           <Link href="/admission/online-form">
-            <a className="hidden lg:block font-medium text-gray-900 md:mb-0">
-              <img
-                className="h-12 md:h-14 lg:h-16"
-                src="/images/bannerao.jpeg"
-                alt=""
-              />
+            <a className="hidden lg:block rounded-xl overflow-hidden">
+              <img className="h-20" src="/images/bannerao.jpeg" alt="" />
             </a>
           </Link>
         </div>
