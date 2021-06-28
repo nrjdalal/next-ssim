@@ -269,15 +269,15 @@ const Pop_ups = () => {
       </div>
 
       {/* Pop Up */}
-      <div
+      {/* <div
         style={isActive ? { position: 'fixed' } : { display: 'none' }}
-        className="h-full w-full bg-black top-0 z-40 bg-opacity-50"
-      ></div>
+        className="h-full w-full top-0 z-40"
+      ></div> */}
       <div
-        className="w-11/12 max-w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-900-3xl border-2 border-gray-500 cursor-pointer"
+        className="w-11/12 max-w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-900-3xl border-2 border-gray-500 cursor-pointer rounded-3xl overflow-hidden"
         style={isActive ? { position: 'fixed' } : { display: 'none' }}
       >
-        <div className="mt-4 mb-12 px-5 flex flex-col text-center">
+        <div className="px-5 py-12 flex flex-col text-center bg-gray-700">
           <div onClick={closeMenu} className="flex justify-end">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -333,7 +333,7 @@ const Pop_ups = () => {
             <input type="hidden" name="_captcha" value="false" />
             <button
               type="submit"
-              className="mt-10 w-full bg-red-400 border-0 py-3 px-3 focus:outline-none hover:bg-red-500-xl text-sm text-white"
+              className="mt-10 w-full bg-red-400 border-0 py-3 px-3 focus:outline-none hover:bg-red-500-xl text-sm text-white rounded"
             >
               REQUEST CALLBACK
             </button>
