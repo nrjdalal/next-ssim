@@ -20,7 +20,7 @@ const Pop_ups = () => {
     mobile: '',
     city: '',
     _template: 'box',
-    _subject: 'Admission Enquiry'
+    _subject: 'Admission Enquiry',
   }
 
   const [formState, setFormState] = useState(initialState)
@@ -42,50 +42,123 @@ const Pop_ups = () => {
         alert('Form Not Submitted')
       })
 
-      axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', { ...formState })
+    axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', {
+      ...formState,
+    })
   }
 
   return (
     <>
-      {/* Download Brochures */}
-      <a href="/documents/brochure.pdf" download>
+      {/* Download Brochures top-1/2 right-[-72px] -rotate-90 */}
+      <div
+        style={isActive ? { display: 'none' } : { position: 'fixed' }}
+        className="z-30 bottom-0 flex flex-row w-full"
+      >
+        {/* Admission Open Button */}
         <button
-          style={isActive ? { display: 'none' } : { position: 'fixed' }}
-          className="top-1/3 -left-16 rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"
+          onClick={toggleClass}
+          className="z-30 bg-red-500 p-2 text-white cursor-pointer flex flex-col items-center w-1/4"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-7 w-7"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z"
+            />
+          </svg>
+          <p className="text-xs md:text-sm xl:text-base font-semibold tracking-tighter">
+            &nbsp;Admission&nbsp;
+            <br className="md:hidden" />
+            Open 2021
+          </p>
+        </button>
+
+        <button className="bg-blue-500 p-2 text-white cursor-pointer flex flex-col items-center w-1/4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-7 w-7"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+            />
+          </svg>
+          <a
+            className="text-xs md:text-sm xl:text-base font-semibold tracking-tighter"
+            href="/documents/brochure.pdf"
+            download
+          >
+            &nbsp;Download&nbsp;
+            <br className="md:hidden" />
+            Brochure
+          </a>
+        </button>
+
+        <button className="bg-green-500 p-2 text-white cursor-pointer flex flex-col items-center w-1/4">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-7 w-7"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+            />
+          </svg>
+          <a
+            className="text-xs md:text-sm xl:text-base font-semibold tracking-tighter"
+            href="/documents/ApplicationForm.pdf"
+            download
+          >
+            &nbsp;Application&nbsp;
+            <br className="md:hidden" />
+            Form
+          </a>
+        </button>
+
+        <button
+          className="bg-yellow-500 p-2 text-white cursor-pointer flex flex-col items-center w-1/4"
           download=""
         >
-          Download Brochure
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-7 w-7"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
+            />
+          </svg>
+          <Link href="http://ssat.ssimdwarka.org">
+            <a className="text-xs md:text-sm xl:text-base font-semibold tracking-tighter">
+              &nbsp;Online&nbsp;
+              <br className="md:hidden" />
+              S-SAT
+            </a>
+          </Link>
         </button>
-      </a>
-      {/* Download Form */}
-      <a href="/documents/AdmissionForm.pdf" download>
-        <button
-          style={isActive ? { display: 'none' } : { position: 'fixed' }}
-          className="top-2/3 left-[-53px] rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"
-          download=""
-        >
-          Application Form
-        </button>
-      </a>
-
-      <button
-        style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="top-1/3 right-[-14px] -rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"
-        download=""
-      >
-        <Link href="http://ssat.ssimdwarka.org">
-          <a>S - SAT</a>
-        </Link>
-      </button>
-
-      {/* Admission Open Button */}
-      <button
-        onClick={toggleClass}
-        style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="top-2/3 right-[-72px] -rotate-90 z-30 bg-green-500 px-3 py-1 rounded text-white cursor-pointer"
-      >
-        Admission Open 2021
-      </button>
+      </div>
 
       {/* Pop Up */}
       <div
@@ -93,7 +166,7 @@ const Pop_ups = () => {
         className="h-full w-full bg-black top-0 z-40 bg-opacity-50"
       ></div>
       <div
-        className="w-11/12 max-w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-900 rounded-3xl border-2 border-gray-500 cursor-pointer"
+        className="w-11/12 max-w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-900-3xl border-2 border-gray-500 cursor-pointer"
         style={isActive ? { position: 'fixed' } : { display: 'none' }}
       >
         <div className="mt-4 mb-12 px-5 flex flex-col text-center">
@@ -152,7 +225,7 @@ const Pop_ups = () => {
             <input type="hidden" name="_captcha" value="false" />
             <button
               type="submit"
-              className="mt-10 w-full bg-red-400 border-0 py-3 px-3 focus:outline-none hover:bg-red-500 rounded text-sm text-white"
+              className="mt-10 w-full bg-red-400 border-0 py-3 px-3 focus:outline-none hover:bg-red-500-xl text-sm text-white"
             >
               REQUEST CALLBACK
             </button>
