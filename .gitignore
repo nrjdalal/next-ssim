@@ -1,12 +1,8 @@
-!deploy-html.sh
-!deploy-org.sh
-
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
 *.lock
-*.sh
 package-lock.json
 .vscode
 
