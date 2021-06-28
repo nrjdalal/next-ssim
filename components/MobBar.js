@@ -139,6 +139,7 @@ const MobBar = () => {
             title="Corporate Edge Certifications"
             href="/pgdm/value-added-courses"
           />
+          <Sublink title="Why SSIM" href="/pgdm/why-ssim" />
         </Dropdown>
 
         <Dropdown title="Admission">

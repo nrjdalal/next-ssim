@@ -14,7 +14,7 @@ const the_institute = () => {
         <FlexColumnCenter>
           <img
             className="rounded-3xl h-[400px] w-full max-w-[600px] object-cover object-center"
-            src="/images/The_Institute/7.jpg"
+            src="/images/The_Institute/7.jpeg"
             alt=""
           />
           <blockquote>
