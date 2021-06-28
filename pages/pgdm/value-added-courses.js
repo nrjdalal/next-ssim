@@ -53,6 +53,7 @@ const the_institute = () => {
 
       <div className="mx-auto md:w-5/6 px-6 pb-8">
         <ContentOnRight
+          imgClassName="object-right"
           pClassName="text-sm xl:text-base"
           className="pt-24"
           title="ERP Training "
@@ -103,6 +104,7 @@ const the_institute = () => {
         </ContentOnLeft>
 
         <ContentOnRight
+          imgClassName="object-left"
           pClassName="text-sm xl:text-base"
           title="PGL (Personal Grooming Lab)"
           src="/images/corporate_edge/5.JPG"
