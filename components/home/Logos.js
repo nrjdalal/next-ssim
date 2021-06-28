@@ -4,7 +4,7 @@ const Logos = () => {
       <section className="py-3">
         <div className="container px-5 mx-auto">
           <div className="flex flex-col sm:flex-row justify-center items-center">
-            <div className="relative px-2 py-6">
+            <div className="relative px-10 py-6">
               <img
                 className="mw-33p pr300 px350-ns w-100p"
                 height="90"
@@ -13,7 +13,7 @@ const Logos = () => {
                 alt=""
               />
             </div>
-            <div className="relative px-10 py-6">
+            <div className="relative px-20 py-6">
               <img
                 className="mw-33p pr300 px350-ns w-100p"
                 height="90"
@@ -22,7 +22,7 @@ const Logos = () => {
                 alt=""
               />
             </div>
-            <div className="relative px-2 py-6">
+            <div className="relative px-10 py-6">
               <img
                 className="mw-33p pr300 px350-ns w-100p"
                 height="90"
