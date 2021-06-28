@@ -68,10 +68,14 @@ const MobBar = () => {
 
   return (
     <>
-      <div className="flex lg:hidden container mx-auto p-5 justify-between border-t-2 border-b-2 border-gray-300">
+      <div className="sticky top-0 flex lg:hidden container mx-auto p-5 justify-between border-t-2 border-b-2 border-gray-300 bg-white z-[55]">
         <Link href="/">
           <a>
-            <img className="h-14 md:h-16" src="/images/logo-ssim.png" alt="" />
+            <img
+              className="min-h-12 h-14 md:h-16"
+              src="/images/logo-ssim.png"
+              alt=""
+            />
           </a>
         </Link>
         <button onClick={toggleClass} className="">
