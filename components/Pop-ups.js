@@ -25,7 +25,7 @@ const Pop_ups = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     axios
-      .post('https://formsubmit.co/ajax/admin@nrjdalal.com', { ...formState })
+      .post('https://formsubmit.co/ajax/application.ssimdwarka@gmail.com', { ...formState })
       .then((res) => {
         if (res.status === 200) {
           setActive(false)
