@@ -9,6 +9,7 @@ const Contact_us = () => {
     email:"",
     mobile:"",
     message:"",
+    _template:'table'
   }
 
   const [FormState, setFormState] = useState(initialState);
@@ -75,6 +76,7 @@ const Contact_us = () => {
             </h2>
             <p className="leading-relaxed mb-5 text-gray-600">
             </p>
+            <input type="hidden" name="_template" value="table" />
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                 Name

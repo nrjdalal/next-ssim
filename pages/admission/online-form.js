@@ -26,6 +26,7 @@ const online_form = () => {
       <div className="container mx-auto prose my-12 px-5 flex flex-col max-w-[600px]">
         <h2>Basic Information</h2>
         <input type="hidden" name="Type" value="Admission Form" />
+        <input type="hidden" name="_template" value="table" />
         <Input_mandtory name="NAME (MR./MS.)" fieldName="Name" type="text" className="mt-0" />
         <Input_mandtory name="E-mail Id" fieldName="email" type="email" />
         <div className="flex flex-col sm:flex-row">
