@@ -42,7 +42,7 @@ const Header = () => {
                 title="Education Loan"
                 href="/admission/education-loan"
               />
-              <NavLink title="Apply Now" href="/admission/online-form" />
+              <NavLink title="Application Form" href="/admission/online-form" />
               <NavLink
                 title="Download Brochure"
                 href="/documents/brochure.pdf"
@@ -130,7 +130,7 @@ const EasyHeaders = () => {
         <div className="container mx-auto flex justify-between pr-6 py-3">
           <div className="flex items-center">
             <p className="hidden pl-6 font-medium sm:block mt-0.5">
-              TOLL FREE :
+              ADMISSION HELPLINE :
             </p>
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -19,8 +19,8 @@ const the_institute = () => {
           />
           <blockquote>
             Sri Sukhmani Institute of Management is a premier Institute, set up
-            under the Sri Sukhmani Group of Institutions. The Group was
-            established more than 3 decades ago, in 1979, by
+            under the Sri Sukhmani Group of Institutions in 2009. The Group was
+            established more than 5 decades ago, in 1971, by
             Philanthropist-Educationist Prof. Avtar Singh and has since carved a
             niche for itself in the area of Management.
             <br />
@@ -35,8 +35,8 @@ const the_institute = () => {
             Sri Sukhmani Institute of Management has a beautiful campus, fully
             equipped with labs, library, AC classrooms, Wi-fi accessibility and
             other state-of-the-art infrastructure. We offer PGDM courses with
-            specialization in Human Resources, Marketing, Finance, and IT &
-            Operations. We focus on providing a cordial environment for the
+            specialization in Human Resources, Marketing, Finance, IT & Business Analytics, 
+            Entrepreneurship, Operations and Supply Chain Management. We focus on providing a cordial environment for the
             students to learn, experience, and experiment, covering all facets
             of professional education.
             <br />

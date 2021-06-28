@@ -60,7 +60,7 @@ const Contact_us = () => {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">+91-9650709489</p>
+                <p className="leading-relaxed">+91 8929399191</p>
               </div>
             </div>
           </div>

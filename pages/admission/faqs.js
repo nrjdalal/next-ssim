@@ -47,17 +47,17 @@ const rename_later = () => {
         <Question question="Is this PGDM Course approved by AICTE?">
           Yes, it is duly approved by AICTE, Ministry of HRD, Government of India.
         </Question>
-        <Question question="What will be Total Fee and Scholarship?">
-          Total Fee for the Program is 7.5 Lakhs and we provide scholarships to meritorious students. Check Details
+        <Question question="What will be the Total Fee?">
+          Total Fee for the Program is 5.9 Lakhs.
         </Question>
         <Question question="What are government job prospects after doing PGDM?">
         Since it is a course approved by the Statutory Body of Government of India, there should not be any difficulty in being eligible for various jobs in Government of India/Corporations.
         </Question>
         <Question question="Is it compulsory to have laptops?">
-        All the students are required to make an excessive use of laptops. It is not compulsory to purchase the laptops from the Institute, but absolutely necessary to have it.
+        All the students are required to make an excessive use of laptops. Laptop will be provided by the institute with two year of annual onsite maintainance, included in fee structure.
         </Question>
         <Question question="What all will be included in the Fee?">
-        The total fee charged for PGDM course includes tuition fee, examination fee, library, computer, training, sports, extracurricular activities, add-on programs, foreign languages, industrial visits, study material &amp; award of degree.
+        The total fee charged for PGDM course includes laptop, International study tour, tuition fee, examination fee, library, computer lab, training, sports, extracurricular activities, add-on programs, industrial visits, study material &amp; award of degree.
         </Question>
         <Question question="How much of my fees is refundable?">
           We follow AICTE Norms
@@ -65,9 +65,9 @@ const rename_later = () => {
         <Question question="Can a student pursue PHD program after completing PGDM from the institute?">
         Most of the UGC approved universities are considering AICTE approved PGDM Programme equivalent to MBA and are offering PHD.
         </Question>
-        <Question question="Can a student pursue PHD program after completing PGDM from the institute?">
+        {/* <Question question="Can a student pursue PHD program after completing PGDM from the institute?">
         Most of the UGC approved universities are considering AICTE approved PGDM Programme equivalent to MBA and are offering PHD.
-        </Question>
+        </Question> */}
         <Question question="How is the placement of PGDM students done?">
         The Institute provides complete placement assistance through training, personality development, pre-placement talks, corporate exposure, mock interviews and group discussions. All these activities are handled by a dedicated Corporate Resource Center.
         </Question>
@@ -78,7 +78,7 @@ const rename_later = () => {
         No, all the admission are merit based
         </Question>
         <Question question="Do you provide Foreign Tour during the PGDM Course?">
-        Every year meritorious students are sent to an Internation Education Tour under Student Exchange Program. In 2019, students went to Singapore &amp; in 2018, students went to Dubai on an International Education Tour
+        Every year all students are sent to an International Education Tour with International Live Project. In 2019, students went to Dubai &amp; in 2018, students went to Singapore on an International Education Tour
         </Question>
         <Question question="What is the admission process for this course?">
         For Details check our admission process
@@ -87,13 +87,13 @@ const rename_later = () => {
         Candidate must have passed with minimum 50 percent marks in any graduation from a recognised University and must have qualified CAT/MAT/XAT/UPSEE.
         </Question>
         <Question question="Do you have hostel facilities?">
-        We have Ac and Non Ac hostel facilities separately for girls and boys on sharing basis in campus for girls and outside campus boys on first come first basis.
+        We have Ac and Non Ac hostel facilities separately for girls and boys on sharing basis outside campus on first come first served basis.
         </Question>
         <Question question="What extracurricular activities do you have on campus?">
         All students are given equal an exposure to sports, cultural activities, personality development programs, industrial visits, hobby sessions and leadership workshops.
         </Question>
         <Question question="Is your program approved by AIU?">
-        we have applied for the same and AIU approval is under process
+        We have applied for the same and AIU approval is under process
         </Question>
         <Question question="Do you have any installment facilities for the fees?">
         Yes, the student can pay the entire fees in 4 installments after registration.

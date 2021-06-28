@@ -327,7 +327,7 @@ const online_form = () => {
         <Checkbox name="I confirm that to the best of my knowledge the information contained in this application form is true and accurate. I have gone through the contents of the Prospectus and agree to all the conditions stipulated therein and if admitted, will also abide by the rules and regulations SSIM as may be in force from time to time." />
 
         <button className="mt-12 bg-yellow-500 border-0 py-3 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">
-          SUMBIT
+          SUBMIT
         </button>
       </div>
       </form>
