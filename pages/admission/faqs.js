@@ -78,7 +78,7 @@ const rename_later = () => {
         No, all the admission are merit based
         </Question>
         <Question question="Do you provide Foreign Tour during the PGDM Course?">
-        Every year meritorious students are sent to an Internation Education Tour under Student Exchange Program. In 2019, students went to Singapore &amp; in 2018, students went to Dubai on an International Education Tour
+        Every year all students are sent to an International Education Tour with International Live Project. In 2019, students went to Dubai &amp; in 2018, students went to Singapore on an International Education Tour
         </Question>
         <Question question="What is the admission process for this course?">
         For Details check our admission process
@@ -87,13 +87,13 @@ const rename_later = () => {
         Candidate must have passed with minimum 50 percent marks in any graduation from a recognised University and must have qualified CAT/MAT/XAT/UPSEE.
         </Question>
         <Question question="Do you have hostel facilities?">
-        We have Ac and Non Ac hostel facilities separately for girls and boys on sharing basis in campus for girls and outside campus boys on first come first basis.
+        We have Ac and Non Ac hostel facilities separately for girls and boys on sharing basis outside campus on first come first served basis.
         </Question>
         <Question question="What extracurricular activities do you have on campus?">
         All students are given equal an exposure to sports, cultural activities, personality development programs, industrial visits, hobby sessions and leadership workshops.
         </Question>
         <Question question="Is your program approved by AIU?">
-        we have applied for the same and AIU approval is under process
+        We have applied for the same and AIU approval is under process
         </Question>
         <Question question="Do you have any installment facilities for the fees?">
         Yes, the student can pay the entire fees in 4 installments after registration.
