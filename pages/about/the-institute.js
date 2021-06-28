@@ -14,7 +14,7 @@ const the_institute = () => {
         <FlexColumnCenter>
           <img
             className="rounded-3xl h-[400px] w-full max-w-[600px] object-cover object-center"
-            src="https://ssimdwarka.org/wp-content/uploads/2019/12/7.jpeg"
+            src="http://old.ssimdwarka.org/wp-content/uploads/2019/12/7.jpeg"
             alt=""
           />
           <blockquote>
@@ -35,10 +35,11 @@ const the_institute = () => {
             Sri Sukhmani Institute of Management has a beautiful campus, fully
             equipped with labs, library, AC classrooms, Wi-fi accessibility and
             other state-of-the-art infrastructure. We offer PGDM courses with
-            specialization in Human Resources, Marketing, Finance, IT & Business Analytics, 
-            Entrepreneurship, Operations and Supply Chain Management. We focus on providing a cordial environment for the
-            students to learn, experience, and experiment, covering all facets
-            of professional education.
+            specialization in Human Resources, Marketing, Finance, IT & Business
+            Analytics, Entrepreneurship, Operations and Supply Chain Management.
+            We focus on providing a cordial environment for the students to
+            learn, experience, and experiment, covering all facets of
+            professional education.
             <br />
             <br />
             Our campus is located in Dwarka, Delhi and has state of the art
@@ -54,7 +55,7 @@ const the_institute = () => {
       <div className="mx-auto md:w-5/6 px-6 pb-8">
         <ContentOnRight
           title="Classroom"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/1.jpg"
+          src="http://old.ssimdwarka.org/wp-content/uploads/2019/12/1.jpg"
         >
           The classrooms are aesthetically designed to provide a stimulating
           atmosphere, conducive to the all-round development of the students.
@@ -65,7 +66,7 @@ const the_institute = () => {
 
         <ContentOnLeft
           title="IT Lab"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/2.jpg"
+          src="http://old.ssimdwarka.org/wp-content/uploads/2019/12/2.jpg"
         >
           The SSIM Institute has a well-equipped state of the art computer lab,
           with well-equipped systems of the latest technical configuration. The
@@ -76,7 +77,7 @@ const the_institute = () => {
 
         <ContentOnRight
           title="Library"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/3.jpg"
+          src="http://old.ssimdwarka.org/wp-content/uploads/2019/12/3.jpg"
         >
           SSIM Dwarka has a well-stocked library, replete with the latest and
           most sought after books, National Journals, International Journals &
@@ -88,7 +89,7 @@ const the_institute = () => {
 
         <ContentOnLeft
           title="Co-curricular Activities"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/4.jpg"
+          src="http://old.ssimdwarka.org/wp-content/uploads/2019/12/4.jpg"
         >
           While you study at SSIM Dwarka, you will be actively encouraged to
           participate & engage in co-curricular activities. The institute
@@ -98,7 +99,7 @@ const the_institute = () => {
 
         <ContentOnRight
           title="Cafeteria"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/5.jpg"
+          src="http://old.ssimdwarka.org/wp-content/uploads/2019/12/5.jpg"
         >
           The institution has an ultra-modern canteen with an aesthetic sense of
           design and décor which offers hygienic, wholesome and nutritious food
@@ -108,7 +109,7 @@ const the_institute = () => {
 
         <ContentOnLeft
           title="Wi-Fi Enabled"
-          src="https://ssimdwarka.org/wp-content/uploads/2019/12/6.jpg"
+          src="http://old.ssimdwarka.org/wp-content/uploads/2019/12/6.jpg"
         >
           We have a State-of-the-Art, fully air-conditioned, Wifi campus with
           24x7 high bandwidth internet connectivity. The IT lab consists of
