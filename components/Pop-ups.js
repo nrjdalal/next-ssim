@@ -34,11 +34,11 @@ const Pop_ups = () => {
         if (res.status === 200) {
           setActive(false)
           setFormState(initialState)
-          alert('form submitted')
+          alert('Form Submitted')
         }
       })
       .catch((e) => {
-        alert('form not submitted')
+        alert('Form Not Submitted')
       })
 
       axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', { ...formState })

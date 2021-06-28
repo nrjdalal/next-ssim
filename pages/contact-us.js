@@ -18,13 +18,13 @@ const Contact_us = () => {
     axios.post("https://formsubmit.co/ajax/application.ssimdwarka@gmail.com", {...FormState}).then(res=>{
       if(res.status === 200){
         setFormState(initialState)
-        alert("Form submitted")
+        alert("Form Submitted")
       }
     }).catch(e => {
       alert("Form not submitted")
     });
 
-    axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', { ...formState })
+    axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', { ...FormState })
   }
 
 
