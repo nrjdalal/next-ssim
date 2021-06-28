@@ -83,7 +83,10 @@ const alumni_testimonials = () => {
                       src="http://localhost:3000/images/recruiters/7.jpg"
                       className="h-12"
                     /> */}
-                    <LogoImg src="/images/corporate_logo/image4.png" />
+                    <LogoImg
+                      className="w-1/2"
+                      src="/images/corporate_logo/image4.png"
+                    />
                   </span>
                 </a>
               </div>
@@ -96,7 +99,7 @@ const alumni_testimonials = () => {
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
-              <div className="h-full text-center">
+              <div className="h-full text-center flex flex-col items-center">
                 <img
                   alt="testimonial"
                   className="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
@@ -117,7 +120,7 @@ const alumni_testimonials = () => {
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
-              <div className="h-full text-center">
+              <div className="h-full text-center flex flex-col items-center">
                 <img
                   alt="testimonial"
                   className="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
@@ -138,7 +141,7 @@ const alumni_testimonials = () => {
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 p-4">
-              <div className="h-full text-center">
+              <div className="h-full text-center flex flex-col items-center">
                 <img
                   alt="testimonial"
                   className="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
@@ -160,7 +163,7 @@ const alumni_testimonials = () => {
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 p-4">
-              <div className="h-full text-center">
+              <div className="h-full text-center flex flex-col items-center">
                 <img
                   alt="testimonial"
                   className="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
@@ -182,7 +185,7 @@ const alumni_testimonials = () => {
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 p-4">
-              <div className="h-full text-center">
+              <div className="h-full text-center flex flex-col items-center">
                 <img
                   alt="testimonial"
                   className="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
@@ -231,7 +234,9 @@ const alumni_testimonials = () => {
             <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
               Akarshit Khare
             </h2>
-            <p className="text-gray-500">Anovent Pharmaceutical LLC., Shanghai China</p>
+            <p className="text-gray-500">
+              Anovent Pharmaceutical LLC., Shanghai China
+            </p>
           </div>
         </div>
       </section>
@@ -242,7 +247,9 @@ const alumni_testimonials = () => {
 const LogoImg = (props) => {
   return (
     <>
-      <img src={props.src} alt="" />
+      <div className="h-16 mt-2">
+        <img className={`h-full ${props.className}`} src={props.src} alt="" />
+      </div>
     </>
   )
 }

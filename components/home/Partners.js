@@ -27,8 +27,14 @@ const Partners = () => {
             </div>
             {/* Part 2 */}
             <div className="prose mt-8">
-              <blockquote className="">
-                Here, campus life is excellent. The main aim is to provide students with this form of education that can support not only educational growth, but also social and economic growth. All students here are equal and important. Teachers are information cooperatives. The atmosphere is conducive to learning. Well designed labs and appropriate classroom for learning and teaching. Placement quality is wonderful.
+              <blockquote className="line-clamp-5">
+                Here, campus life is excellent. The main aim is to provide
+                students with this form of education that can support not only
+                educational growth, but also social and economic growth. All
+                students here are equal and important. Teachers are information
+                cooperatives. The atmosphere is conducive to learning. Well
+                designed labs and appropriate classroom for learning and
+                teaching. Placement quality is wonderful.
               </blockquote>
             </div>
           </div>
@@ -64,10 +70,14 @@ const Partners = () => {
             </div>
             {/* Part 2 */}
             <div className="prose mt-8">
-              <blockquote className="">
-              This institute is excellent in imparting knowledge through industry relevant infrastructure, information and approaches. What sets apart the faculty here is the ambience they provide where every opportunity is given to grow, learn and share knowledge
-              It is remarkable to see the budding talents brimming with curiosity and the fire to go beyond.
-              Good luck and keep scaling.
+              <blockquote className="line-clamp-5">
+                This institute is excellent in imparting knowledge through
+                industry relevant infrastructure, information and approaches.
+                What sets apart the faculty here is the ambience they provide
+                where every opportunity is given to grow, learn and share
+                knowledge It is remarkable to see the budding talents brimming
+                with curiosity and the fire to go beyond. Good luck and keep
+                scaling.
               </blockquote>
             </div>
           </div>

@@ -126,10 +126,7 @@ const MobBar = () => {
           <Sublink title="Vision Mission" href="/about/vision-mission" />
           <Sublink title="Chairman's Message" href="/about/chairmans-message" />
           <Sublink title="Dean's Message" href="/about/deans-message" />
-          <Sublink
-            title="Board of Governors"
-            href="/about/board-of-governors"
-          />
+          <Sublink title="Advisory Council" href="/about/board-of-governors" />
         </Dropdown>
 
         <Dropdown title="PGDM">
