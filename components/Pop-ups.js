@@ -42,7 +42,7 @@ const Pop_ups = () => {
         alert('Form Not Submitted')
       })
 
-    axios.post('https://formsubmit.co/ajax/ssim@nrjdalal.com', {
+    axios.post('https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec', {
       ...formState,
     })
   }

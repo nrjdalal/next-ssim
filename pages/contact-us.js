@@ -31,7 +31,7 @@ const Contact_us = () => {
         alert('Form Not Submitted')
       })
 
-    axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', {
+    axios.post('https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec', {
       ...FormState,
     })
   }
