@@ -146,7 +146,7 @@ const MobBar = () => {
           />
           <Sublink title="Fee Structure" href="/admission/fee-structure" />
           <Sublink title="Education Loan" href="/admission/education-loan" />
-          <Sublink title="Apply Now" href="/admission/online-form" />
+          <Sublink title="Application Form" href="/admission/online-form" />
           <Sublink title="Download Brochure" href="/documents/brochure.pdf" />
           <Sublink title="FAQs" href="/admission/faqs" />
         </Dropdown>

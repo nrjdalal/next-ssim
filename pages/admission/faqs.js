@@ -47,17 +47,17 @@ const rename_later = () => {
         <Question question="Is this PGDM Course approved by AICTE?">
           Yes, it is duly approved by AICTE, Ministry of HRD, Government of India.
         </Question>
-        <Question question="What will be Total Fee and Scholarship?">
-          Total Fee for the Program is 7.5 Lakhs and we provide scholarships to meritorious students. Check Details
+        <Question question="What will be the Total Fee?">
+          Total Fee for the Program is 5.9 Lakhs.
         </Question>
         <Question question="What are government job prospects after doing PGDM?">
         Since it is a course approved by the Statutory Body of Government of India, there should not be any difficulty in being eligible for various jobs in Government of India/Corporations.
         </Question>
         <Question question="Is it compulsory to have laptops?">
-        All the students are required to make an excessive use of laptops. It is not compulsory to purchase the laptops from the Institute, but absolutely necessary to have it.
+        All the students are required to make an excessive use of laptops. Laptop will be provided by the institute with two year of annual onsite maintainance, included in fee structure.
         </Question>
         <Question question="What all will be included in the Fee?">
-        The total fee charged for PGDM course includes tuition fee, examination fee, library, computer, training, sports, extracurricular activities, add-on programs, foreign languages, industrial visits, study material &amp; award of degree.
+        The total fee charged for PGDM course includes laptop, International study tour, tuition fee, examination fee, library, computer lab, training, sports, extracurricular activities, add-on programs, industrial visits, study material &amp; award of degree.
         </Question>
         <Question question="How much of my fees is refundable?">
           We follow AICTE Norms
@@ -65,9 +65,9 @@ const rename_later = () => {
         <Question question="Can a student pursue PHD program after completing PGDM from the institute?">
         Most of the UGC approved universities are considering AICTE approved PGDM Programme equivalent to MBA and are offering PHD.
         </Question>
-        <Question question="Can a student pursue PHD program after completing PGDM from the institute?">
+        {/* <Question question="Can a student pursue PHD program after completing PGDM from the institute?">
         Most of the UGC approved universities are considering AICTE approved PGDM Programme equivalent to MBA and are offering PHD.
-        </Question>
+        </Question> */}
         <Question question="How is the placement of PGDM students done?">
         The Institute provides complete placement assistance through training, personality development, pre-placement talks, corporate exposure, mock interviews and group discussions. All these activities are handled by a dedicated Corporate Resource Center.
         </Question>
