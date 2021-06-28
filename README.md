@@ -1,4 +1,3 @@
-corporate testimonial company logo
 award section bg blue leave top and bottom space
 why ssim
 
