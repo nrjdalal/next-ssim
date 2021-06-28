@@ -39,11 +39,12 @@ const alumni_testimonials = () => {
                       Shweta Upadhyay
                     </span>
                     {/* <span className="text-gray-500 text-sm"></span> */}
-                    <img
+                    {/* <img
                       alt="testimonial"
                       src="http://localhost:3000/images/recruiters/20.jpg"
                       className="h-12"
-                    />
+                    /> */}
+                    <LogoImg src="/images/corporate_logo/image2.png" />
                   </span>
                 </a>
               </div>
@@ -77,11 +78,12 @@ const alumni_testimonials = () => {
                     </span>
                     {/* <span className="text-gray-500 text-sm">ASORT</span>
                      */}
-                    <img
+                    {/* <img
                       alt="testimonial"
                       src="http://localhost:3000/images/recruiters/7.jpg"
                       className="h-12"
-                    />
+                    /> */}
+                    <LogoImg src="/images/corporate_logo/image4.png" />
                   </span>
                 </a>
               </div>
@@ -110,7 +112,8 @@ const alumni_testimonials = () => {
                 <h2 className="text-white font-medium title-font tracking-wider text-sm">
                   Mr. Prashant
                 </h2>
-                <p className="text-gray-500">TATA AIA</p>
+                {/* <p className="text-gray-500">TATA AIA</p> */}
+                <LogoImg src="/images/corporate_logo/image3.png" />
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
@@ -130,7 +133,8 @@ const alumni_testimonials = () => {
                 <h2 className="text-white font-medium title-font tracking-wider text-sm">
                   Ms. Puja
                 </h2>
-                <p className="text-gray-500">TECH MAHINDRA</p>
+                {/* <p className="text-gray-500">TECH MAHINDRA</p> */}
+                <LogoImg src="/images/corporate_logo/image6.png" />
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 p-4">
@@ -151,7 +155,8 @@ const alumni_testimonials = () => {
                 <h2 className="text-white font-medium title-font tracking-wider text-sm">
                   Shiv Ratan Singh
                 </h2>
-                <p className="text-gray-500">WNS</p>
+                {/* <p className="text-gray-500">WNS</p> */}
+                <LogoImg src="/images/corporate_logo/image5.png" />
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 p-4">
@@ -172,7 +177,8 @@ const alumni_testimonials = () => {
                 <h2 className="text-white font-medium title-font tracking-wider text-sm">
                   Mr. Vishal
                 </h2>
-                <p className="text-gray-500">Dr. Reddy&#39;s</p>
+                {/* <p className="text-gray-500">Dr. Reddy&#39;s</p> */}
+                <LogoImg src="/images/corporate_logo/image1.png" />
               </div>
             </div>
             <div className="lg:w-1/3 lg:mb-0 p-4">
@@ -225,7 +231,7 @@ const alumni_testimonials = () => {
             <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
               Akarshit Khare
             </h2>
-            <p className="text-gray-500">Anovent Pharmaceutical LLC.</p>
+            <p className="text-gray-500">Anovent Pharmaceutical LLC., Shanghai China</p>
           </div>
         </div>
       </section>

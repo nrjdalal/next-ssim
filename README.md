@@ -4,15 +4,12 @@ why ssim
 
 download => AICTE approval letter
 
-<<<<<<< HEAD
 position sticky menu
 
 contact us => both mobile number
 
 tab on right
 
-=======
->>>>>>> dfb7ddd6c037428d76c3f0d5092419f07c319f1c
 advisory council
 specialization
 
@@ -27,7 +24,6 @@ footer remove faq and put aicte approval letter
 
 custom email
 
-<<<<<<< HEAD
 m705-009-51
 
 ```json
@@ -78,5 +74,3 @@ m705-009-51
   "php.validate.executablePath": "/usr/bin/php"
 }
 ```
-=======
->>>>>>> dfb7ddd6c037428d76c3f0d5092419f07c319f1c
