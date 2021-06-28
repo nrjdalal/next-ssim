@@ -1,4 +1,5 @@
 !deploy-html.sh
+!deploy-org.sh
 
 # dependencies
 /node_modules
