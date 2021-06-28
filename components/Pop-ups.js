@@ -13,6 +13,7 @@ const Pop_ups = () => {
   }
 
   const initialState = {
+    Type: 'Admission Enquiry',
     name: '',
     email: '',
     mobile: '',
@@ -36,6 +37,8 @@ const Pop_ups = () => {
       .catch((e) => {
         alert('form not submitted')
       })
+
+      axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', { ...formState })
   }
 
   return (

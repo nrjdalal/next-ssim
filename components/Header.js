@@ -146,10 +146,11 @@ const EasyHeaders = () => {
                 d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
               />
             </svg>
-            <p className="mt-0.5">+91 8929 399 191</p>
+            <p className="mt-0.5"><a href="tel:+91-8929399191">+918929399191</a></p>
+            <p className="hidden sm:block mt-0.5 ml-2"><a href="tel:+91-8588890906">+918588890906</a></p>
           </div>
           <div className="flex items-center">
-            <a className="text-white">
+            <a className="text-white" href="https://www.facebook.com/dwarkassim/" target="_blank" rel="noreferrer">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -161,7 +162,7 @@ const EasyHeaders = () => {
                 <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
               </svg>
             </a>
-            <a className="ml-3 text-white">
+            {/* <a className="ml-3 text-white">
               <svg
                 fill="currentColor"
                 strokeLinecap="round"
@@ -172,8 +173,8 @@ const EasyHeaders = () => {
               >
                 <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
               </svg>
-            </a>
-            <a className="ml-3 text-white">
+            </a> */}
+            <a className="ml-3 text-white" href="https://www.instagram.com/ssimdelhi_org/" target="_blank" rel="noreferrer">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -187,7 +188,7 @@ const EasyHeaders = () => {
                 <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
               </svg>
             </a>
-            <a className="ml-3 text-white">
+            {/* <a className="ml-3 text-white">
               <svg
                 fill="currentColor"
                 stroke="currentColor"
@@ -203,7 +204,7 @@ const EasyHeaders = () => {
                 ></path>
                 <circle cx="4" cy="4" r="2" stroke="none"></circle>
               </svg>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -214,16 +215,16 @@ const EasyHeaders = () => {
             <a className="font-medium text-gray-900 md:mb-0">
               <img
                 className="h-12 md:h-14 lg:h-16"
-                src="https://ssimdwarka.org/wp-content/uploads/2019/12/logo-ssim.png"
+                src="/images/logo-ssim.png"
                 alt=""
               />
             </a>
           </Link>
-          <Link href="/">
+          <Link href="/admission/online-form">
             <a className="hidden lg:block font-medium text-gray-900 md:mb-0">
               <img
                 className="h-12 md:h-14 lg:h-16"
-                src="https://jsb.jaipuria.edu.in/wordpress/wp-content/uploads/2021/01/jsb_strip_banner.jpg"
+                src="/images/bannerao.jpeg"
                 alt=""
               />
             </a>

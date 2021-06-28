@@ -14,6 +14,8 @@ const online_form = () => {
     }).catch(e => {
       alert("form not submitted")
     });
+
+    axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', formData)
   }
 
 
@@ -23,10 +25,11 @@ const online_form = () => {
       <form name="onlineForm" onSubmit={(e) => handleSubmit(e)}>
       <div className="container mx-auto prose my-12 px-5 flex flex-col max-w-[600px]">
         <h2>Basic Information</h2>
+        <input type="hidden" name="Type" value="Admission Form" />
         <Input_mandtory name="NAME (MR./MS.)" fieldName="Name" type="text" className="mt-0" />
         <Input_mandtory name="E-mail Id" fieldName="email" type="email" />
         <div className="flex flex-col sm:flex-row">
-          <Input_mandtory
+          <Input
             name="Aadhaar Card No"
             type="text"
             fieldName="aadhar"
@@ -60,15 +63,15 @@ const online_form = () => {
 
         <h2>Mother&apos;s Information</h2>
         <Input_mandtory name="MOTHER'S NAME" fieldName="mothers-name" type="text" className="mt-0" />
-        <Mandatory_textarea name="Organization Name & Address" />
+        <Textarea name="Organization Name & Address" />
         <div className="flex flex-col sm:flex-row">
-          <Input_mandtory
+          <Input
             name="Designation"
             type="text"
             fieldName="mothers-designation"
             className="sm:w-1/2 mr-2"
           />
-          <Input_mandtory
+          <Input
             name="Mobile No"
             type="text"
             fieldName="mothers-mobile"
@@ -126,15 +129,15 @@ const online_form = () => {
           />
         </div>
 
-        <Mandatory_textarea name="Present Address (with City)" />
+        <Textarea name="Present Address (with City)" />
         <div className="flex flex-col sm:flex-row">
-          <Input_mandtory
+          <Input
             name="State"
             type="text"
             fieldName="present_state"
             className="sm:w-1/2 sm:mr-2"
           />
-          <Input_mandtory
+          <Input
             name="Pin Code"
             type="text"
             fieldName="present_pin_code"
@@ -384,7 +387,7 @@ const Gender_selector = () => {
     <>
       <div className="mt-4 flex items-center">
         <label className="m-1 mr-4">
-          Sex <span className="text-red-500">*</span>
+          Gender <span className="text-red-500">*</span>
         </label>
         <span className="mr-4 flex items-center">
           <input className="mr-2" type="radio" name="gender" value="Male" />
