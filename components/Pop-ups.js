@@ -52,7 +52,7 @@ const Pop_ups = () => {
       {/* Download Brochures top-1/2 right-[-72px] -rotate-90 */}
       <div
         style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="sm:hidden z-30 bottom-0 flex flex-row w-full left-1/2 -translate-x-1/2 border-t-[1px] border-gray-300"
+        className="sm:hidden z-57 bottom-0 flex flex-row w-full left-1/2 -translate-x-1/2 border-t-[1px] border-gray-300"
       >
         <button
           onClick={toggleClass}
@@ -161,7 +161,7 @@ const Pop_ups = () => {
 
       <div
         style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="hidden sm:flex z-30 right-0 top-2/3 -translate-y-2/3 flex-col border-t-2 border-l-2 border-b-2 border-gray-300 rounded-tl-xl rounded-bl-xl overflow-hidden"
+        className="hidden sm:flex z-57 right-0 top-2/3 -translate-y-2/3 flex-col border-t-2 border-l-2 border-b-2 border-gray-300 rounded-tl-xl rounded-bl-xl overflow-hidden"
       >
         <button
           onClick={toggleClass}
@@ -274,7 +274,7 @@ const Pop_ups = () => {
         className="h-full w-full top-0 z-40"
       ></div> */}
       <div
-        className="w-11/12 max-w-[500px] z-50 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-900-3xl border-2 border-gray-500 cursor-pointer rounded-3xl overflow-hidden"
+        className="w-11/12 max-w-[500px] z-57 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-gray-900-3xl border-2 border-gray-500 cursor-pointer rounded-3xl overflow-hidden"
         style={isActive ? { position: 'fixed' } : { display: 'none' }}
       >
         <div className="px-5 py-12 flex flex-col text-center bg-gray-700">
