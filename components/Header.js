@@ -5,7 +5,7 @@ const Header = () => {
     <>
       <EasyHeaders />
       {/* Desktop Navbar */}
-      <navbar className="hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
+      <navbar className="sticky hidden top-[113.5px] z-[55] top-hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200 ">
         <div className="container mx-auto flex p-5 items-center justify-between">
           <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center lg:text-sm xl:text-base justify-center lg:w-[1080px] xl:w-[1280px]">
             {/* Nav Item 01 */}
@@ -223,8 +223,8 @@ const EasyHeaders = () => {
         </div>
       </div>
       {/* Header */}
-      <header className="hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
-        <div className="container mx-auto flex p-4 items-center justify-between">
+      <header className="sticky z-[55] top-0 hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
+        <div className="container mx-auto flex p-4 items-center justify-between bg-white">
           <Link href="/">
             <a className="font-medium text-gray-900 md:mb-0 flex flex-col items-end tracking-wider">
               <img
