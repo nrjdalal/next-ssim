@@ -6,54 +6,86 @@ const rename_later = () => {
     <>
       <Breadcrumb title="Advisory Council" />
 
-      <ProseWide className="pb-12">
-        <h2 className="pt-12 text-center">ADVISORY COUNCIL</h2>
-        <br />
-        <h3>Prof. Avtar Singh</h3>
-        <p className="">
-          Founder and Chairman, Sri Sukhmani Group of Institutes
-        </p>
-            
-        <h3>Mr. Kanwaljit Singh</h3>
-        <p className="">
-          Vice-Chairman, Sri Sukhmani Group of Institutes
-        </p>
+      <div className="container mx-auto px-5 py-20 flex justify-center flex-wrap">
+        <Member
+          color="red"
+          name="Prof. Avtar Singh"
+          title="Founder and Chairman"
+          more="Sri Sukhmani Group of Institutes"
+        />
 
+        <span className="w-full" />
+
+        <Member
+          color="blue"
+          name="Mr. Kanwaljit Singh"
+          title="Vice-Chairman"
+          more="Sri Sukhmani Group of Institutes"
+        />
+
+        <Member
+          color="blue"
+          name="Ms. Joyeeta Kumar"
+          title="VP-Head Buying & Merchandising"
+          more="Reliance Retail"
+        />
+
+        <Member
+          color="blue"
+          name="Mr. Kumar Ashish"
+          title="President"
+          more="Bandhan Bank"
+        />
+
+        <Member
+          color="blue"
+          name="Mr. Sanjeet Joher"
+          title="Head – South Asia"
+          more="VFS Global"
+        />
+
+        <span className="w-full" />
+
+        <Member color="green" name="Ms. Sanjana Kalra" title="Educationist" />
+
+        <Member color="green" name="Dr. Sujata Kaul" title="Educationist" />
+
+        <Member color="green" name="Mr. Sushant Sinha" title="Educationist" />
+
+        {/* 
         <h3>Ms. Joyeeta Kumar</h3>
-        <p className="">
-          VP-Head Buying & Merchandising, Reliance Retail
-        </p>
+        <p className="">VP-Head Buying & Merchandising, Reliance Retail</p>
 
         <h3>Mr. Kumar Ashish</h3>
-        <p className="">
-          President, Bandhan Bank
-        </p>
+        <p className="">President, Bandhan Bank</p>
 
         <h3>Mr. Sanjeet Joher</h3>
-        <p className="">
-        Head – South Asia, VFS Global
+        <p className="">Head – South Asia, VFS Global</p>
 
-        </p>
+         */}
+      </div>
+    </>
+  )
+}
 
-        <h3>Ms. Sanjana Kalra</h3>
-        <p className="">
-          Educationist
-        </p>
-
-        <h3>Dr. Sujata Kaul</h3>
-        <p className="">
-          Educationist
-        </p>
-
-        <h3>Sushant Sinha</h3>
-        <p className="">
-          Educationist
-        </p>
-      </ProseWide>
+const Member = (props) => {
+  return (
+    <>
+      <div className={`px-5 py-10 w-[300px] ${props.className}`}>
+        <div className={`flex flex-col border-t-8 border-gray-300 pt-5`}>
+          <h3
+            className={`text-lg font-semibold text-${
+              props.color || 'blue'
+            }-500`}
+          >
+            {props.name}
+          </h3>
+          <p className="text-base font-semibold">{props.title}</p>
+          <p className="text-sm">{props.more}</p>
+        </div>
+      </div>
     </>
   )
 }
 
 export default rename_later
-
-
