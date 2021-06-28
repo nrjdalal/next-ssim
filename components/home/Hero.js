@@ -44,7 +44,7 @@ const Hero = () => {
           }}
           className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/hero/banner-2.jpg"
+          src="/images/hero/banner-3.jpg"
         />
 
         <img
@@ -53,7 +53,7 @@ const Hero = () => {
           }}
           className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/hero/banner-3.jpg"
+          src="/images/hero/banner-2.jpg"
         />
 
         <img
