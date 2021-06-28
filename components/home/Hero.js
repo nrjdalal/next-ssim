@@ -8,7 +8,7 @@ const Hero = () => {
   useEffect(() => {
     gsap.from(slides.current, {
       opacity: 0,
-      // ease: Power1.easeInOut,
+      ease: Power1.easeInOut,
       duration: 5,
       stagger: 7,
       repeat: -1,
@@ -35,7 +35,7 @@ const Hero = () => {
         <img
           className="top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/hero/Nourchuring-Business-Leader-_opt-1.jpg"
+          src="/images/hero/banner-1.jpg"
         />
 
         <img
@@ -44,7 +44,7 @@ const Hero = () => {
           }}
           className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/hero/Nourchuring-Business-Leader-_opt-2.jpg"
+          src="/images/hero/banner-2.jpg"
         />
 
         <img
@@ -53,7 +53,7 @@ const Hero = () => {
           }}
           className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/hero/Nourchuring-Business-Leader-_opt-3.jpg"
+          src="/images/hero/banner-3.jpg"
         />
 
         <img
@@ -62,7 +62,16 @@ const Hero = () => {
           }}
           className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/hero/Nourchuring-Business-Leader-_opt-1.jpg"
+          src="/images/hero/banner-4.jpg"
+        />
+
+        <img
+          ref={(el) => {
+            slides.current[3] = el
+          }}
+          className="absolute top-0 object-cover w-screen z-10"
+          alt="hero"
+          src="/images/hero/banner-1.jpg"
         />
       </section>
       {/* <img
