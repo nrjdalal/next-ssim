@@ -78,6 +78,9 @@ const Contact_us = () => {
                 <a href="tel:+91-8929399191">
                   <p className="leading-relaxed">+91-8929399191</p>
                 </a>
+                <a href="tel:+91-8588890906">
+                  <p className="leading-relaxed">+91-8588890906</p>
+                </a>
               </div>
             </div>
           </div>
