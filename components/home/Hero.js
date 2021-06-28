@@ -17,14 +17,15 @@ const Hero = () => {
 
   return (
     <>
-      <img
+      {/* <img
         className="w-screen bg-[#096b97] mb-20"
         src="/images/banners/1.png"
         alt=""
-      />
-      {/* <section className="relative h-[500px] md:h-[500px] bg-blue-900">
+      /> */}
+
+      <section className="relative h-[400px] md:h-[500px] bg-blue-900">
         <img
-          className="absolute h-[500px] md:h-[500px] object-cover object-top w-screen z-10"
+          className="absolute h-[400px] md:h-[500px] object-cover object-left-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
         />
@@ -33,7 +34,7 @@ const Hero = () => {
           ref={(el) => {
             slides.current[0] = el
           }}
-          className="absolute h-[500px] md:h-[500px] object-cover object-top w-screen z-10"
+          className="absolute h-[400px] md:h-[500px] object-cover object-left-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-2-lg.jpg"
         />
@@ -42,11 +43,11 @@ const Hero = () => {
           ref={(el) => {
             slides.current[1] = el
           }}
-          className="absolute h-[500px] md:h-[500px] object-cover object-top w-screen z-10"
+          className="absolute h-[400px] md:h-[500px] object-cover object-left-top w-screen z-10"
           alt="hero"
           src="/images/banners/banner-1-lg.jpg"
-        /> */}
-
+        />
+      </section>
       {/* <img
           ref={(el) => {
             slides.current[0] = el
