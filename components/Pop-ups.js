@@ -161,7 +161,7 @@ const Pop_ups = () => {
 
       <div
         style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="hidden sm:flex z-30 right-0 top-2/3 -translate-y-1/3 flex-col border-t-2 border-l-2 border-b-2 border-gray-300 rounded-tl-xl rounded-bl-xl overflow-hidden"
+        className="hidden sm:flex z-30 right-0 top-2/3 -translate-y-2/3 flex-col border-t-2 border-l-2 border-b-2 border-gray-300 rounded-tl-xl rounded-bl-xl overflow-hidden"
       >
         <button
           onClick={toggleClass}
