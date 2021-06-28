@@ -52,13 +52,13 @@ const Pop_ups = () => {
       {/* Download Brochures top-1/2 right-[-72px] -rotate-90 */}
       <div
         style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="sm:hidden z-30 bottom-0 flex flex-row w-full left-1/2 -translate-x-1/2"
+        className="sm:hidden z-30 bottom-0 flex flex-row w-full left-1/2 -translate-x-1/2 border-t-[1px] border-gray-300"
       >
         <button
           onClick={toggleClass}
           className="z-30 bg-red-500 p-2 text-white cursor-pointer flex flex-col items-center w-1/4"
         >
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7"
             fill="none"
@@ -71,7 +71,7 @@ const Pop_ups = () => {
               strokeWidth={2}
               d="M10 21h7a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v11m0 5l4.879-4.879m0 0a3 3 0 104.243-4.242 3 3 0 00-4.243 4.242z"
             />
-          </svg>
+          </svg> */}
           <p className="text-xs font-semibold tracking-tighter">
             Admission
             <br />
@@ -80,7 +80,7 @@ const Pop_ups = () => {
         </button>
 
         <button className="bg-blue-500 p-2 text-white cursor-pointer flex flex-col items-center w-1/4">
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7"
             fill="none"
@@ -93,7 +93,7 @@ const Pop_ups = () => {
               strokeWidth={2}
               d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
             />
-          </svg>
+          </svg> */}
           <a
             className="text-xs font-semibold tracking-tighter"
             href="/documents/brochure.pdf"
@@ -106,7 +106,7 @@ const Pop_ups = () => {
         </button>
 
         <button className="bg-green-500 p-2 text-white cursor-pointer flex flex-col items-center w-1/4">
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7"
             fill="none"
@@ -119,7 +119,7 @@ const Pop_ups = () => {
               strokeWidth={2}
               d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
             />
-          </svg>
+          </svg> */}
           <a
             className="text-xs font-semibold tracking-tighter"
             href="/documents/ApplicationForm.pdf"
@@ -135,7 +135,7 @@ const Pop_ups = () => {
           className="bg-yellow-500 p-2 text-white cursor-pointer flex flex-col items-center w-1/4"
           download=""
         >
-          <svg
+          {/* <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-7 w-7"
             fill="none"
@@ -148,7 +148,7 @@ const Pop_ups = () => {
               strokeWidth={2}
               d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"
             />
-          </svg>
+          </svg> */}
           <Link href="http://ssat.ssimdwarka.org">
             <a className="text-xs font-semibold tracking-tighter">
               Online
@@ -161,7 +161,7 @@ const Pop_ups = () => {
 
       <div
         style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="hidden sm:flex z-30 right-0 top-1/2 -translate-y-1/2 flex-col"
+        className="hidden sm:flex z-30 right-0 top-1/2 -translate-y-1/2 flex-col border-t-2 border-l-2 border-b-2 border-gray-300"
       >
         <button
           onClick={toggleClass}
