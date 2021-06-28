@@ -7,7 +7,8 @@
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
-    "deploy-html": "sh deploy-html.sh"
+    "deploy-html": "bash deploy-html.sh",
+    "deploy": "bash deploy-org.sh"
   },
   "dependencies": {
     "axios": "^0.21.1",
