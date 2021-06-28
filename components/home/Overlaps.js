@@ -6,7 +6,7 @@ const Overlaps = () => {
         <div className="absolute top-[-72px] left-0 px-5 z-10 w-screen">
           <div className="flex flex-wrap sm:mx-auto">
             <div className="p-2 sm:w-1/2 xl:w-1/4 w-full">
-              <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center">
+              <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center border-4 border-yellow-500">
                 <span className="text-xl font-semibold text-white text-center tracking-wider">
                   Year of Establishment <br />
                   <span className="text-yellow-400">2009</span>
@@ -14,7 +14,7 @@ const Overlaps = () => {
               </div>
             </div>
             <div className="p-2 sm:w-1/2 xl:w-1/4 w-full">
-              <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center">
+              <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center border-4 border-yellow-500">
                 <span className="text-xl font-semibold text-white text-center tracking-wider">
                   Approved by AICTE <br />
                   <span className="text-yellow-400">Ministry of HRD, GOI</span>
@@ -22,7 +22,7 @@ const Overlaps = () => {
               </div>
             </div>
             <div className="p-2 sm:w-1/2 xl:w-1/4 w-full">
-              <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center">
+              <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center border-4 border-yellow-500">
                 <span className="text-xl font-semibold text-white text-center tracking-wider">
                   Highest Package <br />
                   <span className="text-yellow-400">11.8 LPA</span>
@@ -30,7 +30,7 @@ const Overlaps = () => {
               </div>
             </div>
             <div className="p-2 sm:w-1/2 xl:w-1/4 w-full">
-              <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center">
+              <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center border-4 border-yellow-500">
                 <span className="text-xl font-semibold text-white text-center tracking-wider">
                   Average Package <br />
                   <span className="text-yellow-400">6.4 LPA</span>

@@ -8,7 +8,7 @@ const Hero = () => {
   useEffect(() => {
     gsap.from(slides.current, {
       opacity: 0,
-      ease: Power1.easeInOut,
+      // ease: Power1.easeInOut,
       duration: 5,
       stagger: 7,
       repeat: -1,
@@ -23,29 +23,46 @@ const Hero = () => {
         alt=""
       /> */}
 
-      <section className="relative h-[400px] md:h-[500px] bg-blue-900">
+      <section className="relative div bg-blue-900">
+        {/* <section className="relative div bg-blue-900">
+          <img
+            className="object-cover w-screen z-10"
+            alt="hero"
+            src="/images/hero/Nourchuring-Business-Leader-_opt-1.jpg"
+          />
+        </section> */}
+
         <img
-          className="absolute h-[400px] md:h-[500px] object-cover object-left-top w-screen z-10"
+          className="top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/banners/banner-1-lg.jpg"
+          src="/images/hero/Nourchuring-Business-Leader-_opt-1.jpg"
         />
 
         <img
           ref={(el) => {
             slides.current[0] = el
           }}
-          className="absolute h-[400px] md:h-[500px] object-cover object-left-top w-screen z-10"
+          className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/banners/banner-2-lg.jpg"
+          src="/images/hero/Nourchuring-Business-Leader-_opt-2.jpg"
         />
 
         <img
           ref={(el) => {
             slides.current[1] = el
           }}
-          className="absolute h-[400px] md:h-[500px] object-cover object-left-top w-screen z-10"
+          className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
-          src="/images/banners/banner-1-lg.jpg"
+          src="/images/hero/Nourchuring-Business-Leader-_opt-3.jpg"
+        />
+
+        <img
+          ref={(el) => {
+            slides.current[2] = el
+          }}
+          className="absolute top-0 object-cover w-screen z-10"
+          alt="hero"
+          src="/images/hero/Nourchuring-Business-Leader-_opt-1.jpg"
         />
       </section>
       {/* <img
