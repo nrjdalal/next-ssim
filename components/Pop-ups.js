@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { useState } from 'react'
 import axios from 'axios'
 
@@ -26,7 +27,9 @@ const Pop_ups = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     axios
-      .post('https://formsubmit.co/ajax/application.ssimdwarka@gmail.com', { ...formState })
+      .post('https://formsubmit.co/ajax/application.ssimdwarka@gmail.com', {
+        ...formState,
+      })
       .then((res) => {
         if (res.status === 200) {
           setActive(false)
@@ -47,20 +50,42 @@ const Pop_ups = () => {
       <a href="/documents/brochure.pdf" download>
         <button
           style={isActive ? { display: 'none' } : { position: 'fixed' }}
-          className="top-1/2 -left-16 rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"
+          className="top-1/3 -left-16 rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"
           download=""
         >
           Download Brochure
         </button>
       </a>
+      {/* Download Form */}
+      <a href="/documents/ApplicationForm.pdf" download>
+        <button
+          style={isActive ? { display: 'none' } : { position: 'fixed' }}
+          className="top-2/3 left-[-53px] rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"
+          download=""
+        >
+          Application Form
+        </button>
+      </a>
+
+      <button
+        style={isActive ? { display: 'none' } : { position: 'fixed' }}
+        className="top-1/3 right-[-14px] -rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"
+        download=""
+      >
+        <Link href="http://ssat.ssimdwarka.org">
+          <a>S - SAT</a>
+        </Link>
+      </button>
+
       {/* Admission Open Button */}
       <button
         onClick={toggleClass}
         style={isActive ? { display: 'none' } : { position: 'fixed' }}
-        className="top-1/2 right-[-72px] -rotate-90 z-30 bg-green-500 px-3 py-1 rounded text-white cursor-pointer"
+        className="top-2/3 right-[-72px] -rotate-90 z-30 bg-green-500 px-3 py-1 rounded text-white cursor-pointer"
       >
         Admission Open 2021
       </button>
+
       {/* Pop Up */}
       <div
         style={isActive ? { position: 'fixed' } : { display: 'none' }}
