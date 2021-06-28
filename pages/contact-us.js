@@ -9,7 +9,8 @@ const Contact_us = () => {
     email:"",
     mobile:"",
     message:"",
-    _template:'box'
+    _template:'box',
+    _subject: 'Contact Form'
   }
 
   const [FormState, setFormState] = useState(initialState);

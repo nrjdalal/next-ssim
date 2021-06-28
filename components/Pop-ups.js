@@ -20,6 +20,7 @@ const Pop_ups = () => {
     mobile: '',
     city: '',
     _template: 'box',
+    _subject: 'Admission Enquiry'
   }
 
   const [formState, setFormState] = useState(initialState)

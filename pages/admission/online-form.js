@@ -25,6 +25,7 @@ const online_form = () => {
       <form name="onlineForm" onSubmit={(e) => handleSubmit(e)}>
       <div className="container mx-auto prose my-12 px-5 flex flex-col max-w-[600px]">
         <h2>Basic Information</h2>
+        <input type="hidden" name="_subject" value="Admission Form" />
         <input type="hidden" name="Type" value="Admission Form" />
         <input type="hidden" name="_template" value="box" />
         <Input_mandtory name="NAME (MR./MS.)" fieldName="Name" type="text" className="mt-0" />
