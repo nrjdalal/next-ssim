@@ -30,6 +30,7 @@ const Header = () => {
                 title="Corporate Edge Certifications"
                 href="/pgdm/value-added-courses"
               />
+              <NavLink title="Why SSIM" href="/pgdm/why-ssim" />
             </DropNav>
 
             <DropNav title="Admission">
