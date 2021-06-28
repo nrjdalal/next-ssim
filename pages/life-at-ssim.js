@@ -201,8 +201,7 @@ const rename_later = () => {
           </div>
         </div>
       </section>
-      
-      
+
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -400,14 +399,6 @@ const rename_later = () => {
         </div>
       </section>
 
-
-
-
-
-
-
-
-
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -442,7 +433,7 @@ const rename_later = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center text-white"
+                  className="absolute inset-0 w-full h-full object-cover object-top text-white"
                   src="/website/Ipday/2.jpg"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
@@ -463,7 +454,7 @@ const rename_later = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center text-white"
+                  className="absolute inset-0 w-full h-full object-cover object-top text-white"
                   src="/website/Ipday/3.jpg"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
@@ -605,14 +596,6 @@ const rename_later = () => {
         </div>
       </section>
 
-
-
-
-
-
-
-
-
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
@@ -647,7 +630,7 @@ const rename_later = () => {
               <div className="flex relative">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 w-full h-full object-cover object-center text-white"
+                  className="absolute inset-0 w-full h-full object-cover object-top text-white"
                   src="/website/Lohri/2.jpeg"
                 />
                 <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-0">
@@ -746,14 +729,6 @@ const rename_later = () => {
           </div>
         </div>
       </section>
-
-
-
-
-
-
-
-
 
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
@@ -893,7 +868,6 @@ const rename_later = () => {
           </div>
         </div>
       </section>
-
     </>
   )
 }
