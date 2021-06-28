@@ -20,9 +20,12 @@ git clone https://github.com/nrjdalal/ns-ssim
 
 # delete all repo files/folders except .git
 rm -rf ./ns-ssim/*
+rm -rf ./ns-ssim/.htaccess
 
 # copy newer build to cloned repository
 cp -r ./out/* ./ns-ssim
+cp -r ./out/.htaccess ./ns-ssim
+
 
 # change directory to newer repository
 cd ./ns-ssim
