@@ -22,7 +22,7 @@ const Contact_us = () => {
         alert("Form Submitted")
       }
     }).catch(e => {
-      alert("Form not submitted")
+      alert("Form Not Submitted")
     });
 
     axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', { ...FormState })

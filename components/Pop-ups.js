@@ -57,7 +57,7 @@ const Pop_ups = () => {
         </button>
       </a>
       {/* Download Form */}
-      <a href="/documents/ApplicationForm.pdf" download>
+      <a href="/documents/AdmissionForm.pdf" download>
         <button
           style={isActive ? { display: 'none' } : { position: 'fixed' }}
           className="top-2/3 left-[-53px] rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"
