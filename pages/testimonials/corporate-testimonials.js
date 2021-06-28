@@ -38,7 +38,12 @@ const alumni_testimonials = () => {
                     <span className="title-font font-medium text-gray-900">
                       Shweta Upadhyay
                     </span>
-                    <span className="text-gray-500 text-sm">AMAZON</span>
+                    {/* <span className="text-gray-500 text-sm"></span> */}
+                    <img
+                      alt="testimonial"
+                      src="http://localhost:3000/images/recruiters/20.jpg"
+                      className="h-12"
+                    />
                   </span>
                 </a>
               </div>
@@ -70,7 +75,13 @@ const alumni_testimonials = () => {
                     <span className="title-font font-medium text-gray-900">
                       Ambrish Ranjan
                     </span>
-                    <span className="text-gray-500 text-sm">ASORT</span>
+                    {/* <span className="text-gray-500 text-sm">ASORT</span>
+                     */}
+                    <img
+                      alt="testimonial"
+                      src="http://localhost:3000/images/recruiters/7.jpg"
+                      className="h-12"
+                    />
                   </span>
                 </a>
               </div>
