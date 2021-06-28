@@ -14,11 +14,12 @@ const Pop_ups = () => {
   }
 
   const initialState = {
+    Type: 'Admission Enquiry',
     name: '',
     email: '',
     mobile: '',
     city: '',
-    _captcha: false,
+    _template: 'table',
   }
 
   const [formState, setFormState] = useState(initialState)
@@ -33,12 +34,14 @@ const Pop_ups = () => {
         if (res.status === 200) {
           setActive(false)
           setFormState(initialState)
-          alert('form submitted')
+          alert('Form Submitted')
         }
       })
       .catch((e) => {
-        alert('form not submitted')
+        alert('Form Not Submitted')
       })
+
+      axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', { ...formState })
   }
 
   return (
@@ -54,7 +57,7 @@ const Pop_ups = () => {
         </button>
       </a>
       {/* Download Form */}
-      <a href="/documents/ApplicationForm.pdf" download>
+      <a href="/documents/AdmissionForm.pdf" download>
         <button
           style={isActive ? { display: 'none' } : { position: 'fixed' }}
           className="top-2/3 left-[-53px] rotate-90 z-30 bg-yellow-500 px-3 py-1 rounded text-white cursor-pointer"

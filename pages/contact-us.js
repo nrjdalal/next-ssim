@@ -4,9 +4,12 @@ import axios from 'axios'
 
 const Contact_us = () => {
   const initialState = {
+    Type:"Contact Form",
     name:"",
     email:"",
+    mobile:"",
     message:"",
+    _template:'table'
   }
 
   const [FormState, setFormState] = useState(initialState);
@@ -16,11 +19,13 @@ const Contact_us = () => {
     axios.post("https://formsubmit.co/ajax/application.ssimdwarka@gmail.com", {...FormState}).then(res=>{
       if(res.status === 200){
         setFormState(initialState)
-        alert("Form submitted")
+        alert("Form Submitted")
       }
     }).catch(e => {
-      alert("Form not submitted")
+      alert("Form Not Submitted")
     });
+
+    axios.post('https://formsubmit.co/ajax/30a1228bde81099ab03cfa0414c41772', { ...FormState })
   }
 
 
@@ -54,13 +59,13 @@ const Contact_us = () => {
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">
                   EMAIL
                 </h2>
-                <a className="text-blue-500 leading-relaxed">
-                  example@email.com
+                <a className="text-blue-500 leading-relaxed" href="mailto:leads@ssimdwarka.org">
+                  leads@ssimdwarka.org
                 </a>
                 <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">
                   PHONE
                 </h2>
-                <p className="leading-relaxed">+91 8929399191</p>
+                <a href="tel:+91-8929399191"><p className="leading-relaxed">+91 8929399191</p></a>
               </div>
             </div>
           </div>
@@ -71,6 +76,7 @@ const Contact_us = () => {
             </h2>
             <p className="leading-relaxed mb-5 text-gray-600">
             </p>
+            <input type="hidden" name="_template" value="table" />
             <div className="relative mb-4">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600">
                 Name
@@ -81,6 +87,7 @@ const Contact_us = () => {
                 name="name"
                 value={FormState.name}
                 onChange={(e) => {setFormState({...FormState, name:e.target.value})}}
+                required="true"
                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -96,7 +103,25 @@ const Contact_us = () => {
                 id="email"
                 name="email"
                 value={FormState.email}
-                onChange={(e) => {setFormState({...FormState.email, email:e.target.value})}}
+                onChange={(e) => {setFormState({...FormState, email:e.target.value})}}
+                required="true"
+                className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+            <div className="relative mb-4">
+              <label
+                htmlFor="mobile"
+                className="leading-7 text-sm text-gray-600"
+              >
+                Mobile
+              </label>
+              <input
+                type="number"
+                id="email"
+                name="mobile"
+                value={FormState.mobile}
+                onChange={(e) => {setFormState({...FormState, mobile:e.target.value})}}
+                required="true"
                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
@@ -112,6 +137,7 @@ const Contact_us = () => {
                 name="message"
                 value={FormState.message}
                 onChange={(e) => {setFormState({...FormState, message:e.target.value})}}
+                required="true"
                 className="w-full bg-white rounded border border-gray-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               ></textarea>
             </div>
