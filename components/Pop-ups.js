@@ -19,7 +19,7 @@ const Pop_ups = () => {
     email: '',
     mobile: '',
     city: '',
-    _template: 'table',
+    _template: 'box',
   }
 
   const [formState, setFormState] = useState(initialState)

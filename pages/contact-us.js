@@ -9,7 +9,7 @@ const Contact_us = () => {
     email:"",
     mobile:"",
     message:"",
-    _template:'table'
+    _template:'box'
   }
 
   const [FormState, setFormState] = useState(initialState);
