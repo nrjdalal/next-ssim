@@ -68,7 +68,8 @@ const MobBar = () => {
 
   return (
     <>
-      <div className="sticky top-0 flex lg:hidden container mx-auto p-5 justify-between border-t-2 border-b-2 border-gray-300 bg-white z-[55]">
+      {/* <div className="container mx-auto"> */}
+      <div className="sticky top-0 flex lg:hidden p-5 justify-between border-t-2 border-b-2 border-gray-300 bg-white z-[55]">
         <Link href="/">
           <a>
             <img
@@ -95,6 +96,7 @@ const MobBar = () => {
           </svg>
         </button>
       </div>
+      {/* </div> */}
       {/* Dropdown */}
       <div
         className="relative flex lg:hidden top-0 z-[60] w-screen h-screen bg-gray-900 text-white flex-col items-center pt-8 pb-12 overflow-y-auto"

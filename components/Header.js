@@ -127,7 +127,7 @@ const EasyHeaders = () => {
   return (
     <>
       <div className="bg-gray-900 text-white">
-        <div className="container mx-auto flex justify-between pr-6 py-3">
+        <div className="lg:container lg:mx-auto flex justify-between pr-6 py-3">
           <div className="flex items-center">
             <p className="hidden pl-6 font-medium sm:block mt-0.5">
               ADMISSION HELPLINE :
