@@ -35,7 +35,7 @@ const rename_later = () => {
 
         <Profile
           name="Prof. Dr. Anindita Sharma"
-          src="/images/faculty/default-avatar.png"
+          src="/images/faculty/anindita.jpg"
           department="Business Communication"
           degree="PhD, MBA & MA (English)"
           years="18"
