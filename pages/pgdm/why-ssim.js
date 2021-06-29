@@ -49,8 +49,14 @@ const rename_later = () => {
           color="blue"
           title="Excellence of 50 Years in Indian Industry, Education and Social Service"
         />
-        <Member color="blue" title="Founder and Chairman" />
-        <Member color="blue" title="Founder and Chairman" />
+        <Member
+          color="blue"
+          title="5 Corporate Edge Certifications Including Six Sigma & Digital Marketing"
+        />
+        <Member
+          color="blue"
+          title="6 Industry Integrated Workshops i.e. NSE, SEBI & MIS etc"
+        />
       </div>
     </>
   )
