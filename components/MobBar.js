@@ -58,7 +58,7 @@ const MobBar = () => {
     return (
       <>
         <Link href={props.href}>
-          <a onClick={closeMenu} className="mt-4">
+          <a onClick={closeMenu} className={`mt-4 ${props.className}`}>
             {props.title}
           </a>
         </Link>
@@ -99,7 +99,7 @@ const MobBar = () => {
       {/* </div> */}
       {/* Dropdown */}
       <div
-        className="relative flex lg:hidden top-0 z-[60] w-screen h-screen bg-gray-900 text-white flex-col items-center pt-8 pb-12 overflow-y-auto"
+        className="flex lg:hidden top-0 z-[60] w-screen h-screen bg-gray-900 text-white flex-col items-center pt-8 pb-12 overflow-y-auto"
         style={isMenu ? { position: 'fixed' } : { display: 'none' }}
       >
         <svg
@@ -181,7 +181,7 @@ const MobBar = () => {
 
         <span className="w-1/12 border-b-[1px] border-white mt-6 mb-2" />
         <Sublink title="Life @ SSIM" href="/life-at-ssim" />
-        <Sublink title="Contact Us" href="/contact-us" />
+        <Sublink title="Contact Us" href="/contact-us" className="mb-12" />
       </div>
     </>
   )
