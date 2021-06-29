@@ -2,12 +2,11 @@ import { Logo150 } from '../../components/Universal'
 import Breadcrumb from '../../components/Breadcrumb'
 
 const rename_later = () => {
-
   return (
     <>
       <Breadcrumb title="Our Recruiters" />
       <div className="py-24">
-        <h3 className="text-center">Automobile</h3>
+        <h3 className="text-xl font-semibold mb-12 text-center">Automobile</h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <Logo150 src="/images/recruiters/Autumobile/ (1).jpg" />
@@ -28,7 +27,9 @@ const rename_later = () => {
         </div>
       </div>
       <div className="py-24">
-        <h3 className="text-center">BFSI (Banking, Financial Service & Insurance)</h3>
+        <h3 className="text-xl font-semibold mb-12 text-center">
+          BFSI (Banking, Financial Service & Insurance)
+        </h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <Logo150 src="/images/recruiters/BFSI (Banking, Financial Service & Insurance)/ (1).png" />
@@ -55,7 +56,9 @@ const rename_later = () => {
         </div>
       </div>
       <div className="py-24">
-        <h3 className="text-center">E-Commerce, Retail & Logistics</h3>
+        <h3 className="text-xl font-semibold mb-12 text-center">
+          E-Commerce, Retail & Logistics
+        </h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <Logo150 src="/images/recruiters/E-Commerce, Retail & Logistics/ (1).png" />
@@ -96,7 +99,7 @@ const rename_later = () => {
         </div>
       </div>
       <div className="py-24">
-        <h3 className="text-center">Ed Tech</h3>
+        <h3 className="text-xl font-semibold mb-12 text-center">Ed Tech</h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <Logo150 src="/images/recruiters/Ed Tech/ (1).png" />
@@ -116,7 +119,7 @@ const rename_later = () => {
         </div>
       </div>
       <div className="py-24">
-        <h3 className="text-center">FMCG</h3>
+        <h3 className="text-xl font-semibold mb-12 text-center">FMCG</h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <Logo150 src="/images/recruiters/FMCG/ (1).png" />
@@ -140,7 +143,9 @@ const rename_later = () => {
         </div>
       </div>
       <div className="py-24">
-        <h3 className="text-center">Food &amp; Beverages</h3>
+        <h3 className="text-xl font-semibold mb-12 text-center">
+          Food &amp; Beverages
+        </h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <Logo150 src="/images/recruiters/Food Beverages/ (1).jpg" />
@@ -160,7 +165,9 @@ const rename_later = () => {
         </div>
       </div>
       <div className="py-24">
-        <h3 className="text-center">IT, ITES & Telecom</h3>
+        <h3 className="text-xl font-semibold mb-12 text-center">
+          IT, ITES & Telecom
+        </h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <Logo150 src="/images/recruiters/IT, ITES & Telecom/ (1).jpg" />
@@ -192,7 +199,9 @@ const rename_later = () => {
         </div>
       </div>
       <div className="py-24">
-        <h3 className="text-center">Other Recruiters</h3>
+        <h3 className="text-xl font-semibold mb-12 text-center">
+          Other Recruiters
+        </h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <Logo150 src="/images/recruiters/Other Recruiters/ (1).png" />
