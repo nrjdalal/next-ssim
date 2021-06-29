@@ -75,7 +75,10 @@ const Footer = () => {
                 >
                   Download Brochure
                 </a> */}
-                <Footer_link name="FAQs" to="/admission/faqs" />
+                <Footer_link
+                  name="AICTE Approval Letter"
+                  to="/documents/AICTE-Letter.pdf"
+                />
               </nav>
             </div>
             <div className="lg:w-1/6 md:w-1/2 w-full text-left">
