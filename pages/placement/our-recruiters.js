@@ -5,7 +5,7 @@ const rename_later = () => {
   return (
     <>
       <Breadcrumb title="Our Recruiters" />
-      <div className="py-24">
+      <div className="pt-16">
         <h3 className="text-xl font-semibold mb-12 text-center">Automobile</h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
@@ -26,7 +26,7 @@ const rename_later = () => {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-16">
         <h3 className="text-xl font-semibold mb-12 text-center">
           BFSI (Banking, Financial Service & Insurance)
         </h3>
@@ -55,7 +55,7 @@ const rename_later = () => {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-16">
         <h3 className="text-xl font-semibold mb-12 text-center">
           E-Commerce, Retail & Logistics
         </h3>
@@ -98,7 +98,7 @@ const rename_later = () => {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-16">
         <h3 className="text-xl font-semibold mb-12 text-center">Ed Tech</h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
@@ -118,7 +118,7 @@ const rename_later = () => {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-16">
         <h3 className="text-xl font-semibold mb-12 text-center">FMCG</h3>
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
@@ -142,7 +142,7 @@ const rename_later = () => {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-16">
         <h3 className="text-xl font-semibold mb-12 text-center">
           Food &amp; Beverages
         </h3>
@@ -164,7 +164,7 @@ const rename_later = () => {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-16">
         <h3 className="text-xl font-semibold mb-12 text-center">
           IT, ITES & Telecom
         </h3>
@@ -198,7 +198,7 @@ const rename_later = () => {
           </div>
         </div>
       </div>
-      <div className="py-24">
+      <div className="pt-16 pb-16">
         <h3 className="text-xl font-semibold mb-12 text-center">
           Other Recruiters
         </h3>
