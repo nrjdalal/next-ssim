@@ -24,7 +24,7 @@ const Cards = () => {
                 <div className="relative bg-white px-2 py-2 rounded text-center">
                   <Link href="/about/chairmans-message">
                     <a>
-                      <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
+                      <h3 className="text-gray-900 text-base font-semibold title-font">
                         CHAIRMAN&apos;S MESSAGE
                       </h3>
                     </a>
@@ -69,7 +69,7 @@ const Cards = () => {
                 <div className="relative bg-white px-2 py-2 rounded text-center">
                   <Link href="/pgdm/programme">
                     <a>
-                      <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
+                      <h3 className="text-gray-900 text-base font-semibold title-font">
                         PGDM PROGRAMME
                       </h3>
                     </a>
@@ -118,7 +118,7 @@ const Cards = () => {
                 <div className="relative bg-white px-2 py-2 rounded text-center">
                   <Link href="/admission/admission-process">
                     <a>
-                      <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
+                      <h3 className="text-gray-900 text-base font-semibold title-font">
                         ADMISSION
                       </h3>
                     </a>
@@ -164,7 +164,7 @@ const Cards = () => {
                 <div className="relative bg-white px-2 py-2 rounded text-center">
                   <Link href="/placement/placement-overview">
                     <a>
-                      <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
+                      <h3 className="text-gray-900 text-base font-semibold title-font">
                         PLACEMENT
                       </h3>
                     </a>
