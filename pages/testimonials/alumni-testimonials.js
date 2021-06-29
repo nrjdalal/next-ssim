@@ -90,7 +90,7 @@ const alumni_testimonials = () => {
                 <img
                   alt="testimonial"
                   className="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="/images/testimonials/alumni/deepak.jpeg"
+                  src="/images/testimonials/alumni/Abhinav Singh.JPG"
                 />
                 <p className="leading-relaxed">
                   This college is one of the best college in delhi , this
@@ -100,7 +100,7 @@ const alumni_testimonials = () => {
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
                 <h2 className="text-white font-medium title-font tracking-wider text-sm">
-                  Deepak
+                  Abhinav Singh
                 </h2>
                 <p className="text-gray-500">PGDM Batch 2017-19</p>
               </div>
@@ -110,7 +110,7 @@ const alumni_testimonials = () => {
                 <img
                   alt="testimonial"
                   className="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="/images/testimonials/alumni/vikram.jpeg"
+                  src="/images/testimonials/alumni/Anvita.JPG"
                 />
                 <p className="leading-relaxed">
                   SSIM has given me a huge platform to showcase my talent,
@@ -121,7 +121,7 @@ const alumni_testimonials = () => {
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
                 <h2 className="text-white font-medium title-font tracking-wider text-sm">
-                  Vikram Singh
+                  Anvita chaturvedi
                 </h2>
                 <p className="text-gray-500">PGDM Batch 2018-20</p>
               </div>
@@ -131,7 +131,7 @@ const alumni_testimonials = () => {
                 <img
                   alt="testimonial"
                   className="w-24 h-24 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-800 bg-gray-800 bg-opacity-10"
-                  src="/images/testimonials/alumni/vikram.jpeg"
+                  src="/images/testimonials/alumni/Alok Ankit.jpg"
                 />
                 <p className="leading-relaxed">
                   The main distinction of SSIM is that it focuses on the overall
@@ -144,7 +144,7 @@ const alumni_testimonials = () => {
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
                 <h2 className="text-white font-medium title-font tracking-wider text-sm">
-                  Vikram Singh
+                  Alok Ankit
                 </h2>
                 <p className="text-gray-500">PGDM Batch 2011-13</p>
               </div>
@@ -178,14 +178,13 @@ const alumni_testimonials = () => {
                   src="/images/testimonials/alumni/Aanchal.JPG"
                 />
                 <p className="leading-relaxed">
-                It was a great experience studying at SSIM , a memory to cherish
-              for lifetime. My experience at SSIM was full of learning and
-              grooming. Being a top management institute it gave me an
-              opportunity to meet different kind of people from corporate and
-              learnt many things from them. I am thankful to all the faculties
-              and mentors. Overall it was a great experience and lifetime memory
-              at SSIM. If you want to make a career in Management I would highly
-              recommend you to join SSIM .
+                  I learnt and gained extensive experiences which helped
+                  throughout my studies in all my thick and thin. The knowledge
+                  and discipline we get from this SSIM is phenomenal which helps
+                  you to succeed all the endeavors. And I’m sure it will help me
+                  in my in professional world. I owe a huge vote of thanks to
+                  every opportunity given to me to explore my personality and
+                  potential at SSIM.
                 </p>
                 <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span>
                 <h2 className="text-white font-medium title-font tracking-wider text-sm">
@@ -211,17 +210,18 @@ const alumni_testimonials = () => {
               <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
             </svg>
             <p className="leading-relaxed text-lg">
-              I learnt and gained extensive experiences which helped
-                  throughout my studies in all my thick and thin. The knowledge
-                  and discipline we get from this SSIM is phenomenal which helps
-                  you to succeed all the endeavors. And I’m sure it will help me
-                  in my in professional world. I owe a huge vote of thanks to
-                  every opportunity given to me to explore my personality and
-                  potential at SSIM.
+              It was a great experience studying at SSIM , a memory to cherish
+              for lifetime. My experience at SSIM was full of learning and
+              grooming. Being a top management institute it gave me an
+              opportunity to meet different kind of people from corporate and
+              learnt many things from them. I am thankful to all the faculties
+              and mentors. Overall it was a great experience and lifetime memory
+              at SSIM. If you want to make a career in Management I would highly
+              recommend you to join SSIM .
             </p>
             <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-8 mb-6"></span>
             <h2 className="text-gray-900 font-medium title-font tracking-wider text-sm">
-            Anchal Mishra
+              Vikas Singh
             </h2>
             <p className="text-gray-500">PGDM Batch 2020-22</p>
           </div>
