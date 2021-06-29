@@ -8,12 +8,19 @@ const Cards = () => {
           <div className="flex flex-wrap -m-4 justify-center">
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-yellow-500 p-6 rounded-lg">
-                <img
+                {/* <img
                   className="h-[300px] rounded w-full object-cover object-top mb-6"
                   src="/images/other/chairman.jpeg"
                   alt="content"
-                />
+                /> */}
 
+                <div className="aspect-h-1 aspect-w-1 mb-6">
+                  <img
+                    className="rounded object-cover object-center"
+                    src="/images/other/chairman.jpeg"
+                    alt="content"
+                  />
+                </div>
                 <div className="bg-white px-2 py-2 rounded text-center">
                   <Link href="/about/chairmans-message">
                     <a>
@@ -38,11 +45,13 @@ const Cards = () => {
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-blue-500 p-6 rounded-lg">
-                <img
-                  className="h-[300px] rounded w-full object-cover object-center mb-6"
-                  src="https://images.unsplash.com/photo-1546422904-90eab23c3d7e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80"
-                  alt="content"
-                />
+                <div className="aspect-h-1 aspect-w-1 mb-6">
+                  <img
+                    className="rounded object-cover object-center"
+                    src="https://images.unsplash.com/photo-1567168539593-59673ababaae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+                    alt="content"
+                  />
+                </div>
                 <div className="bg-white px-2 py-2 rounded text-center">
                   <Link href="/pgdm/programme">
                     <a>
@@ -65,11 +74,19 @@ const Cards = () => {
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-green-500 p-6 rounded-lg">
-                <img
+                {/* <img
                   className="h-[300px] rounded w-full object-cover object-center mb-6"
                   src="https://images.unsplash.com/photo-1567168539593-59673ababaae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
                   alt="content"
-                />
+                /> */}
+
+                <div className="aspect-h-1 aspect-w-1 mb-6">
+                  <img
+                    className="rounded object-cover object-center"
+                    src="https://images.unsplash.com/photo-1590415108862-fa060c0e358f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGZlZWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                    alt="content"
+                  />
+                </div>
                 <div className="bg-white px-2 py-2 rounded text-center">
                   <Link href="/admission/admission-process">
                     <a>
@@ -89,11 +106,19 @@ const Cards = () => {
             </div>
             <div className="xl:w-1/4 md:w-1/2 p-4">
               <div className="bg-red-500 p-6 rounded-lg">
-                <img
+                {/* <img
                   className="h-[300px] rounded w-full object-cover object-center mb-6"
                   src="https://images.unsplash.com/photo-1590415108862-fa060c0e358f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGZlZWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
                   alt="content"
-                />
+                /> */}
+
+                <div className="aspect-h-1 aspect-w-1 mb-6">
+                  <img
+                    className="rounded object-cover object-center"
+                    src="https://images.unsplash.com/photo-1593371546953-f4c0f11573f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWx1bW5pfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    alt="content"
+                  />
+                </div>
                 <div className="bg-white px-2 py-2 rounded text-center">
                   <Link href="/placement/placement-overview">
                     <a>
