@@ -5,9 +5,11 @@ const Recruiters = () => {
     <>
       <section className="relative h-[320px] overflow-hidden my-3">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <h1 className="w-full text-2xl sm:text-3xl tracking-wider font-bold text-blue-500">
-            OUR RECRUITERS
-          </h1>
+          <div className="flex justify-center w-[300px]">
+            <h1 className="text-2xl sm:text-3xl tracking-wider font-bold text-blue-600">
+              OUR RECRUITERS
+            </h1>
+          </div>
         </div>
         {/* <div className="absolute z-10 h-[320px] w-full flex">
           <div className="h-[320px] w-full md:w-1/2">
