@@ -49,3 +49,5 @@
   "php.validate.executablePath": "/usr/bin/php"
 }
 ```
+
+adding
