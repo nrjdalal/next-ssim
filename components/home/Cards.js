@@ -45,7 +45,7 @@ const Cards = () => {
                   </svg>
                 </div>
 
-                <p className="pt-3 text-white text-sm line-clamp-4">
+                <p className="pt-3 text-white text-base line-clamp-4">
                   SSIM students are professionals and intellectuals, in the
                   making. The institution provides a learning environment that
                   is adaptable and flexible, facilitating potential change in
@@ -89,7 +89,7 @@ const Cards = () => {
                     />
                   </svg>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-4">
+                <p className="pt-3 text-white text-base line-clamp-4">
                   Our PGDM program, combined with SAP Training, is an innovative
                   pursuit in management education. It combines skill-oriented
                   qualifications in the field of management services including
@@ -138,7 +138,7 @@ const Cards = () => {
                     />
                   </svg>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-4">
+                <p className="pt-3 text-white text-base line-clamp-4">
                   A Bachelor&apos;s degree in any discipline with minimum 50%
                   marks from a recognized University. Candidates appearing for
                   their final year exam may also apply. Short listing will be
@@ -184,7 +184,7 @@ const Cards = () => {
                     />
                   </svg>
                 </div>
-                <p className="pt-3 text-white text-sm line-clamp-4">
+                <p className="pt-3 text-white text-base line-clamp-4">
                   The Placement Division of SSIM finds strength in the group’s
                   long-cherished history and its network. SSIM follows global
                   placement methodologies expertise in the Global Recruitment
