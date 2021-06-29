@@ -21,7 +21,7 @@ const Cards = () => {
                     alt="content"
                   />
                 </div>
-                <div className="bg-white px-2 py-2 rounded text-center">
+                <div className="relative bg-white px-2 py-2 rounded text-center">
                   <Link href="/about/chairmans-message">
                     <a>
                       <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
@@ -29,6 +29,20 @@ const Cards = () => {
                       </h3>
                     </a>
                   </Link>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute h-6 w-6 top-1/2 -translate-y-1/2 right-1.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
                 </div>
 
                 <p className="pt-3 text-white text-sm line-clamp-4">
@@ -52,7 +66,7 @@ const Cards = () => {
                     alt="content"
                   />
                 </div>
-                <div className="bg-white px-2 py-2 rounded text-center">
+                <div className="relative bg-white px-2 py-2 rounded text-center">
                   <Link href="/pgdm/programme">
                     <a>
                       <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
@@ -60,6 +74,20 @@ const Cards = () => {
                       </h3>
                     </a>
                   </Link>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute h-6 w-6 top-1/2 -translate-y-1/2 right-1.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
                 </div>
                 <p className="pt-3 text-white text-sm line-clamp-4">
                   Our PGDM program, combined with SAP Training, is an innovative
@@ -87,7 +115,7 @@ const Cards = () => {
                     alt="content"
                   />
                 </div>
-                <div className="bg-white px-2 py-2 rounded text-center">
+                <div className="relative bg-white px-2 py-2 rounded text-center">
                   <Link href="/admission/admission-process">
                     <a>
                       <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
@@ -95,6 +123,20 @@ const Cards = () => {
                       </h3>
                     </a>
                   </Link>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute h-6 w-6 top-1/2 -translate-y-1/2 right-1.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
                 </div>
                 <p className="pt-3 text-white text-sm line-clamp-4">
                   A Bachelor&apos;s degree in any discipline with minimum 50%
@@ -119,7 +161,7 @@ const Cards = () => {
                     alt="content"
                   />
                 </div>
-                <div className="bg-white px-2 py-2 rounded text-center">
+                <div className="relative bg-white px-2 py-2 rounded text-center">
                   <Link href="/placement/placement-overview">
                     <a>
                       <h3 className="tracking-widest text-gray-900 text-base font-semibold title-font">
@@ -127,6 +169,20 @@ const Cards = () => {
                       </h3>
                     </a>
                   </Link>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute h-6 w-6 top-1/2 -translate-y-1/2 right-1.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
                 </div>
                 <p className="pt-3 text-white text-sm line-clamp-4">
                   The Placement Division of SSIM finds strength in the group’s
