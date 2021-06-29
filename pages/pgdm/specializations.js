@@ -5,7 +5,7 @@ const rename_later = () => {
   return (
     <>
       <Breadcrumb title="specializations" />
-      <div className="container mx-auto py-24 flex flex-wrap text-left justify-center">
+      <div className="container mx-auto pt-24 flex text-left justify-center">
         <Holder>
           <b>Dual Specialization Offered</b>
           <li className="text-sm py-0.5">Marketing</li>
@@ -19,7 +19,8 @@ const rename_later = () => {
           </li>
           <li className="text-sm py-0.5">Entrepreneurship</li>
         </Holder>
-
+      </div>
+      <div className="container mx-auto pb-24 flex flex-wrap text-left justify-center">
         <Holder>
           <b>General Management Subjects</b>
           <h4>Ist - IIIrd Trimester</h4>
@@ -173,8 +174,8 @@ const rename_later = () => {
           </li>
           <li className="text-sm py-0.5">Pricing and revenue management</li>
         </Holder>
-        <Holder className="invisible py-1"></Holder>
-        <p className="">
+        {/* <Holder className="invisible py-1"></Holder> */}
+        <p className="pt-12">
           Note: Electives mentioned above are subject to change based on current
           industry requirements.
         </p>
