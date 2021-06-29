@@ -1,7 +1,7 @@
 const Awards = () => {
   return (
     <>
-      <div className="py-10">
+      <div className="py-10 bg-blue-100">
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
             <div className="rounded-3xl overflow-hidden m-3 ">
