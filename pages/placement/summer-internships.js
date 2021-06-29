@@ -2,7 +2,7 @@ import Breadcrumb from '../../components/Breadcrumb'
 import { Logo150, ProseWide } from '../../components/Universal'
 
 const rename_later = () => {
-  let srcs = [];
+  let srcs = []
 
   for (let index = 1; index <= 28; index++) {
     srcs.push(`/images/recruiters/${index}.jpg`)
@@ -29,17 +29,15 @@ const rename_later = () => {
           businesses.
         </p>
 
-        <h3 className="text-center">SIP Companies</h3>
+        <h3 className="text-center py-6">SIP Companies</h3>
       </ProseWide>
       <div className="pt-8 pb-24">
         {/* Logo Sec */}
         <div className="container mx-auto px-6">
           <div className="flex flex-wrap justify-center">
-            {
-              srcs.map((src, index) => {
-                return <Logo150 key={index} src={src} />
-              })
-            }
+            {srcs.map((src, index) => {
+              return <Logo150 key={index} src={src} />
+            })}
           </div>
         </div>
         {/* Logo Sec */}
