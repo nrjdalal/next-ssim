@@ -122,7 +122,7 @@ const Pop_ups = () => {
           </svg> */}
           <a
             className="text-xs font-semibold tracking-tighter"
-            href="/documents/ApplicationForm.pdf"
+            href="/documents/AdmissionForm.pdf"
             download
           >
             Application
@@ -231,7 +231,7 @@ const Pop_ups = () => {
           </svg>
           <a
             className="text-xs font-semibold tracking-tighter"
-            href="/documents/ApplicationForm.pdf"
+            href="/documents/AdmissionForm.pdf"
             download
           >
             Application
