@@ -78,7 +78,7 @@ const rename_later = () => {
           name="Prof. Irfan Amin"
           src="/images/faculty/Irfan.png"
           department="IT"
-          degree="Phd (Pursuing),M.Phill (Computer Science And Technology)"
+          degree="PhD (Pursuing), M.Phill (Computer Science And Technology)"
           years="8"
         >
           Mr. Irfan Amin is an IT professional with M.Phill from Himalayan
@@ -91,7 +91,7 @@ const rename_later = () => {
           name="Prof. Parisa Jabeen"
           src="\images\faculty\Parisa Jabeen.jpg"
           department="Finance"
-          degree="Phd (Pursuing),MBA (Finance & HR)"
+          degree="Phd (Pursuing), MBA (Finance & HR)"
           years="10"
         >
           An emphatically motivated, self-starting, versatile and strongly
@@ -105,7 +105,7 @@ const rename_later = () => {
 
         <Profile
           name="Ms Simran Kaur"
-          src="\images\faculty\default-avatar.png"
+          src="/images/faculty/Simran.jpg"
           department="Finance"
           degree="MBA (Finance), B.Com"
           years="5"
