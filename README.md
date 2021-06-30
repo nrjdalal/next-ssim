@@ -1,5 +1,5 @@
 - specialization
-- footer remove faq and put aicte approval letter (downloadable letter)
+- footer remove faq and put aicte approval letter (downloadable letter
 
 ```json
 {
