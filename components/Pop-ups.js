@@ -1,10 +1,12 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import axios from 'axios'
+import AfterSubmit from './Submit'
 
 const Pop_ups = () => {
-  const [isActive, setActive] = useState(false)
+  const [isActive, setActive] = useState(true)
   const [submit, setSubmit] = useState(true)
+  const [isSubmit, setIsSubmit] = useState(false)
 
   const toggleClass = () => {
     setActive(!isActive)
@@ -28,8 +30,8 @@ const Pop_ups = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    if(submit){
-      setSubmit(false);
+    if (submit) {
+      setSubmit(false)
       setTimeout(() => {
         setSubmit(true)
       }, 3000)
@@ -41,21 +43,25 @@ const Pop_ups = () => {
           if (res.status === 200) {
             setActive(false)
             setFormState(initialState)
-            alert('Form Submitted')
+            setIsSubmit(true)
           }
         })
         .catch((e) => {
           alert('Form Not Submitted')
         })
 
-      axios.post('https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec', {
-        ...formState,
-      })
+      axios.post(
+        'https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec',
+        {
+          ...formState,
+        }
+      )
     }
   }
 
   return (
     <>
+      {<AfterSubmit isSubmit={isSubmit} setIsSubmit={setIsSubmit} />}
       {/* Download Brochures top-1/2 right-[-72px] -rotate-90 */}
       <div
         style={isActive ? { display: 'none' } : { position: 'fixed' }}
@@ -361,6 +367,7 @@ const Input_mandtory = (prop) => {
           placeholder={prop.name}
           value={prop.value}
           onChange={prop.onChange}
+          required={true}
         />
       </div>
     </>

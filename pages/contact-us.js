@@ -1,11 +1,13 @@
 import Breadcrumb from '../components/Breadcrumb'
 import { useState } from 'react'
 import axios from 'axios'
+import AfterSubmit from '../components/Submit'
 
 // okay
 
 const Contact_us = () => {
   const [submit, setSubmit] = useState(true)
+  const [isSubmit, setIsSubmit] = useState(false)
   const initialState = {
     Type: 'Contact Form',
     name: '',
@@ -20,8 +22,8 @@ const Contact_us = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    if(submit){
-      setSubmit(false);
+    if (submit) {
+      setSubmit(false)
       setTimeout(() => {
         setSubmit(true)
       }, 3000)
@@ -33,20 +35,25 @@ const Contact_us = () => {
           if (res.status === 200) {
             setFormState(initialState)
             alert('Form Submitted')
+            setIsSubmit(true)
           }
         })
         .catch((e) => {
           alert('Form Not Submitted')
         })
 
-      axios.post('https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec', {
-        ...FormState,
-      })
+      axios.post(
+        'https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec',
+        {
+          ...FormState,
+        }
+      )
     }
   }
 
   return (
     <>
+      {<AfterSubmit isSubmit={isSubmit} setIsSubmit={setIsSubmit} />}
       <Breadcrumb title="Contact Us" />
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">

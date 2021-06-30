@@ -1,37 +1,16 @@
 import { useState } from 'react'
 
-const AfterSubmit = () => {
-  const [isSubmit, setSubmit] = useState(false)
-
+const AfterSubmit = ({ isSubmit, setIsSubmit }) => {
   const openSubmit = () => {
-    setSubmit(true)
+    setIsSubmit(true)
   }
 
   const closeSubmit = () => {
-    setSubmit(false)
+    setIsSubmit(false)
   }
 
   return (
     <>
-      <div className="sticky top-0 flex p-5 justify-between border-t-2 border-b-2 border-gray-300 bg-white z-[55]">
-        <button onClick={openSubmit} className="">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-10 w-10"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 8h16M4 16h16"
-            />
-          </svg>
-        </button>
-      </div>
-
       <div
         className="top-0 z-[70] w-screen h-screen bg-gray-900 p-5"
         style={isSubmit ? { position: 'fixed' } : { display: 'none' }}

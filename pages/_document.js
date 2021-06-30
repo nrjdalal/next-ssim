@@ -32,11 +32,20 @@ class MyDocument extends Document {
           <meta name="msapplication-TileColor" content="#da532c" />
           <meta name="theme-color" content="#ffffff" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="true"
+          />
           <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap"
             rel="stylesheet"
           />
+          {/* Sitewide Description */}
+          <meta
+            name="description"
+            content="SSIM have Excellent Placements Record, 300+ Recruiters. AICTE Approved PGDM Program, Established in 2009 provides live project, SIP’s. Apply Now."
+          ></meta>
         </Head>
 
         <body className="relative w-screen select-none overflow-x-hidden cursor-default">
