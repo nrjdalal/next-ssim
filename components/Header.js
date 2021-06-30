@@ -225,7 +225,7 @@ const EasyHeaders = () => {
       </div>
       {/* Header */}
       <header className="sticky z-[55] top-0 hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
-        <div className="container mx-auto flex p-4 items-center justify-between bg-white">
+        <div className="container mx-auto flex p-4 pr-8 items-center justify-between bg-white">
           <Link href="/">
             <a className="font-medium text-gray-900 md:mb-0 flex flex-col items-end tracking-wider">
               <img
@@ -233,7 +233,7 @@ const EasyHeaders = () => {
                 src="/images/logo-ssim.png"
                 alt=""
               />
-              <p className="text-[11px] font-semibold">Dwarka, New Delhi</p>
+              {/* <p className="text-[11px] font-semibold">Dwarka, New Delhi</p> */}
             </a>
           </Link>
           <Link href="/admission/online-form">
