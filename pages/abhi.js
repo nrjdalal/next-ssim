@@ -33,7 +33,7 @@ const AfterSubmit = () => {
       </div>
 
       <div
-        className="top-0 z-[70] w-screen h-screen bg-gray-900 flex items-center justify-center p-5"
+        className="top-0 z-[70] w-screen h-screen bg-gray-900 p-5"
         style={isSubmit ? { position: 'fixed' } : { display: 'none' }}
       >
         <svg
@@ -51,12 +51,15 @@ const AfterSubmit = () => {
             d="M6 18L18 6M6 6l12 12"
           />
         </svg>
-        <div>
-          <img
-            className="max-w-[500px] max-h-[500px] object-cover object-center"
-            src="https://source.unsplash.com/1000x1000"
-            alt=""
-          />
+
+        <div className="flex items-center justify-center bg-white bg-opacity-25 h-full w-full">
+          <div className="aspect-h-1 aspect-w-1 bg-white w-full h-full">
+            <img
+              className="w-[500px] h-[500px] object-cover object-center"
+              src="https://source.unsplash.com/1000x1500"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>
