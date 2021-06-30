@@ -5,6 +5,7 @@ import axios from 'axios'
 // okay
 
 const Contact_us = () => {
+  const [submit, setSubmit] = useState(true)
   const initialState = {
     Type: 'Contact Form',
     name: '',
@@ -19,23 +20,29 @@ const Contact_us = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios
-      .post('https://formsubmit.co/ajax/application.ssimdwarka@gmail.com', {
+    if(submit){
+      setSubmit(false);
+      setTimeout(() => {
+        setSubmit(true)
+      }, 3000)
+      axios
+        .post('https://formsubmit.co/ajax/application.ssimdwarka@gmail.com', {
+          ...FormState,
+        })
+        .then((res) => {
+          if (res.status === 200) {
+            setFormState(initialState)
+            alert('Form Submitted')
+          }
+        })
+        .catch((e) => {
+          alert('Form Not Submitted')
+        })
+
+      axios.post('https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec', {
         ...FormState,
       })
-      .then((res) => {
-        if (res.status === 200) {
-          setFormState(initialState)
-          alert('Form Submitted')
-        }
-      })
-      .catch((e) => {
-        alert('Form Not Submitted')
-      })
-
-    axios.post('https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec', {
-      ...FormState,
-    })
+    }
   }
 
   return (

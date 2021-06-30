@@ -4,6 +4,7 @@ import axios from 'axios'
 
 const Pop_ups = () => {
   const [isActive, setActive] = useState(false)
+  const [submit, setSubmit] = useState(true)
 
   const toggleClass = () => {
     setActive(!isActive)
@@ -27,24 +28,30 @@ const Pop_ups = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    axios
-      .post('https://formsubmit.co/ajax/application.ssimdwarka@gmail.com', {
+    if(submit){
+      setSubmit(false);
+      setTimeout(() => {
+        setSubmit(true)
+      }, 3000)
+      axios
+        .post('https://formsubmit.co/ajax/application.ssimdwarka@gmail.com', {
+          ...formState,
+        })
+        .then((res) => {
+          if (res.status === 200) {
+            setActive(false)
+            setFormState(initialState)
+            alert('Form Submitted')
+          }
+        })
+        .catch((e) => {
+          alert('Form Not Submitted')
+        })
+
+      axios.post('https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec', {
         ...formState,
       })
-      .then((res) => {
-        if (res.status === 200) {
-          setActive(false)
-          setFormState(initialState)
-          alert('Form Submitted')
-        }
-      })
-      .catch((e) => {
-        alert('Form Not Submitted')
-      })
-
-    axios.post('https://formsubmit.co/ajax/ea008567375f98fb0ece50498539a9ec', {
-      ...formState,
-    })
+    }
   }
 
   return (
