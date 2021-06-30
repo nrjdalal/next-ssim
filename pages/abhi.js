@@ -52,13 +52,15 @@ const AfterSubmit = () => {
           />
         </svg>
 
-        <div className="flex items-center justify-center bg-white bg-opacity-25 h-full w-full">
-          <div className="aspect-h-1 aspect-w-1 bg-white w-full h-full">
-            <img
-              className="w-[500px] h-[500px] object-cover object-center"
-              src="https://source.unsplash.com/1000x1500"
-              alt=""
-            />
+        <div className="flex items-center justify-center h-full w-full">
+          <div className="w-[300px] h-[300px] sm:w-[500px] sm:h-[500px]">
+            <div className="aspect-h-1 aspect-w-1">
+              <img
+                className="object-contain object-center"
+                src="https://source.unsplash.com/400x300"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>
