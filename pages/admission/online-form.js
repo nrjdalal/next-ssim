@@ -1,17 +1,16 @@
-import {useState} from 'react'
 import Breadcrumb from '../../components/Breadcrumb'
 import axios from 'axios'
 
 const online_form = () => {
 
-  const [submit, setSubmit] = useState(true)
+  var submit = true
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if(submit){
-      setSubmit(false);
+      submit = false
       setTimeout(() => {
-        setSubmit(true)
+        submit=true
       }, 3000)
       var formElement = document.forms.namedItem("onlineForm");
       var formData = new FormData(formElement);
