@@ -34,7 +34,6 @@ const Contact_us = () => {
         .then((res) => {
           if (res.status === 200) {
             setFormState(initialState)
-            alert('Form Submitted')
             setIsSubmit(true)
           }
         })
