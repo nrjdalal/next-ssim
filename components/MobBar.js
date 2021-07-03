@@ -74,7 +74,7 @@ const MobBar = () => {
           <a>
             <img
               className="min-h-12 h-14 md:h-16"
-              src="/images/logo-ssim.png"
+              src="/images/logoSsim.png"
               alt=""
             />
           </a>
