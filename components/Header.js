@@ -230,7 +230,7 @@ const EasyHeaders = () => {
             <a className="font-medium text-gray-900 md:mb-0 flex flex-col items-end tracking-wider">
               <img
                 className="md:h-14 lg:h-16"
-                src="/images/logo-ssim.png"
+                src="/images/logoSsim.png"
                 alt=""
               />
               {/* <p className="text-[11px] font-semibold">Dwarka, New Delhi</p> */}
