@@ -40,10 +40,7 @@ const rename_later = () => {
           degree="PhD, MBA & MA (English)"
           years="18"
         >
-          Dr. Rachna Sharma is a dynamic educationist and holds a PhD degree in
-          Business Administration from MJP Rohilkhand University, She has more
-          than 18 years of experience in teaching HR domain and has industrial
-          experience in Personnel Department in Multinational Companies.
+          Dr. Anindita Sharma is Associate Professor in Business Comminication &amp; Finance area. She is graduate in English literature, She holds two Master Degree in Business Administration with Finance and English Literature and also holds a PhD Degree.She has over 18 years of experience in teaching, research and consulting.
         </Profile>
 
         <Profile
