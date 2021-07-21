@@ -36,7 +36,7 @@ const AfterSubmit = ({ isSubmit, setIsSubmit }) => {
             <div className="aspect-h-1 aspect-w-1">
               <img
                 className="object-contain object-center"
-                src="/images/submit-popups/500x500_08.jpg"
+                src="/images/submit-popups/500x500_06.jpg"
                 alt=""
               />
             </div>
