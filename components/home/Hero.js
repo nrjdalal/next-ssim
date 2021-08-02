@@ -71,6 +71,15 @@ const Hero = () => {
           }}
           className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
+          src="/images/hero/banner-5.jpg"
+        />
+        
+        <img
+          ref={(el) => {
+            slides.current[4] = el
+          }}
+          className="absolute top-0 object-cover w-screen z-10"
+          alt="hero"
           src="/images/hero/banner-1.jpg"
         />
       </section>
