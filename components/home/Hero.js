@@ -76,7 +76,7 @@ const Hero = () => {
         
         <img
           ref={(el) => {
-            slides.current[3] = el
+            slides.current[4] = el
           }}
           className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
@@ -85,7 +85,7 @@ const Hero = () => {
         
         <img
           ref={(el) => {
-            slides.current[4] = el
+            slides.current[5] = el
           }}
           className="absolute top-0 object-cover w-screen z-10"
           alt="hero"
