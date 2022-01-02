@@ -16,7 +16,7 @@ yarn build
 rm -rf ./ns-ssim
 
 # clone the latest remote nextstatic(ns) repository
-git clone https://github.com/nrjdalal/ns-ssim
+git clone git@github.com:nrjdalal/ns-ssim.git
 
 # delete all repo files/folders except .git
 rm -rf ./ns-ssim/*
