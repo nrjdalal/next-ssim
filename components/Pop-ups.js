@@ -197,7 +197,7 @@ const Pop_ups = () => {
           <p className="text-xs font-semibold tracking-tighter">
             Admission
             <br />
-            Open 2021
+            Open 2022
           </p>
         </button>
 
