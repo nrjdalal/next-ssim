@@ -18,7 +18,7 @@ const AfterSubmit = ({ isSubmit, setIsSubmit }) => {
         <svg
           onClick={closeSubmit}
           xmlns="http://www.w3.org/2000/svg"
-          className="absolute h-10 w-10 top-5 right-5 text-white"
+          className="absolute w-10 h-10 text-white top-5 right-5"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -31,12 +31,12 @@ const AfterSubmit = ({ isSubmit, setIsSubmit }) => {
           />
         </svg>
 
-        <div className="flex items-center justify-center h-full w-full">
+        <div className="flex items-center justify-center w-full h-full">
           <div className="w-[300px] h-[300px] sm:w-[500px] sm:h-[500px]">
             <div className="aspect-h-1 aspect-w-1">
               <img
                 className="object-contain object-center"
-                src="/images/submit-popups/500x500_04.jpg"
+                src="/images/submit-popups/500x500.jpeg"
                 alt=""
               />
             </div>
