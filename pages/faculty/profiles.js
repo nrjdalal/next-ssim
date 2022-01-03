@@ -5,7 +5,28 @@ const rename_later = () => {
     <>
       <Breadcrumb title="Core Faculty" />
       <div className="container mx-auto py-24 max-w-[1080px]">
-        {/* Prof. Dr. Sujata Kaul */}
+        <Profile
+          name="Dr. Ajay Sharma"
+          src="/images/faculty/ajaySharma.jpg"
+          department="Marketing & Business Communication"
+          degree="PhD, MBA, LLM, LLB"
+          years="22"
+        >
+          Dr. Ajay Sharma holds his Ph.D. Degree in Management from CCS
+          University and Postgraduate in Management from Uttar Pradesh Technical
+          University, Lucknow. Dr. Ajay Sharma has an experience of 20 years
+          which includes blend of corporate as well as academic experience., He
+          is advisor and consultant to corporate like JSCPL, Nivesh Group etc.
+          he has numerous Research Papers in National and International Journals
+          of Repute. He is guiding Ph.D. Scholars of various Reputed
+          Universities of the Country. He has contributed articles in various
+          Journals and magazines of National and International Repute and
+          presented Many Research papers in International Conferences. He has
+          chaired sessions in various seminars and conferences and reviewed
+          Books of various Publications like - A to Z for Managers, Published by
+          Lexis-Nexis Butterworths Wadhwa, Nagpur, Oct 2012. Being Graduate in
+          Law, he acts as a Legal Advisor for various organizations.
+        </Profile>
 
         <Profile
           name="Prof. Dr. Sujata Kaul"
@@ -34,17 +55,18 @@ const rename_later = () => {
         </Profile>
 
         <Profile
-          name="Prof. Dr. Anindita Sharma"
-          src="/images/faculty/anindita.jpg"
-          department="Business Communication"
-          degree="PhD, MBA & MA (English)"
-          years="18"
+          name="Dr. Priya Agarwal"
+          src="/images/faculty/Priya.jpg"
+          department="Marketing"
+          degree="PGDM"
+          years="6"
         >
-          Dr. Anindita Sharma is Associate Professor in Business Comminication
-          &amp; Finance area. She is graduate in English literature, She holds
-          two Master Degree in Business Administration with Finance and English
-          Literature and also holds a PhD Degree.She has over 18 years of
-          experience in teaching, research and consulting.
+          Dr. Priya Agarwal is Assistant Professor in marketing. She holds her
+          Ph. D. She is UGC-NET qualified, She has obtained her Master of
+          Business Administration from Uttar Pradesh Technical University.  She
+          has written a book on Public Relations: Strategies for Growth,
+          Development and New Perspectives. She has contributed articles in
+          various journals and magazines of National repute.
         </Profile>
 
         <Profile
@@ -115,44 +137,6 @@ const rename_later = () => {
           in Commerce and holds a Master’s Degree in Finance Specialization, She
           has 5 Years of corporate experience and specialize in Financial
           Trading, Advisory and Analytics.
-        </Profile>
-
-        <Profile
-          name="Dr. Ajay Sharma"
-          src="/images/faculty/ajaySharma.jpg"
-          department="Marketing & Business Communication"
-          degree="PhD, MBA, LLM, LLB"
-          years="22"
-        >
-          Dr. Ajay Sharma holds his Ph.D. Degree in Management from CCS
-          University and Postgraduate in Management from Uttar Pradesh Technical
-          University, Lucknow. Dr. Ajay Sharma has an experience of 20 years
-          which includes blend of corporate as well as academic experience., He
-          is advisor and consultant to corporate like JSCPL, Nivesh Group etc.
-          he has numerous Research Papers in National and International Journals
-          of Repute. He is guiding Ph.D. Scholars of various Reputed
-          Universities of the Country. He has contributed articles in various
-          Journals and magazines of National and International Repute and
-          presented Many Research papers in International Conferences. He has
-          chaired sessions in various seminars and conferences and reviewed
-          Books of various Publications like - A to Z for Managers, Published by
-          Lexis-Nexis Butterworths Wadhwa, Nagpur, Oct 2012. Being Graduate in
-          Law, he acts as a Legal Advisor for various organizations.
-        </Profile>
-
-        <Profile
-          name="Dr. Priya Agarwal"
-          src="/images/faculty/Priya.jpg"
-          department="Marketing"
-          degree="PGDM"
-          years="6"
-        >
-          Dr. Priya Agarwal is Assistant Professor in marketing. She holds her
-          Ph. D. She is UGC-NET qualified, She has obtained her Master of
-          Business Administration from Uttar Pradesh Technical University.  She
-          has written a book on Public Relations: Strategies for Growth,
-          Development and New Perspectives. She has contributed articles in
-          various journals and magazines of National repute.
         </Profile>
 
         {/* Other 1,2,3... */}

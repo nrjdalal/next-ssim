@@ -5,7 +5,7 @@ const chairmans_message = () => {
   return (
     <>
       <Breadcrumb title="Fee Structure" />
-      <ProseWide className="container mx-auto prose my-12 px-5 text-center flex flex-col items-center">
+      <ProseWide className="container flex flex-col items-center px-5 mx-auto my-12 prose text-center">
         {/* <h2 className="italic">Fee Strucutre</h2>
 
         <h4>Registration Fees: INR 50,000/-</h4>
@@ -21,12 +21,12 @@ const chairmans_message = () => {
         <blockquote>
           Tuition Fees: INR 5,90,000/- payable in four installments Registration
           Fees at the time of Admission: INR 50,000/- Total Fee: INR 5,90,000/-
-          Inclusive of Laptop and International Study Tour (Exclusive of INR
-          5,000/- for Business Suit)
+          Inclusive of International Study Tour (Exclusive of INR 5,000/- for
+          Business Suit)
         </blockquote>
         <br />
 
-        <div className="p-5 border-2 border-gray-100 w-full lg:w-2/3 text-sm sm:text-base">
+        <div className="w-full p-5 text-sm border-2 border-gray-100 lg:w-2/3 sm:text-base">
           <table>
             <thead>
               <tr>
@@ -61,19 +61,19 @@ const chairmans_message = () => {
                 <td>Second</td>
                 <td>Tuition</td>
                 <td>Rs.1,50,000</td>
-                <td>Before 15th December 2021</td>
+                <td>Before 15th November 2022</td>
               </tr>
               <tr>
                 <td>Third</td>
                 <td>Tuition</td>
                 <td>Rs.1,20,000</td>
-                <td>Before 15th June 2022</td>
+                <td>Before 15th June 2023</td>
               </tr>
               <tr>
                 <td>Fourth</td>
                 <td>Tuition</td>
                 <td>Rs.1,20,000</td>
-                <td>Before 15th November 2022</td>
+                <td>Before 15th November 2023</td>
               </tr>
               <tr>
                 <td>
@@ -90,7 +90,7 @@ const chairmans_message = () => {
 
         <h2 className="italic">RTGS / NEFT / BANK TRANSFER</h2>
 
-        <div className="p-5 border-2 border-gray-100 w-full lg:w-2/3 text-sm sm:text-base">
+        <div className="w-full p-5 text-sm border-2 border-gray-100 lg:w-2/3 sm:text-base">
           <table>
             <thead>
               <tr>

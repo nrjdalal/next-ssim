@@ -5,14 +5,11 @@ const rename_later = () => {
     <>
       <Breadcrumb title="Why ssim" />
 
-      <div className="container mx-auto px-5 py-20 flex justify-center flex-wrap">
+      <div className="container flex flex-wrap justify-center px-5 py-20 mx-auto">
         <Member color="blue" title="World Class Business School" />
         <Member color="blue" title="100% PLACEMENT ASSISTANCE." />
         <Member color="blue" title="Strong Alumni Network with Global Reach" />
-        <Member
-          color="blue"
-          title="Laboratory of practice to sharpen key skills beyond classroom."
-        />
+        <Member color="blue" title="120 Plus Days Live Coporate Exposure" />
 
         <Member
           color="blue"
@@ -20,7 +17,7 @@ const rename_later = () => {
         />
         <Member
           color="blue"
-          title="2 months’ summer internship with leading corporates"
+          title="2 month's summer internship with leading corporates"
         />
         <Member color="blue" title="Live Projects in leading Corporate." />
         <Member color="blue" title="Winter Live Projects." />
@@ -51,11 +48,11 @@ const rename_later = () => {
         />
         <Member
           color="blue"
-          title="5 Corporate Edge Certifications Including Six Sigma & Digital Marketing"
+          title="6 Pro Skill Enhancement Certificates Including Six Sigma & Digital Marketing"
         />
         <Member
           color="blue"
-          title="6 Industry Integrated Workshops i.e. NSE, SEBI & MIS etc"
+          title="6 Pro Industry Ready Workshops i.e. NSE, SEBI & MIS etc"
         />
       </div>
     </>

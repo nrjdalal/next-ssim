@@ -24,7 +24,7 @@ const rename_later = () => {
           <br />
           Duly filled forms should be submitted at the institute office.
           Documents are to be submitted along with Application Form. All the
-          forms must be supported by a Demand Draft of INR 550/- (fees can also
+          forms must be supported by a Demand Draft of INR 800/- (fees can also
           be paid through online mode)
           <br />
           <br />
