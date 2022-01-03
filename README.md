@@ -1,6 +1,7 @@
 - specialization
 - footer remove faq and put aicte approval letter (downloadable letter
 - some latest changes
+.
 ```json
 {
   // editor
