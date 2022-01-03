@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Cards = () => {
   return (
@@ -17,7 +17,7 @@ const Cards = () => {
                 <div className="aspect-h-1 aspect-w-1 mb-6">
                   <img
                     className="rounded object-cover object-center"
-                    src="/images/other/chairman.jpeg"
+                    src="/images/other/chairman.jpg"
                     alt="content"
                   />
                 </div>
@@ -46,14 +46,11 @@ const Cards = () => {
                 </div>
 
                 <p className="pt-3 text-white text-base line-clamp-4">
-                  SSIM students are professionals and intellectuals, in the
-                  making. The institution provides a learning environment that
-                  is adaptable and flexible, facilitating potential change in
-                  the higher education pattern. The learning environment is also
-                  used as a strategic tool for power and excellence. This is
-                  done with an objective to support the learning paradigm that
-                  provides education for the student in a manner most suited to
-                  them.
+                  I wish to thank you for showing interest in Sri Sukhmani
+                  Institute of Management, New Delhi. We have been providing
+                  quality education in Management over the decade and over
+                  thousand students have graduated from SSIM since its inception
+                  in 2009.
                 </p>
               </div>
             </div>
@@ -196,7 +193,7 @@ const Cards = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Cards
+export default Cards;
