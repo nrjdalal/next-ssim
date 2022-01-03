@@ -6,22 +6,15 @@ const rename_later = () => {
     <>
       <Breadcrumb title="Advisory Council" />
 
-      <div className="container mx-auto px-5 py-20 flex justify-center flex-wrap">
+      <div className="container flex flex-wrap justify-center px-5 py-20 mx-auto">
         <Member
           color="red"
-          name="Prof. Avtar Singh"
-          title="Founder and Chairman"
-          more="Sri Sukhmani Group of Institutes"
-        />
-
-        <span className="w-full" />
-
-        <Member
-          color="blue"
           name="Mr. Kanwaljit Singh"
           title="Vice-Chairman"
           more="Sri Sukhmani Group of Institutes"
         />
+
+        <span className="w-full" />
 
         <Member
           color="blue"

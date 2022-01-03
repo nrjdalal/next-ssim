@@ -1,11 +1,11 @@
-import Breadcrumb from "../../components/Breadcrumb";
-import { ProseWide } from "../../components/Universal";
+import Breadcrumb from '../../components/Breadcrumb'
+import { ProseWide } from '../../components/Universal'
 
 const chairmans_message = () => {
   return (
     <>
       <Breadcrumb title="Chairman's Message" />
-      <ProseWide className="container mx-auto prose my-12 px-5">
+      <ProseWide className="container px-5 mx-auto my-12 prose">
         <div className="flex justify-center">
           <img
             className="rounded-3xl w-[250px] object-cover object-center"
@@ -39,13 +39,13 @@ const chairmans_message = () => {
           student welfare.
         </blockquote>
         <p className="text-right">
-          {/* Dr. Ajay Sharma */}
+          Mr. Kanwaljit Singh
           <br />
           Chairman
         </p>
       </ProseWide>
     </>
-  );
-};
+  )
+}
 
-export default chairmans_message;
+export default chairmans_message

@@ -27,7 +27,7 @@ const MobBar = () => {
       <>
         <button onClick={toggleDrop} className="text-left mt-6 w-[300px]">
           <div className="bg-gray-900 p-4 py-2 flex justify-between items-center rounded-2xl border-[1px] border-gray-500">
-            <h3 className="font-semibold w-11/12">{props.title}</h3>
+            <h3 className="w-11/12 font-semibold">{props.title}</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="ml-3 w-7 h-7"
@@ -82,7 +82,7 @@ const MobBar = () => {
         <button onClick={toggleClass} className="">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="h-10 w-10"
+            className="w-10 h-10"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -105,7 +105,7 @@ const MobBar = () => {
         <svg
           onClick={closeMenu}
           xmlns="http://www.w3.org/2000/svg"
-          className="absolute h-10 w-10 top-5 right-5"
+          className="absolute w-10 h-10 top-5 right-5"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -126,6 +126,10 @@ const MobBar = () => {
           <Sublink title="Vision Mission" href="/about/vision-mission" />
           <Sublink title="Chairman's Message" href="/about/chairmans-message" />
           <Sublink title="Dean's Message" href="/about/deans-message" />
+          <Sublink
+            title="Director&#39;s Message"
+            href="/about/directors-message"
+          />
           <Sublink title="Advisory Council" href="/about/board-of-governors" />
         </Dropdown>
 
@@ -153,6 +157,7 @@ const MobBar = () => {
 
         <Dropdown title="Faculty">
           <Sublink title="Profiles" href="/faculty/profiles/" />
+          <Sublink title="Visiting Faculty" href="/faculty/visiting-faculty/" />
         </Dropdown>
 
         <Dropdown title="Placements">

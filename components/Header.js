@@ -6,7 +6,7 @@ const Header = () => {
       <EasyHeaders />
       {/* Desktop Navbar */}
       <navbar className="sticky hidden top-[113.5px] z-[55] top-hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200 ">
-        <div className="container mx-auto flex p-5 items-center justify-between">
+        <div className="container flex items-center justify-between p-5 mx-auto">
           <nav className="hidden lg:ml-auto lg:mr-auto lg:flex flex-wrap items-center lg:text-sm xl:text-base justify-center lg:w-[1080px] xl:w-[1280px]">
             {/* Nav Item 01 */}
             <DropNav title="About Us">
@@ -16,6 +16,10 @@ const Header = () => {
               <NavLink
                 title="Chairman&#39;s Message"
                 href="/about/chairmans-message"
+              />
+              <NavLink
+                title="Director&#39;s Message"
+                href="/about/directors-message"
               />
               <NavLink title="Dean&#39;s Message" href="/about/deans-message" />
               <NavLink
@@ -53,6 +57,10 @@ const Header = () => {
 
             <DropNav title="Faculty">
               <NavLink title="Profiles" href="/faculty/profiles/" />
+              <NavLink
+                title="Visiting Faculty"
+                href="/faculty/visiting-faculty/"
+              />
             </DropNav>
 
             <DropNav title="Placement">
@@ -83,13 +91,13 @@ const Header = () => {
             </DropNav>
 
             <Link href="/life-at-ssim">
-              <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer font-medium">
+              <a className="mr-5 font-medium cursor-pointer hover:text-yellow-500 xl:mr-10">
                 Life @ SSIM
               </a>
             </Link>
 
             <Link href="/contact-us">
-              <a className="hover:text-yellow-500 mr-5 xl:mr-10 cursor-pointer font-medium">
+              <a className="mr-5 font-medium cursor-pointer hover:text-yellow-500 xl:mr-10">
                 Contact Us
               </a>
             </Link>
@@ -97,14 +105,14 @@ const Header = () => {
             <div className="flex">
               <Link href="/admission/online-form">
                 <a>
-                  <button className="hidden sm:block bg-yellow-500 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-600 rounded text-sm text-white">
+                  <button className="hidden px-3 py-1 text-sm text-white bg-yellow-500 border-0 rounded sm:block focus:outline-none hover:bg-yellow-600">
                     APPLY NOW
                   </button>
                 </a>
               </Link>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-8 w-8 bg-blue-800 rounded text-white p-1 ml-3 lg:hidden"
+                className="w-8 h-8 p-1 ml-3 text-white bg-blue-800 rounded lg:hidden"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -127,15 +135,15 @@ const Header = () => {
 const EasyHeaders = () => {
   return (
     <>
-      <div className="bg-gray-900 text-white">
-        <div className="lg:container lg:mx-auto flex justify-between pr-6 py-3">
+      <div className="text-white bg-gray-900">
+        <div className="flex justify-between py-3 pr-6 lg:container lg:mx-auto">
           <div className="flex items-center">
             <p className="hidden pl-6 font-medium sm:block mt-0.5">
               ADMISSION HELPLINE :
             </p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6 ml-6 mr-1 sm:ml-1"
+              className="w-6 h-6 ml-6 mr-1 sm:ml-1"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -225,9 +233,9 @@ const EasyHeaders = () => {
       </div>
       {/* Header */}
       <header className="sticky z-[55] top-0 hidden lg:block text-gray-600 body-font bg-white border-b-2 border-gray-200">
-        <div className="container mx-auto flex p-4 pr-8 items-center justify-between bg-white">
+        <div className="container flex items-center justify-between p-4 pr-8 mx-auto bg-white">
           <Link href="/">
-            <a className="font-medium text-gray-900 md:mb-0 flex flex-col items-end tracking-wider">
+            <a className="flex flex-col items-end font-medium tracking-wider text-gray-900 md:mb-0">
               <img
                 className="md:h-14 lg:h-16"
                 src="/images/logoSsim.png"
@@ -237,7 +245,7 @@ const EasyHeaders = () => {
             </a>
           </Link>
           <Link href="/admission/online-form">
-            <a className="hidden lg:block rounded-xl overflow-hidden">
+            <a className="hidden overflow-hidden lg:block rounded-xl">
               <img className="h-20" src="/images/bannerao.jpg" alt="" />
             </a>
           </Link>
@@ -250,13 +258,13 @@ const EasyHeaders = () => {
 const DropNav = (props) => {
   return (
     <>
-      <div className="group mr-5 xl:mr-10">
+      <div className="mr-5 group xl:mr-10">
         <div className="flex items-center">
-          <p className="group-hover:text-blue-500 font-medium">{props.title}</p>
+          <p className="font-medium group-hover:text-blue-500">{props.title}</p>
           <div className="relative">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="relative h-4 w-4 ml-1 group-hover:text-blue-500"
+              className="relative w-4 h-4 ml-1 group-hover:text-blue-500"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -269,7 +277,7 @@ const DropNav = (props) => {
               />
             </svg>
             <div className="hidden group-hover:block absolute z-20 w-[300px] top-4 left-1/2 -translate-x-1/2 py-5">
-              <div className="w-full bg-white rounded-xl flex flex-col items-center p-5 border-2 border-gray-100">
+              <div className="flex flex-col items-center w-full p-5 bg-white border-2 border-gray-100 rounded-xl">
                 {props.children}
               </div>
             </div>

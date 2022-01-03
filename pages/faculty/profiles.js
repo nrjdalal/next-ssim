@@ -1,9 +1,9 @@
-import Breadcrumb from "../../components/Breadcrumb";
+import Breadcrumb from '../../components/Breadcrumb'
 
 const rename_later = () => {
   return (
     <>
-      <Breadcrumb title="Faculty" />
+      <Breadcrumb title="Core Faculty" />
       <div className="container mx-auto py-24 max-w-[1080px]">
         {/* Prof. Dr. Sujata Kaul */}
 
@@ -158,13 +158,13 @@ const rename_later = () => {
         {/* Other 1,2,3... */}
       </div>
     </>
-  );
-};
+  )
+}
 
 const Profile = (props) => {
   return (
     <>
-      <div className="flex flex-col md:flex-row mt-8">
+      <div className="flex flex-col mt-8 md:flex-row">
         <img
           className="m-5 md:pr-0 min-w-[300px] min-h-[300px] w-[300px] h-[300px] object-cover rounded-xl shadow-lg"
           src={props.src}
@@ -172,7 +172,7 @@ const Profile = (props) => {
         />
 
         <div className="mx-8 md:ml-0 md:mt-12">
-          <h2 className="text-2xl font-semibold tracking-wider pb-2">
+          <h2 className="pb-2 text-2xl font-semibold tracking-wider">
             {props.name}
           </h2>
           <h3>Department - {props.department}</h3>
@@ -182,7 +182,7 @@ const Profile = (props) => {
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default rename_later;
+export default rename_later
