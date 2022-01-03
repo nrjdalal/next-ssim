@@ -88,7 +88,7 @@ const Pop_ups = () => {
           <p className="text-xs font-semibold tracking-tighter">
             Admission
             <br />
-            Open 2021
+            Open 2022
           </p>
         </button>
 
@@ -309,7 +309,7 @@ const Pop_ups = () => {
           </div>
           <form onSubmit={(e) => handleSubmit(e)}>
             <h3 className="text-center pb-5 text-2xl text-yellow-400 font-medium tracking-wide">
-              Admission Open 2021-22
+              Admission Open 2022-23
             </h3>
             <Input_mandtory
               name="Full Name"

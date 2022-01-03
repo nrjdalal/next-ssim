@@ -238,7 +238,7 @@ const EasyHeaders = () => {
           </Link>
           <Link href="/admission/online-form">
             <a className="hidden lg:block rounded-xl overflow-hidden">
-              <img className="h-20" src="/images/bannerao.jpeg" alt="" />
+              <img className="h-20" src="/images/bannerao.jpg" alt="" />
             </a>
           </Link>
         </div>
