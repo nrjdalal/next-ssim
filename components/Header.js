@@ -56,7 +56,7 @@ const Header = () => {
             </DropNav>
 
             <DropNav title="Faculty">
-              <NavLink title="Profiles" href="/faculty/profiles/" />
+              <NavLink title="Core Faculty" href="/faculty/profiles/" />
               <NavLink
                 title="Visiting Faculty"
                 href="/faculty/visiting-faculty/"

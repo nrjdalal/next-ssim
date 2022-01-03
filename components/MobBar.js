@@ -156,7 +156,7 @@ const MobBar = () => {
         </Dropdown>
 
         <Dropdown title="Faculty">
-          <Sublink title="Profiles" href="/faculty/profiles/" />
+          <Sublink title="Core Faculty" href="/faculty/profiles/" />
           <Sublink title="Visiting Faculty" href="/faculty/visiting-faculty/" />
         </Dropdown>
 
