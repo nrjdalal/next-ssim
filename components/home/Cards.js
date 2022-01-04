@@ -59,7 +59,7 @@ const Cards = () => {
                 <div className="aspect-h-1 aspect-w-1 mb-6">
                   <img
                     className="rounded object-cover object-center"
-                    src="https://images.unsplash.com/photo-1567168539593-59673ababaae?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+                    src="/images/cards/pgdm.jpg"
                     alt="content"
                   />
                 </div>
@@ -108,7 +108,7 @@ const Cards = () => {
                 <div className="aspect-h-1 aspect-w-1 mb-6">
                   <img
                     className="rounded object-cover object-center"
-                    src="https://images.unsplash.com/photo-1590415108862-fa060c0e358f?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDR8fGZlZWR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+                    src="/images/cards/admission.jpg"
                     alt="content"
                   />
                 </div>
@@ -154,7 +154,7 @@ const Cards = () => {
                 <div className="aspect-h-1 aspect-w-1 mb-6">
                   <img
                     className="rounded object-cover object-center"
-                    src="https://images.unsplash.com/photo-1593371546953-f4c0f11573f1?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWx1bW5pfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                    src="/images/cards/placement.jpg"
                     alt="content"
                   />
                 </div>

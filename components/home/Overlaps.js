@@ -25,7 +25,7 @@ const Overlaps = () => {
               <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center border-4 border-yellow-500">
                 <span className="text-xl font-semibold text-white text-center tracking-wider">
                   Highest Package <br />
-                  <span className="text-yellow-400">11.8 LPA</span>
+                  <span className="text-yellow-400">13.4 LPA</span>
                 </span>
               </div>
             </div>
@@ -33,7 +33,7 @@ const Overlaps = () => {
               <div className="bg-[#096b97] rounded-3xl flex p-4 h-[128px] items-center justify-center border-4 border-yellow-500">
                 <span className="text-xl font-semibold text-white text-center tracking-wider">
                   Average Package <br />
-                  <span className="text-yellow-400">6.4 LPA</span>
+                  <span className="text-yellow-400">6.8 LPA</span>
                 </span>
               </div>
             </div>
