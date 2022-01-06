@@ -12,11 +12,11 @@ const the_institute = () => {
       <Breadcrumb title="PGDM PRO" />
       <ProseWide className="py-12">
         <FlexColumnCenter>
-          <img
+          {/* <img
             className="rounded-3xl h-[400px] w-full max-w-[600px] object-cover object-center"
             src="https://source.unsplash.com/400x300/?corporate"
             alt=""
-          />
+          /> */}
 
           <h1>120+ Days Live Corporate Exposure</h1>
           <blockquote>
@@ -58,7 +58,7 @@ const the_institute = () => {
           pClassName="text-sm xl:text-base"
           className="pt-24"
           title="ERP Training "
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/1.JPG"
         >
           NSE course on personal finance teach school students the value of
           investing, provide an introduction to the Indian capital markets and
@@ -70,7 +70,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Digital Marketing"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/2.JPG"
         >
           There are several manners in which a person can advantage from getting
           marketing knowhow, and it’s one of the major perk for attending a
@@ -86,7 +86,7 @@ const the_institute = () => {
           imgClassName="object-left"
           pClassName="text-sm xl:text-base"
           title="PGL (Personal Grooming Lab)"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/3.JPG"
         >
           Personal Grooming Lab has an understated but powerful influence on
           one’s progress. It helps to build a lasting image of an individual
@@ -102,7 +102,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Six Sigma "
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/4.JPG"
         >
           Six Sigma is a set of methods and tools for process improvement.
           Developed in 1986, Six Sigma has become a global phenomenon with
@@ -115,7 +115,7 @@ const the_institute = () => {
         <ContentOnRight
           pClassName="text-sm xl:text-base"
           title="Budgeting and Negotiating Skills"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/5.JPG"
         >
           This Certification helps in explaining what your business objectives
           are, and how each Expenditure item will help you to realize them. Your
@@ -126,7 +126,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Work Force Management"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/6.JPG"
         >
           It is an integrated set of Processes that a Company uses to optimize
           the Productivity of its Employees. WFM involves effectively
@@ -151,7 +151,7 @@ const the_institute = () => {
           pClassName="text-sm xl:text-base"
           className="pt-24"
           title="National Stock Exchange (NSE Workshop)"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/7.JPG"
         >
           NSE course on personal finance teach school students the value of
           investing, provide an introduction to the Indian capital markets and
@@ -163,7 +163,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="SEBI"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/8.JPG"
         >
           The scope of this workshop lies within a few questions, as to why you
           should invest, what should be your investment objectives, investment
@@ -174,7 +174,7 @@ const the_institute = () => {
           imgClassName="object-left"
           pClassName="text-sm xl:text-base"
           title="MIS (Management Information System)"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/9.JPG"
         >
           The ultimate goal of the use of a Management Information System is to
           increase the value and Profits of the business. This is done by
@@ -187,7 +187,7 @@ const the_institute = () => {
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Retail Management Workshop"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/10.JPG"
         >
           Retail Management includes all the steps required to bring the
           customers into the store and fulfill their buying needs. Retail
@@ -202,13 +202,13 @@ const the_institute = () => {
           pClassName="text-sm xl:text-base"
           title="PDP (Personality Development Program)
           IRDAI Workshop"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/11.JPG"
         ></ContentOnRight>
 
         <ContentOnLeft
           pClassName="text-sm xl:text-base"
           title="Winter Internship Project"
-          src="/images/corporate_edge/"
+          src="/images/pgdm_pro/12.JPG"
         >
           Winter Internship Project aims to provide Practical Exposure to
           Budding Managers. This Program ranges from 2-4 weeks. In this Program
