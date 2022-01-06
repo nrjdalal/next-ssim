@@ -30,10 +30,10 @@ const Header = () => {
             <DropNav title="PGDM">
               <NavLink title="Programme" href="/pgdm/programme" />
               <NavLink title="Specializations" href="/pgdm/specializations" />
-              <NavLink
+              {/* <NavLink
                 title="Corporate Edge Certifications"
                 href="/pgdm/value-added-courses"
-              />
+              /> */}
               <NavLink title="PGDM PRO" href="/pgdm/pgdm-pro" />
               <NavLink title="Why SSIM" href="/pgdm/why-ssim" />
             </DropNav>
