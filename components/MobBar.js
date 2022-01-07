@@ -136,11 +136,11 @@ const MobBar = () => {
         <Dropdown title="PGDM">
           <Sublink title="Programme" href="/pgdm/programme" />
           <Sublink title="Specializations" href="/pgdm/specializations" />
-          <Sublink
+          {/* <Sublink
             title="Corporate Edge Certifications"
             href="/pgdm/value-added-courses"
-          />
-          {/* <Sublink title="PGDM PRO" href="/pgdm/pgdm-pro" /> */}
+          /> */}
+          <Sublink title="PGDM PRO" href="/pgdm/pgdm-pro" />
           <Sublink title="Why SSIM" href="/pgdm/why-ssim" />
         </Dropdown>
 
